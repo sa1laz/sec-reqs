@@ -23,7 +23,7 @@ import traceback
 
 from secreqs.catalog.loaders import LOADERS
 from secreqs.catalog.model import OUT
-from secreqs.core import DATA
+from secreqs.core import DATA, read_status, write_status
 
 DB = os.environ.get("CATALOG_DB", os.path.join(DATA, "catalog.db"))
 
@@ -155,14 +155,19 @@ def main(argv=None):
     if a.if_older is not None and os.path.exists(DB) and time.time() - os.path.getmtime(DB) < a.if_older * 86400:
         print(f"{DB} моложе {a.if_older} дн., пропускаю")
         return 0
-    failed = {}
+    failed, ok, t0 = {}, [], time.time()
     if not a.db_only:
         names = a.loaders or LOADERS
         unknown = [n for n in names if n not in LOADERS]
         if unknown:
             sys.exit(f"неизвестные загрузчики: {unknown}; есть: {LOADERS}")
-        _, failed = run_loaders(names)
+        ok, failed = run_loaders(names)
     build_db()
+    # статус для list_sources: неудачи прошлых сборок помнятся, пока загрузчик не отработает успешно
+    prev = (read_status("catalog") or {}).get("failed", {})
+    failed_all = {**{k: v for k, v in prev.items() if k not in ok}, **failed}
+    write_status("catalog", {"ok": ok, "failed": failed_all, "seconds": round(time.time() - t0),
+                             "missing_loaders": [n for n in LOADERS if not os.path.exists(os.path.join(OUT, f"{n}.jsonl"))]})
     if failed:
         print("не загрузились:", json.dumps(failed, ensure_ascii=False, indent=1))
     return 1 if failed else 0

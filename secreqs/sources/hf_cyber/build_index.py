@@ -21,6 +21,7 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
 
+from secreqs.core import write_status
 from secreqs.sources.hf_cyber import client as C
 from secreqs.sources.hf_cyber import records as R
 
@@ -169,6 +170,8 @@ def main(argv=None):
         con.commit()
     nd, nf = con.execute("SELECT (SELECT count(*) FROM docs), (SELECT count(*) FROM files)").fetchone()
     con.close()
+    write_status("hf_cyber", {"files": nf, "records": nd, "errors": errors, "planned": len(files),
+                              "missing": len(files) - nf if len(files) > nf else 0})
     print(f"{DB}: {nf} файлов, {nd} записей, {os.path.getsize(DB) / 1e6:.0f} МБ, ошибок: {errors}, "
           f"{time.time() - t0:.0f} с")
 

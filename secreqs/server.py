@@ -22,6 +22,8 @@ HEADER = """\
 sec-reqs — базы знаний по требованиям и практикам безопасности. Источники подключаются модулями;
 у инструментов каждого источника свой префикс (cis_, hf_). Начни с list_sources, если не знаешь,
 что доступно; search_all — быстрый поиск сразу по всем источникам, дальше уточняй инструментами источника.
+Все тексты на английском, поиск полнотекстовый по словам (не по смыслу): формулируй запросы по-английски
+и пробуй синонимы и конкретные термины (имя параметра, сервиса, файла), если первый запрос дал мало.
 """
 
 
@@ -58,8 +60,15 @@ def build() -> MCPServer:
     def list_sources() -> dict:
         """Подключённые источники знаний: название, статистика, инструменты для перехода к записи.
         Также показывает источники, которые не загружены, и почему (например, не собрана база)."""
-        return {"sources": [{"name": s.name, "title": s.title, "open_with": s.get_tool, **s.stats()} for s in sources],
-                "not_loaded": skipped}
+        rows = []
+        for s in sources:
+            try:
+                rows.append({"name": s.name, "title": s.title, "open_with": s.get_tool, **s.stats()})
+            except Exception as e:
+                rows.append({"name": s.name, "title": s.title, "warnings": [f"статистика недоступна: {type(e).__name__}"]})
+        warnings = [f'{r["name"]}: {w}' for r in rows for w in r.get("warnings", [])]
+        warnings += [f"{n}: не загружен — {why}" for n, why in skipped.items()]
+        return {"status": "degraded" if warnings else "ok", "warnings": warnings, "sources": rows, "not_loaded": skipped}
 
     @mcp.tool(annotations=RO)
     def search_all(query: str, sources: list[str] | None = None, limit_per_source: int = 5) -> dict:
@@ -101,6 +110,17 @@ def http_app(mcp: MCPServer):
     @mcp.custom_route("/healthz", methods=["GET"])
     async def healthz(request):
         return PlainTextResponse("ok")
+
+    @mcp.custom_route("/status", methods=["GET"])
+    async def status(request):
+        """Состояние источников и сборок данных для мониторинга: 200 — всё в порядке, 503 — есть предупреждения."""
+        tool = await mcp.call_tool("list_sources", {})
+        import json as _j
+        content = tool.content if hasattr(tool, "content") else (tool[0] if isinstance(tool, tuple) else tool)
+        text = "".join(getattr(c, "text", "") for c in content)
+        body = _j.loads(text) if text else {"status": "unknown"}
+        # 503 при деградации — чтобы blackbox-проба (valid_status_codes: [200]) поднимала алерт
+        return JSONResponse(body, status_code=200 if body.get("status") == "ok" else 503)
 
     app = mcp.streamable_http_app(
         stateless_http=True, json_response=True, host="0.0.0.0",

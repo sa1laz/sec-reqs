@@ -11,6 +11,7 @@ import os
 import re
 import sqlite3
 
+from mcp.server.mcpserver.exceptions import ToolError
 from mcp.types import ToolAnnotations
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -49,15 +50,43 @@ class Source:
     get_tool: str = ""      # инструмент, которым открывается результат search()
 
 
+def read_status(name: str) -> dict | None:
+    """Статус последней сборки данных источника (data/<name>_status.json), если сборщик его пишет."""
+    import json
+    p = os.path.join(DATA, f"{name}_status.json")
+    try:
+        return json.load(open(p, encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def write_status(name: str, status: dict) -> None:
+    import json
+    import time
+    os.makedirs(DATA, exist_ok=True)
+    status = {"finished_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), **status}
+    tmp = os.path.join(DATA, f"{name}_status.json.part")
+    json.dump(status, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    os.replace(tmp, os.path.join(DATA, f"{name}_status.json"))
+
+
 def ro_db(path: str) -> sqlite3.Connection:
     con = sqlite3.connect(f"file:{path}?mode=ro", uri=True, check_same_thread=False)
     con.row_factory = sqlite3.Row
     return con
 
 
+CYRILLIC = re.compile(r"[а-яё]", re.I)
+
+
 def fts_query(q: str) -> str:
     """Свободный текст → запрос FTS5: слова через AND, «фразы в кавычках» сохраняются,
     слова от 4 букв ищутся как префикс, составные токены (sshd_config, CVE-2024-1) — как фраза."""
+    if CYRILLIC.search(q):
+        latin = re.sub(r"\s+", " ", re.sub(r"[а-яё]+", " ", q, flags=re.I)).strip()
+        raise ToolError("Тексты во всех базах на английском, поиск идёт по словам: переформулируй запрос по-английски "
+                        "(например, «шифрование etcd» → «etcd encryption», «MFA для root» → «root MFA»)"
+                        + (f". Латинская часть запроса: «{latin}»" if re.search(r"[a-z]", latin, re.I) else "") + ".")
     phrases = re.findall(r'"([^"]+)"', q)
     rest = re.sub(r'"[^"]+"', " ", q)
     toks = re.findall(r"[\w.\-/]+", rest, re.U)

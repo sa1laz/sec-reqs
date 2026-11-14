@@ -14,7 +14,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from mcp.server.mcpserver.exceptions import ToolError
 
-from secreqs.core import RO_REMOTE, Source, fts_query, fts_query_or, ro_db, snippet_of
+from secreqs.core import RO_REMOTE, Source, fts_query, fts_query_or, read_status, ro_db, snippet_of
 from secreqs.sources.hf_cyber import client as C
 from secreqs.sources.hf_cyber import records as R
 
@@ -311,7 +311,14 @@ class HfCyberSource(Source):
         if not os.path.exists(DB):
             return {"index": "не собран"}
         files, recs, gb = db().execute("SELECT count(*), sum(records), round(sum(size)/1e9,2) FROM files").fetchone()
-        return {"indexed_files": files, "indexed_records": recs, "indexed_gb": gb}
+        st = read_status("hf_cyber") or {}
+        warn = []
+        if st.get("errors"):
+            warn.append(f'ошибок при последней сборке индекса: {st["errors"]}')
+        if st.get("missing"):
+            warn.append(f'не проиндексировано файлов: {st["missing"]} (индекс неполный)')
+        return {**({"warnings": warn} if warn else {}), "built_at": st.get("finished_at"),
+                "indexed_files": files, "indexed_records": recs, "indexed_gb": gb}
 
     def search(self, query, limit=5):
         if not os.path.exists(DB):

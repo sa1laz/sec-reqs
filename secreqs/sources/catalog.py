@@ -11,7 +11,7 @@ from mcp.server.mcpserver.exceptions import ToolError
 
 from secreqs.catalog.build import DB
 from secreqs.catalog.model import NS, norm_ref
-from secreqs.core import RO, Source, fts_query, fts_query_or, ro_db, snippet_of
+from secreqs.core import RO, Source, fts_query, fts_query_or, read_status, ro_db, snippet_of
 
 INSTRUCTIONS = """\
 Каталог требований из открытых стандартов в одном формате «стандарт → документ → элемент» со связями между ними:
@@ -51,6 +51,26 @@ def _fts(con, query, where="", args=(), limit=20):
         if rows or qq == fts_query_or(query):
             return qq, rows
     return q, []
+
+
+def _dedupe(rows, limit, keep_compliance=False):
+    """Убрать повторы: одно требование встречается во многих файлах соответствия Prowler (по версиям и
+    провайдерам) и в разных STIG. Одинаковые названия схлопываются, копии из prowler-compliance — не больше трети."""
+    out, seen, n_pc = [], set(), 0
+    cap = limit if keep_compliance else max(1, limit // 3)
+    for r in rows:
+        key = re.sub(r"\W+", " ", (r["title"] or "").lower()).strip()
+        if key in seen:
+            continue
+        if r["framework"] == "prowler-compliance":
+            if n_pc >= cap:
+                continue
+            n_pc += 1
+        seen.add(key)
+        out.append(r)
+        if len(out) >= limit:
+            break
+    return out
 
 
 def _summary(r, query=None) -> dict:
@@ -144,7 +164,9 @@ def req_search(query: str, framework: str | None = None, document: str | None = 
     if kind:
         where += " AND i.kind=?"
         args.append(kind)
-    q, rows = _fts(con, query, where, args, max(1, min(limit, 100)))
+    lim = max(1, min(limit, 100))
+    q, rows = _fts(con, query, where, args, lim * 5)
+    rows = _dedupe(rows, lim, keep_compliance=framework == "prowler-compliance")
     out = []
     for r in rows:
         d = _summary(r, query)
@@ -270,22 +292,57 @@ def _cis_bench(con, product):
     return rows
 
 
-def _cis_from_ref(target):
-    """ns cis-benchmark → рекомендация в нашей базе CIS (последняя версия бенчмарка)."""
+STOP = {"ensure", "the", "and", "for", "are", "that", "set", "configured", "with", "all", "enabled", "disabled",
+        "not", "is", "use", "used", "using", "has", "have", "must", "should", "only", "from", "into", "this", "any"}
+
+
+def _words(s):
+    return {w for w in re.findall(r"[a-z0-9]{3,}", (s or "").lower()) if w not in STOP}
+
+
+def _same_topic(a, b) -> bool:
+    return bool(_words(a) & _words(b))
+
+
+_LATEST: dict[str, tuple] = {}
+
+
+def _vkey(target):
+    v = target.split(":", 1)[0].partition(" ")[2]
+    return tuple(int(x) for x in re.findall(r"\d+", v))
+
+
+def _latest_version(product):
+    """Самая новая версия бенчмарка продукта среди ссылок источников (у Prowler — несколько версий CIS)."""
+    if product not in _LATEST:
+        found = [t for (t,) in db().execute("SELECT DISTINCT target FROM maps WHERE ns='cis-benchmark' AND target LIKE ?",
+                                            (f"{product} %",))]
+        _LATEST[product] = max((_vkey(t) for t in found), default=())
+    return _LATEST[product]
+
+
+def _cis_from_ref(target, src_title=None):
+    """ns cis-benchmark → рекомендация в нашей базе CIS (последняя версия бенчмарка).
+    Ссылки на старые версии бенчмарка не разрешаются: номера между версиями меняются."""
     con = _cis_con()
     if not con or ":" not in target:
         return None
     prod, rec = target.split(":", 1)
-    b = _cis_bench(con, prod.split()[0])
+    product = prod.split()[0]
+    if " " in prod and _vkey(target) != _latest_version(product):
+        return None
+    b = _cis_bench(con, product)
     if not b:
         return None
     r = con.execute("SELECT uid, rec_id, title FROM recs WHERE benchmark_id=? AND rec_id=? ORDER BY uid", (b["id"], rec)).fetchone()
     if not r:
         return None
-    src_ver = prod.split(" ", 1)[1] if " " in prod else "версии источника"
-    note = f"номер по CIS {src_ver}, в базе v{b['version']}: нумерация между версиями меняется — сверь название"
-    return {"uid": r["uid"], "benchmark": f'{b["title"]} v{b["version"]}', "id": r["rec_id"], "title": r["title"],
-            **({"note": note} if note else {})}
+    src_ver = prod.split(" ", 1)[1] if " " in prod else "версии источника (не указана)"
+    out = {"uid": r["uid"], "benchmark": f'{b["title"]} v{b["version"]}', "id": r["rec_id"], "title": r["title"],
+           "note": f"номер по CIS {src_ver}, в базе v{b['version']}"}
+    if src_title is not None:
+        out["match"] = "likely" if _same_topic(src_title, r["title"]) else "check: названия расходятся, вероятно другая версия"
+    return out
 
 
 def _cis_targets(uid):
@@ -301,9 +358,7 @@ def _cis_targets(uid):
     targets = []
     prods = [p for p in CIS_PRODUCTS if (b := _cis_bench(con, p)) and b["id"] == r["benchmark_id"]]
     cat = db()
-    def vkey(t):
-        v = t.split(":", 1)[0].partition(" ")[2]
-        return tuple(int(x) for x in re.findall(r"\d+", v))
+    vkey = _vkey
     for p in prods:
         found = [t for (t,) in cat.execute("SELECT DISTINCT target FROM maps WHERE ns='cis-benchmark' AND (target=? OR target LIKE ?)",
                                            (f"{p}:{r['rec_id']}", f"{p} %:{r['rec_id']}"))]
@@ -311,7 +366,7 @@ def _cis_targets(uid):
         latest = max((vkey(t) for t in found), default=None)
         targets += [("cis-benchmark", t) for t in found if vkey(t) == latest]
     targets += controls  # сначала прямые ссылки по номеру, потом общие CIS Controls
-    return {"uid": uid, "title": f'{r["rec_id"]} {r["title"]}', "benchmark": r["btitle"]}, targets
+    return {"uid": uid, "title": f'{r["rec_id"]} {r["title"]}', "benchmark": r["btitle"], "_cis_title": r["title"]}, targets
 
 
 SPECIFIC_NS = {"stig", "stig-id", "cis-benchmark", "prowler-check", "cac-rule", "attack", "atlas", "cwe", "capec",
@@ -354,6 +409,8 @@ def req_related(uid: str | None = None, ns: str | None = None, id: str | None = 
     else:
         raise ToolError("Нужен uid или ns + id")
 
+    src_title = (out.get("item") or {}).get("title") if uid and not uid.startswith("cis:") else None
+    cis_title = (out.get("item") or {}).pop("_cis_title", None)
     groups: dict[str, dict] = {}
     seen = {uid}
 
@@ -380,10 +437,13 @@ def req_related(uid: str | None = None, ns: str | None = None, id: str | None = 
                 continue
             seen.add(u)
             row = con.execute("SELECT * FROM items WHERE uid=?", (u,)).fetchone()
-            add(row["framework"], {**_summary(row), "via": f'{ref["rel"]} {tns}:{ref["target"]}',
-                                   "document_title": _doc_title(con, row["framework"], row["document"])})
+            it = {**_summary(row), "via": f'{ref["rel"]} {tns}:{ref["target"]}',
+                  "document_title": _doc_title(con, row["framework"], row["document"])}
+            if tns == "cis-benchmark" and cis_title:
+                it["match"] = "likely" if _same_topic(cis_title, row["title"]) else "check: названия расходятся"
+            add(row["framework"], it)
         if tns == "cis-benchmark":
-            c = _cis_from_ref(tid)
+            c = _cis_from_ref(tid, src_title)
             if c and c["uid"] not in seen:
                 seen.add(c["uid"])
                 add("cis", {**c, "via": f"cis-benchmark:{tid}"})
@@ -474,13 +534,18 @@ class CatalogSource(Source):
 
     def stats(self):
         con = db()
-        return {"frameworks": [r[0] for r in con.execute("SELECT id FROM frameworks ORDER BY id")],
+        st = read_status("catalog") or {}
+        problems = {**st.get("failed", {}), **{n: "нет данных" for n in st.get("missing_loaders", [])}}
+        return {**({"warnings": [f"загрузчик {k}: {v}" for k, v in problems.items()]} if problems else {}),
+                "built_at": st.get("finished_at"),
+                "frameworks": [r[0] for r in con.execute("SELECT id FROM frameworks ORDER BY id")],
                 "items": con.execute("SELECT count(*) FROM items").fetchone()[0],
                 "mappings": con.execute("SELECT count(*) FROM maps").fetchone()[0]}
 
     def search(self, query, limit=5):
         con = db()
-        _, rows = _fts(con, query, limit=limit)
+        _, rows = _fts(con, query, limit=limit * 5)
+        rows = _dedupe(rows, limit)
         return [{"id": r["uid"], "title": f'{r["item_id"]} {r["title"]}'[:200],
                  "where": _doc_title(con, r["framework"], r["document"]),
                  "snippet": _summary(r, query).get("snippet", "")} for r in rows]
