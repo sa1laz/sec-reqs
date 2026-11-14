@@ -1,0 +1,98 @@
+"""MCP-сервер sec-reqs: собирает инструменты всех готовых источников из реестра.
+
+  .venv/bin/python run_mcp.py          # stdio
+  .venv/bin/python -m secreqs          # то же, из корня репозитория
+"""
+from __future__ import annotations
+
+import importlib
+import os
+import sys
+import traceback
+from concurrent.futures import ThreadPoolExecutor
+
+from mcp.server.mcpserver import MCPServer
+from mcp.server.mcpserver.exceptions import ToolError
+
+from secreqs import __version__
+from secreqs.core import RO, Source
+from secreqs.sources import REGISTRY
+
+HEADER = """\
+sec-reqs — базы знаний по требованиям и практикам безопасности. Источники подключаются модулями;
+у инструментов каждого источника свой префикс (cis_, hf_). Начни с list_sources, если не знаешь,
+что доступно; search_all — быстрый поиск сразу по всем источникам, дальше уточняй инструментами источника.
+"""
+
+
+def load_sources() -> tuple[list[Source], dict[str, str]]:
+    wanted = {s.strip() for s in os.environ.get("SECREQS_SOURCES", "").split(",") if s.strip()}
+    ready, skipped = [], {}
+    for spec in REGISTRY:
+        mod, cls = spec.split(":")
+        try:
+            src: Source = getattr(importlib.import_module(mod), cls)()
+        except Exception as e:  # сломанный источник не должен ронять весь сервер
+            skipped[spec] = f"ошибка загрузки: {e!r}"
+            traceback.print_exc(file=sys.stderr)
+            continue
+        if wanted and src.name not in wanted:
+            skipped[src.name] = "выключен через SECREQS_SOURCES"
+            continue
+        ok, why = src.available()
+        if ok:
+            ready.append(src)
+        else:
+            skipped[src.name] = why
+    return ready, skipped
+
+
+def build() -> MCPServer:
+    sources, skipped = load_sources()
+    instructions = HEADER + "".join(f"\n## {s.title} (префикс {s.name}_)\n{s.instructions.strip()}\n" for s in sources)
+    mcp = MCPServer("sec-reqs", title="Security requirements knowledge base", instructions=instructions,
+                    version=__version__)
+    by_name = {s.name: s for s in sources}
+
+    @mcp.tool(annotations=RO)
+    def list_sources() -> dict:
+        """Подключённые источники знаний: название, статистика, инструменты для перехода к записи.
+        Также показывает источники, которые не загружены, и почему (например, не собрана база)."""
+        return {"sources": [{"name": s.name, "title": s.title, "open_with": s.get_tool, **s.stats()} for s in sources],
+                "not_loaded": skipped}
+
+    @mcp.tool(annotations=RO)
+    def search_all(query: str, sources: list[str] | None = None, limit_per_source: int = 5) -> dict:
+        """Полнотекстовый поиск сразу по всем источникам (или по перечисленным в sources).
+
+        query: слова или "фраза в кавычках". Результаты сгруппированы по источнику; у каждого id,
+        который открывается инструментом из open_with этого источника.
+        """
+        chosen = [by_name[n] for n in (sources or by_name) if n in by_name]
+        if not chosen:
+            raise ToolError(f"Нет таких источников. Доступны: {', '.join(by_name)}")
+        lim = max(1, min(limit_per_source, 20))
+
+        def run(s: Source):
+            try:
+                return s.name, {"open_with": s.get_tool, "results": s.search(query, lim)}
+            except ToolError as e:
+                return s.name, {"error": str(e)}
+            except Exception as e:
+                traceback.print_exc(file=sys.stderr)
+                return s.name, {"error": f"сбой поиска: {type(e).__name__}"}
+
+        with ThreadPoolExecutor(len(chosen)) as ex:
+            return {"query": query, "by_source": dict(ex.map(run, chosen))}
+
+    for s in sources:
+        s.register(mcp)
+    return mcp
+
+
+def main() -> None:
+    build().run("stdio")
+
+
+if __name__ == "__main__":
+    main()

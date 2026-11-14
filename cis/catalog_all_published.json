@@ -1,0 +1,6234 @@
+{
+ "source": "https://workbench.cisecurity.org/benchmarks?status=published",
+ "collected": "2026-11-14",
+ "all_published": [
+  {
+   "id": 22222,
+   "flag": true,
+   "title": "CIS AKS Optimized Azure Linux 2 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Azure Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 22694,
+   "flag": true,
+   "title": "CIS AKS Optimized Azure Linux 3 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Azure Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12696,
+   "flag": true,
+   "title": "CIS AKS Optimized Azure Linux Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Azure Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 6219,
+   "flag": true,
+   "title": "CIS Alibaba Cloud Foundation Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Alibaba Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6444,
+   "flag": true,
+   "title": "CIS Alibaba Cloud Foundation Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Alibaba Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28357,
+   "flag": false,
+   "title": "CIS Alibaba Cloud Foundation Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS Alibaba Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23595,
+   "flag": true,
+   "title": "CIS Alibaba Cloud Linux 3 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Alibaba Cloud Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 24008,
+   "flag": true,
+   "title": "CIS AlmaLinux OS 10 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS AlmaLinux OS Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 9794,
+   "flag": true,
+   "title": "CIS AlmaLinux OS 8 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS AlmaLinux OS Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 15287,
+   "flag": true,
+   "title": "CIS AlmaLinux OS 8 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS AlmaLinux OS Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23598,
+   "flag": true,
+   "title": "CIS AlmaLinux OS 8 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS AlmaLinux OS Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 11511,
+   "flag": true,
+   "title": "CIS AlmaLinux OS 9 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS AlmaLinux OS Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 18208,
+   "flag": true,
+   "title": "CIS AlmaLinux OS 9 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS AlmaLinux OS Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 27890,
+   "flag": true,
+   "title": "CIS AlmaLinux OS 9 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS AlmaLinux OS Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26707,
+   "flag": true,
+   "title": "CIS Amazon Elastic Kubernetes Service (EKS) Auto Mode Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27155,
+   "flag": true,
+   "title": "CIS Amazon Elastic Kubernetes Service (EKS) Auto Mode Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17985,
+   "flag": true,
+   "title": "CIS Amazon Elastic Kubernetes Service (EKS) Benchmark",
+   "version": "v1.6.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20537,
+   "flag": true,
+   "title": "CIS Amazon Elastic Kubernetes Service (EKS) Benchmark",
+   "version": "v1.7.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22605,
+   "flag": true,
+   "title": "CIS Amazon Elastic Kubernetes Service (EKS) Benchmark",
+   "version": "v1.8.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24471,
+   "flag": true,
+   "title": "CIS Amazon Elastic Kubernetes Service (EKS) Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27154,
+   "flag": true,
+   "title": "CIS Amazon Elastic Kubernetes Service (EKS) Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15963,
+   "flag": true,
+   "title": "CIS Amazon Linux 2 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 25279,
+   "flag": true,
+   "title": "CIS Amazon Linux 2 Benchmark",
+   "version": "v4.0.0",
+   "status": "Final Update",
+   "community": "CIS Amazon Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 5229,
+   "flag": true,
+   "title": "CIS Amazon Linux 2 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 8415,
+   "flag": true,
+   "title": "CIS Amazon Linux 2 STIG Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26706,
+   "flag": true,
+   "title": "CIS Amazon Linux 2 STIG Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS Amazon Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 12705,
+   "flag": true,
+   "title": "CIS Amazon Linux 2023 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26107,
+   "flag": true,
+   "title": "CIS Amazon Linux 2023 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG Operating System"
+  },
+  {
+   "id": 19631,
+   "flag": true,
+   "title": "CIS Amazon Web Services Foundations Benchmark",
+   "version": "v4.0.1",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20495,
+   "flag": true,
+   "title": "CIS Amazon Web Services Foundations Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21960,
+   "flag": true,
+   "title": "CIS Amazon Web Services Foundations Benchmark",
+   "version": "v6.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24575,
+   "flag": true,
+   "title": "CIS Amazon Web Services Foundations Benchmark",
+   "version": "v7.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26485,
+   "flag": true,
+   "title": "CIS Amazon Web Services Foundations Benchmark",
+   "version": "v7.1.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 1749,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15118,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.0 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19849,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.0 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25140,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.0 Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28498,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.0 Benchmark",
+   "version": "v1.3.1",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18973,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.1 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19848,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.1 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25139,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.1 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28549,
+   "flag": true,
+   "title": "CIS Apache Cassandra 4.1 Benchmark",
+   "version": "v1.2.1",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20718,
+   "flag": true,
+   "title": "CIS Apache Cassandra 5.0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25134,
+   "flag": true,
+   "title": "CIS Apache Cassandra 5.0 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28550,
+   "flag": true,
+   "title": "CIS Apache Cassandra 5.0 Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS Apache Cassandra Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6258,
+   "flag": true,
+   "title": "CIS Apache HTTP Server 2.4 Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Apache HTTP Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 14223,
+   "flag": true,
+   "title": "CIS Apache HTTP Server 2.4 Benchmark",
+   "version": "v2.2.0",
+   "status": "Published",
+   "community": "CIS Apache HTTP Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18879,
+   "flag": true,
+   "title": "CIS Apache HTTP Server 2.4 Benchmark",
+   "version": "v2.3.0",
+   "status": "Published",
+   "community": "CIS Apache HTTP Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24215,
+   "flag": true,
+   "title": "CIS Apache HTTP Server 2.4 Benchmark",
+   "version": "v2.4.0",
+   "status": "Published",
+   "community": "CIS Apache HTTP Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23880,
+   "flag": true,
+   "title": "CIS Apache Server 2.4 UNIX Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 24072,
+   "flag": true,
+   "title": "CIS Apache Server 2.4 Windows Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 15137,
+   "flag": true,
+   "title": "CIS Apache Tomcat 10.1 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apache Tomcat Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21055,
+   "flag": true,
+   "title": "CIS Apache Tomcat 10.1 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apache Tomcat Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25142,
+   "flag": true,
+   "title": "CIS Apache Tomcat 10.1 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Apache Tomcat Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21082,
+   "flag": true,
+   "title": "CIS Apache Tomcat 11 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apache Tomcat Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25141,
+   "flag": true,
+   "title": "CIS Apache Tomcat 11 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apache Tomcat Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6487,
+   "flag": true,
+   "title": "CIS Apache Tomcat 9 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Apache Tomcat Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 11105,
+   "flag": true,
+   "title": "CIS Apache Tomcat 9 Benchmark",
+   "version": "v1.2.1",
+   "status": "Published",
+   "community": "CIS Apache Tomcat Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24073,
+   "flag": true,
+   "title": "CIS Apache Tomcat Application Server 9 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 27606,
+   "flag": true,
+   "title": "CIS Apache Tomcat Application Server 9 STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21983,
+   "flag": true,
+   "title": "CIS Apple iOS 18 and iPadOS 18 Intune Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune Apple iOS, iPadOS, macOS",
+   "collection": ""
+  },
+  {
+   "id": 26091,
+   "flag": true,
+   "title": "CIS Apple iOS 26 and iPadOS 26 Intune Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune Apple iOS, iPadOS, macOS",
+   "collection": ""
+  },
+  {
+   "id": 23037,
+   "flag": true,
+   "title": "CIS Apple iOS 26 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple iOS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24636,
+   "flag": false,
+   "title": "CIS Apple iOS 27 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple iOS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24033,
+   "flag": true,
+   "title": "CIS Apple iOS/iPadOS 18 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23038,
+   "flag": true,
+   "title": "CIS Apple iPadOS 26 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple iOS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28638,
+   "flag": false,
+   "title": "CIS Apple iPadOS 27 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple iOS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7422,
+   "flag": true,
+   "title": "CIS Apple macOS 12.0 Monterey Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 8585,
+   "flag": true,
+   "title": "CIS Apple macOS 12.0 Monterey Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 10452,
+   "flag": true,
+   "title": "CIS Apple macOS 12.0 Monterey Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 11683,
+   "flag": true,
+   "title": "CIS Apple macOS 12.0 Monterey Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 15552,
+   "flag": true,
+   "title": "CIS Apple macOS 12.0 Monterey Benchmark",
+   "version": "v3.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 18633,
+   "flag": true,
+   "title": "CIS Apple macOS 12.0 Monterey Benchmark",
+   "version": "v4.0.0",
+   "status": "Final Update",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 10541,
+   "flag": true,
+   "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 11682,
+   "flag": true,
+   "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 14561,
+   "flag": true,
+   "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 15551,
+   "flag": true,
+   "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 18634,
+   "flag": true,
+   "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 19974,
+   "flag": true,
+   "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+   "version": "v3.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 23041,
+   "flag": true,
+   "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 24070,
+   "flag": true,
+   "title": "CIS Apple macOS 14 (Sonoma) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 14562,
+   "flag": true,
+   "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 15550,
+   "flag": true,
+   "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 18635,
+   "flag": true,
+   "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 19973,
+   "flag": true,
+   "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 23040,
+   "flag": true,
+   "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 24639,
+   "flag": true,
+   "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+   "version": "v3.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 27263,
+   "flag": true,
+   "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+   "version": "v4.0.0",
+   "status": "Final Update",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 22248,
+   "flag": true,
+   "title": "CIS Apple MacOS 14.0 Sonoma Intune Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune Apple iOS, iPadOS, macOS",
+   "collection": ""
+  },
+  {
+   "id": 23761,
+   "flag": true,
+   "title": "CIS Apple macOS 15 (Sequoia) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26537,
+   "flag": true,
+   "title": "CIS Apple macOS 15 (Sequoia) STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 18636,
+   "flag": true,
+   "title": "CIS Apple macOS 15.0 Sequoia Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 19972,
+   "flag": true,
+   "title": "CIS Apple macOS 15.0 Sequoia Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 23039,
+   "flag": true,
+   "title": "CIS Apple macOS 15.0 Sequoia Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 24638,
+   "flag": true,
+   "title": "CIS Apple macOS 15.0 Sequoia Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 27262,
+   "flag": true,
+   "title": "CIS Apple macOS 15.0 Sequoia Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 15620,
+   "flag": true,
+   "title": "CIS Apple MacOS 15.0 Sequoia Intune Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune Apple iOS, iPadOS, macOS",
+   "collection": ""
+  },
+  {
+   "id": 22624,
+   "flag": true,
+   "title": "CIS Apple MacOS 15.0 Sequoia Intune Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune Apple iOS, iPadOS, macOS",
+   "collection": ""
+  },
+  {
+   "id": 23042,
+   "flag": true,
+   "title": "CIS Apple macOS 26 Tahoe Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 24637,
+   "flag": true,
+   "title": "CIS Apple macOS 26 Tahoe Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 27261,
+   "flag": true,
+   "title": "CIS Apple macOS 26 Tahoe Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 26289,
+   "flag": true,
+   "title": "CIS Apple MacOS 26 Tahoe Intune Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune Apple iOS, iPadOS, macOS",
+   "collection": ""
+  },
+  {
+   "id": 26538,
+   "flag": true,
+   "title": "CIS Apple macOS 26 Tahoe STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 27289,
+   "flag": true,
+   "title": "CIS Apple macOS 27 Golden Gate Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Apple macOS Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 25683,
+   "flag": true,
+   "title": "CIS Arista EOS benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Arista Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23857,
+   "flag": true,
+   "title": "CIS Arista MLS EOS 4.X L2S STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23867,
+   "flag": true,
+   "title": "CIS Arista MLS EOS 4.X NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23859,
+   "flag": true,
+   "title": "CIS Arista MLS EOS 4.X Router STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 11921,
+   "flag": true,
+   "title": "CIS AWS Compute Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12493,
+   "flag": true,
+   "title": "CIS AWS Compute Services Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21961,
+   "flag": true,
+   "title": "CIS AWS Compute Services Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15348,
+   "flag": true,
+   "title": "CIS AWS Database Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15596,
+   "flag": true,
+   "title": "CIS AWS Database Services Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6174,
+   "flag": true,
+   "title": "CIS AWS End User Compute Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6323,
+   "flag": true,
+   "title": "CIS AWS End User Compute Services Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15047,
+   "flag": true,
+   "title": "CIS AWS End User Compute Services Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12973,
+   "flag": true,
+   "title": "CIS AWS Storage Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Amazon Web Services Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28129,
+   "flag": true,
+   "title": "CIS Azure Container Linux Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Azure Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17746,
+   "flag": true,
+   "title": "CIS Azure Kubernetes Service (AKS) Benchmark",
+   "version": "v1.6.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20359,
+   "flag": true,
+   "title": "CIS Azure Kubernetes Service (AKS) Benchmark",
+   "version": "v1.7.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22109,
+   "flag": true,
+   "title": "CIS Azure Kubernetes Service (AKS) Benchmark",
+   "version": "v1.8.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24468,
+   "flag": true,
+   "title": "CIS Azure Kubernetes Service (AKS) Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27153,
+   "flag": true,
+   "title": "CIS Azure Kubernetes Service (AKS) Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27785,
+   "flag": true,
+   "title": "CIS Azure Kubernetes Service Automatic (AKS Automatic) Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28619,
+   "flag": true,
+   "title": "CIS Azure Linux 4 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Azure Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23976,
+   "flag": true,
+   "title": "CIS BIND 9.x STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 6709,
+   "flag": false,
+   "title": "CIS Bottlerocket Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Bottlerocket Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 572,
+   "flag": true,
+   "title": "CIS Check Point Firewall Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Check Point Firewall Benchmarks",
+   "collection": "Network Devices"
+  },
+  {
+   "id": 28672,
+   "flag": true,
+   "title": "CIS Check Point Firewall Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS Check Point Firewall Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23753,
+   "flag": true,
+   "title": "CIS Cisco ACI Layer 2 Switch STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23756,
+   "flag": true,
+   "title": "CIS Cisco ACI NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23776,
+   "flag": true,
+   "title": "CIS Cisco ACI Router STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 7194,
+   "flag": true,
+   "title": "CIS Cisco ASA 9.x Firewall Benchmark",
+   "version": "v1.1.0",
+   "status": "Final Update",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 817,
+   "flag": true,
+   "title": "CIS Cisco Firepower Threat Defense Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 596,
+   "flag": true,
+   "title": "CIS Cisco Firewall Benchmark",
+   "version": "v4.1.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 4784,
+   "flag": true,
+   "title": "CIS Cisco IOS 16 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": "Network Devices"
+  },
+  {
+   "id": 5125,
+   "flag": true,
+   "title": "CIS Cisco IOS 16 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6084,
+   "flag": true,
+   "title": "CIS Cisco IOS 16 Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6785,
+   "flag": true,
+   "title": "CIS Cisco IOS 16 Benchmark",
+   "version": "v1.1.2",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 9270,
+   "flag": true,
+   "title": "CIS Cisco IOS 16 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 8999,
+   "flag": true,
+   "title": "CIS Cisco IOS 17.x Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12741,
+   "flag": true,
+   "title": "CIS Cisco IOS 17.x Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23749,
+   "flag": true,
+   "title": "CIS Cisco IOS Router NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26598,
+   "flag": true,
+   "title": "CIS Cisco IOS Router NDM STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23751,
+   "flag": true,
+   "title": "CIS Cisco IOS Router RTR STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26599,
+   "flag": true,
+   "title": "CIS Cisco IOS Router RTR STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23798,
+   "flag": true,
+   "title": "CIS Cisco IOS Switch L2S STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23752,
+   "flag": true,
+   "title": "CIS Cisco IOS Switch L2S STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG Network Devices"
+  },
+  {
+   "id": 23799,
+   "flag": true,
+   "title": "CIS Cisco IOS Switch NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26600,
+   "flag": true,
+   "title": "CIS Cisco IOS Switch NDM STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23801,
+   "flag": true,
+   "title": "CIS Cisco IOS Switch RTR STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26601,
+   "flag": true,
+   "title": "CIS Cisco IOS Switch RTR STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12917,
+   "flag": true,
+   "title": "CIS Cisco IOS XE 16.x Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17304,
+   "flag": true,
+   "title": "CIS Cisco IOS XE 16.x Benchmark",
+   "version": "v2.2.0",
+   "status": "Final Update",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17130,
+   "flag": true,
+   "title": "CIS Cisco IOS XE 17.x Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17303,
+   "flag": true,
+   "title": "CIS Cisco IOS XE 17.x Benchmark",
+   "version": "v2.1.1",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20226,
+   "flag": true,
+   "title": "CIS Cisco IOS XE 17.x Benchmark",
+   "version": "v2.2.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22550,
+   "flag": true,
+   "title": "CIS Cisco IOS XE 17.x Benchmark",
+   "version": "v2.2.1",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28631,
+   "flag": true,
+   "title": "CIS Cisco IOS XE 17.x Benchmark",
+   "version": "v2.2.2",
+   "status": "Final Update",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23366,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23916,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Router NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26182,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Router NDM STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23917,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Router RTR STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26261,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Router RTR STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23612,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Switch L2S STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23636,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Switch NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26179,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Switch NDM STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23639,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Switch RTR STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26260,
+   "flag": true,
+   "title": "CIS Cisco IOS XE Switch RTR STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10473,
+   "flag": true,
+   "title": "CIS Cisco IOS XR 7.x",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22160,
+   "flag": true,
+   "title": "CIS Cisco IOS XR 7.x Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23560,
+   "flag": true,
+   "title": "CIS Cisco IOS XR Router NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23599,
+   "flag": true,
+   "title": "CIS Cisco IOS XR Router RTR STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23772,
+   "flag": true,
+   "title": "CIS Cisco NX OS Switch L2S STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23773,
+   "flag": true,
+   "title": "CIS Cisco NX OS Switch NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26427,
+   "flag": true,
+   "title": "CIS Cisco NX OS Switch NDM STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22581,
+   "flag": true,
+   "title": "CIS Cisco NX OS Switch RTR STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26426,
+   "flag": true,
+   "title": "CIS Cisco NX OS Switch RTR STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 645,
+   "flag": true,
+   "title": "CIS Cisco NX-OS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": "Network Devices"
+  },
+  {
+   "id": 6524,
+   "flag": true,
+   "title": "CIS Cisco NX-OS Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16139,
+   "flag": true,
+   "title": "CIS Cisco NX-OS Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28649,
+   "flag": true,
+   "title": "CIS Cisco NX-OS Benchmark",
+   "version": "v1.2.1",
+   "status": "Published",
+   "community": "CIS Cisco Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27039,
+   "flag": true,
+   "title": "CIS Cloud Linux AlmaLinux OS 9 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG Operating System"
+  },
+  {
+   "id": 22713,
+   "flag": true,
+   "title": "CIS CockroachDB v25.x Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS CockroachDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27144,
+   "flag": true,
+   "title": "CIS CockroachDB v25.x Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS CockroachDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7492,
+   "flag": false,
+   "title": "CIS Controls",
+   "version": "v8",
+   "status": "Published",
+   "community": "::CIS Controls - Version 8 Development",
+   "collection": ""
+  },
+  {
+   "id": 6480,
+   "flag": false,
+   "title": "CIS Controls",
+   "version": "v8.1.2",
+   "status": "Published",
+   "community": "::CIS Controls - Version 8 Development",
+   "collection": ""
+  },
+  {
+   "id": 6586,
+   "flag": false,
+   "title": "CIS Controls V8 Draft for Public Call",
+   "version": "v8",
+   "status": "Published",
+   "community": "::CIS Controls - Version 8 Development",
+   "collection": ""
+  },
+  {
+   "id": 17045,
+   "flag": true,
+   "title": "CIS Debian Linux 11 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 16734,
+   "flag": false,
+   "title": "CIS Debian Linux 11 Branch Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "_CIS Linux Branch Benchmark Development",
+   "collection": "Operating System"
+  },
+  {
+   "id": 14821,
+   "flag": true,
+   "title": "CIS Debian Linux 11 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Final Update",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 16653,
+   "flag": true,
+   "title": "CIS Debian Linux 12 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 17331,
+   "flag": true,
+   "title": "CIS Debian Linux 12 Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 18960,
+   "flag": true,
+   "title": "CIS Debian Linux 12 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26893,
+   "flag": true,
+   "title": "CIS Debian Linux 12 Benchmark",
+   "version": "v2.0.0",
+   "status": "Final Update",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 24932,
+   "flag": true,
+   "title": "CIS Debian Linux 13 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27797,
+   "flag": true,
+   "title": "CIS Debian Linux 13 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Debian Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 21696,
+   "flag": true,
+   "title": "CIS DigitalOcean Foundations Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DigitalOcean Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28359,
+   "flag": true,
+   "title": "CIS DigitalOcean Foundations Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS DigitalOcean Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 14534,
+   "flag": true,
+   "title": "CIS DigitalOcean Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DigitalOcean Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28360,
+   "flag": true,
+   "title": "CIS DigitalOcean Services Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS DigitalOcean Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 11818,
+   "flag": true,
+   "title": "CIS Docker Benchmark",
+   "version": "v1.6.0",
+   "status": "Published",
+   "community": "CIS Docker Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16041,
+   "flag": true,
+   "title": "CIS Docker Benchmark",
+   "version": "v1.7.0",
+   "status": "Published",
+   "community": "CIS Docker Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18749,
+   "flag": true,
+   "title": "CIS Docker Benchmark",
+   "version": "v1.8.0",
+   "status": "Published",
+   "community": "CIS Docker Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23389,
+   "flag": true,
+   "title": "CIS Docker Benchmark",
+   "version": "v1.9.0",
+   "status": "Published",
+   "community": "CIS Docker Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24065,
+   "flag": true,
+   "title": "CIS Dragos Platform 2.x STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 25803,
+   "flag": true,
+   "title": "CIS Everpure FlashArray Purity 6.9.x Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Everpure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27875,
+   "flag": true,
+   "title": "CIS Everpure FlashArray Purity 6.9.x Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Everpure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27838,
+   "flag": true,
+   "title": "CIS Everpure FlashBlade Purity 4.5.x Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Everpure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19532,
+   "flag": true,
+   "title": "CIS ExtremeNetworks-SLX-OS-20.X.X Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Extreme Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22916,
+   "flag": true,
+   "title": "CIS ExtremeNetworks-SLX-OS-20.X.X Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Extreme Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16763,
+   "flag": false,
+   "title": "CIS Fedora 34 Branch Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "_CIS Linux Branch Benchmark Development",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23762,
+   "flag": true,
+   "title": "CIS Forescout Network Access Control STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23763,
+   "flag": true,
+   "title": "CIS Forescout Network Device Management STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 15284,
+   "flag": true,
+   "title": "CIS Fortigate 7.0.x Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS Fortinet Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24314,
+   "flag": true,
+   "title": "CIS Fortigate 7.0.x Benchmark",
+   "version": "v1.4.0",
+   "status": "Published",
+   "community": "CIS Fortinet Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24268,
+   "flag": true,
+   "title": "CIS FortiGate 7.4.x Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Fortinet Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24708,
+   "flag": true,
+   "title": "CIS FortiGate 7.4.x Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Fortinet Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 4071,
+   "flag": true,
+   "title": "CIS Fortigate Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Fortinet Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10730,
+   "flag": true,
+   "title": "CIS Fortigate Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Fortinet Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22578,
+   "flag": true,
+   "title": "CIS FortiSwitch Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Fortinet Benchmarks",
+   "collection": "Network Devices"
+  },
+  {
+   "id": 15908,
+   "flag": true,
+   "title": "CIS FreeBSD 14 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS FreeBSD Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 19044,
+   "flag": true,
+   "title": "CIS FreeBSD 14 Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS FreeBSD Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 10603,
+   "flag": true,
+   "title": "CIS GitHub Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Software Supply Chain Security",
+   "collection": ""
+  },
+  {
+   "id": 11836,
+   "flag": true,
+   "title": "CIS GitHub Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Software Supply Chain Security",
+   "collection": ""
+  },
+  {
+   "id": 23918,
+   "flag": true,
+   "title": "CIS GitHub Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Software Supply Chain Security",
+   "collection": ""
+  },
+  {
+   "id": 14518,
+   "flag": true,
+   "title": "CIS GitLab Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Software Supply Chain Security",
+   "collection": ""
+  },
+  {
+   "id": 17538,
+   "flag": true,
+   "title": "CIS GitLab Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Software Supply Chain Security",
+   "collection": ""
+  },
+  {
+   "id": 23652,
+   "flag": true,
+   "title": "CIS Google Android 13 COBO STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23682,
+   "flag": true,
+   "title": "CIS Google Android 13 COPE STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23825,
+   "flag": true,
+   "title": "CIS Google Android 14 COBO STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23826,
+   "flag": true,
+   "title": "CIS Google Android 14 COPE STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23615,
+   "flag": true,
+   "title": "CIS Google Android 15 COBO STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23616,
+   "flag": true,
+   "title": "CIS Google Android 15 COPE STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 7662,
+   "flag": true,
+   "title": "CIS Google Android Benchmark",
+   "version": "v1.4.0",
+   "status": "Published",
+   "community": "CIS Google Android Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 9584,
+   "flag": true,
+   "title": "CIS Google Android Benchmark",
+   "version": "v1.5.0",
+   "status": "Published",
+   "community": "CIS Google Android Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23192,
+   "flag": true,
+   "title": "CIS Google Android Benchmark",
+   "version": "v1.6.0",
+   "status": "Final Update",
+   "community": "CIS Google Android Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27849,
+   "flag": true,
+   "title": "CIS Google Chrome Enterprise Core Browser Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS Google Chrome Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28667,
+   "flag": true,
+   "title": "CIS Google Chrome Group Policy Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS Google Chrome Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27843,
+   "flag": true,
+   "title": "CIS Google ChromeOS Benchmark",
+   "version": "v1.2.1",
+   "status": "Published",
+   "community": "CIS Google ChromeOS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17308,
+   "flag": true,
+   "title": "CIS Google Cloud Platform Foundation Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Google Cloud Computing Platform Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22181,
+   "flag": true,
+   "title": "CIS Google Cloud Platform Foundation Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Google Cloud Computing Platform Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28581,
+   "flag": true,
+   "title": "CIS Google Cloud Platform Foundation Benchmark",
+   "version": "v5.0.1",
+   "status": "Published",
+   "community": "CIS Google Cloud Computing Platform Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12218,
+   "flag": true,
+   "title": "CIS Google Container-Optimized OS Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Google Cloud Computing Platform Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18156,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Autopilot Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18794,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Autopilot Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20261,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Autopilot Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24113,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Autopilot Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24958,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Autopilot Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16093,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Benchmark",
+   "version": "v1.6.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19166,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Benchmark",
+   "version": "v1.6.1",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18949,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Benchmark",
+   "version": "v1.7.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20260,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Benchmark",
+   "version": "v1.8.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24112,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Benchmark",
+   "version": "v1.9.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24956,
+   "flag": true,
+   "title": "CIS Google Kubernetes Engine (GKE) Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27846,
+   "flag": true,
+   "title": "CIS Google Workspace Foundations Benchmark",
+   "version": "v1.4.1",
+   "status": "Published",
+   "community": "CIS Google Workspace",
+   "collection": ""
+  },
+  {
+   "id": 23854,
+   "flag": true,
+   "title": "CIS Honeywell Android 13 COBO STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23855,
+   "flag": true,
+   "title": "CIS Honeywell Android 13 COPE STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 22077,
+   "flag": true,
+   "title": "CIS HPE Aruba Networking CX Switch Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS HPE Aruba Networking Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24202,
+   "flag": true,
+   "title": "CIS HPE Aruba Networking CX Switch Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS HPE Aruba Networking Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10385,
+   "flag": true,
+   "title": "CIS IBM AIX 7 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM AIX Benchmark",
+   "collection": "Operating System"
+  },
+  {
+   "id": 19066,
+   "flag": true,
+   "title": "CIS IBM AIX 7 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS IBM AIX Benchmark",
+   "collection": "Operating System"
+  },
+  {
+   "id": 22751,
+   "flag": true,
+   "title": "CIS IBM AIX 7 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS IBM AIX Benchmark",
+   "collection": ""
+  },
+  {
+   "id": 9876,
+   "flag": true,
+   "title": "CIS IBM CICS Transaction Server 6.1 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Z System Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10225,
+   "flag": true,
+   "title": "CIS IBM CICS Transaction Server 6.1 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS IBM Z System Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 5376,
+   "flag": true,
+   "title": "CIS IBM Cloud Foundations Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Cloud Foundations Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6321,
+   "flag": true,
+   "title": "CIS IBM Cloud Foundations Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS IBM Cloud Foundations Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 11688,
+   "flag": true,
+   "title": "CIS IBM Cloud Foundations Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS IBM Cloud Foundations Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 8759,
+   "flag": true,
+   "title": "CIS IBM Db2 11 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Db2 Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 10752,
+   "flag": true,
+   "title": "CIS IBM Db2 11 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS IBM Db2 Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 15333,
+   "flag": true,
+   "title": "CIS IBM Db2 11 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS IBM Db2 Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23492,
+   "flag": true,
+   "title": "CIS IBM Db2 12.1 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Db2 Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 9679,
+   "flag": true,
+   "title": "CIS IBM Db2 13 for z/OS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Z System Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 5189,
+   "flag": true,
+   "title": "CIS IBM i V7R4M0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM i Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 14892,
+   "flag": true,
+   "title": "CIS IBM i V7R4M0 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS IBM i Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20553,
+   "flag": true,
+   "title": "CIS IBM i V7R4M0 Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS IBM i Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10322,
+   "flag": true,
+   "title": "CIS IBM i V7R5M0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM i Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10589,
+   "flag": true,
+   "title": "CIS IBM i V7R5M0 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS IBM i Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15795,
+   "flag": true,
+   "title": "CIS IBM i V7R5M0 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS IBM i Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20552,
+   "flag": true,
+   "title": "CIS IBM i V7R5M0 Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS IBM i Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7724,
+   "flag": true,
+   "title": "CIS IBM WebSphere Liberty Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM WebSphere Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23823,
+   "flag": true,
+   "title": "CIS IBM WebSphere Liberty Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23934,
+   "flag": true,
+   "title": "CIS IBM z/OS ACF2 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23935,
+   "flag": true,
+   "title": "CIS IBM z/OS RACF STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23951,
+   "flag": true,
+   "title": "CIS IBM z/OS TSS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 9643,
+   "flag": true,
+   "title": "CIS IBM z/OS V2R5 with RACF Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Z System Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 10083,
+   "flag": true,
+   "title": "CIS IBM z/OS VR5 2with RACF Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS IBM Z System Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 13641,
+   "flag": true,
+   "title": "CIS IBM z/OS with RACF Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Z System Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23524,
+   "flag": true,
+   "title": "CIS IBM zSecure Suite STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23703,
+   "flag": true,
+   "title": "CIS Infoblox 8.x DNS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23771,
+   "flag": true,
+   "title": "CIS JBoss Enterprise Application Platform 6.3 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23723,
+   "flag": true,
+   "title": "CIS Juniper EX Series Switches Layer 2 Switch STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23721,
+   "flag": true,
+   "title": "CIS Juniper EX Series Switches Network Device Management STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23722,
+   "flag": true,
+   "title": "CIS Juniper EX Series Switches Router STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 1444,
+   "flag": true,
+   "title": "CIS Juniper OS Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Juniper Benchmarks",
+   "collection": "Network Devices"
+  },
+  {
+   "id": 23802,
+   "flag": true,
+   "title": "CIS Juniper Router NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23830,
+   "flag": true,
+   "title": "CIS Juniper Router RTR STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23849,
+   "flag": true,
+   "title": "CIS Juniper SRX Services Gateway ALG STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23852,
+   "flag": true,
+   "title": "CIS Juniper SRX Services Gateway VPN STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23850,
+   "flag": true,
+   "title": "CIS Juniper SRX SG IDPS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23851,
+   "flag": true,
+   "title": "CIS Juniper SRX SG NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 19519,
+   "flag": true,
+   "title": "CIS Kubernetes Benchmark",
+   "version": "v1.11.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21709,
+   "flag": true,
+   "title": "CIS Kubernetes Benchmark",
+   "version": "v1.11.1",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22107,
+   "flag": true,
+   "title": "CIS Kubernetes Benchmark",
+   "version": "v1.12.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24237,
+   "flag": true,
+   "title": "CIS Kubernetes Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26831,
+   "flag": true,
+   "title": "CIS Kubernetes Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26886,
+   "flag": true,
+   "title": "CIS Kubernetes Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23900,
+   "flag": true,
+   "title": "CIS Kubernetes STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26525,
+   "flag": true,
+   "title": "CIS Kubernetes STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20741,
+   "flag": true,
+   "title": "CIS Linux Mint 22 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Linux Mint Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 16118,
+   "flag": true,
+   "title": "CIS MariaDB 10.11 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS MariaDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28492,
+   "flag": false,
+   "title": "CIS MariaDB 10.11 Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS MariaDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12270,
+   "flag": true,
+   "title": "CIS MariaDB 10.6 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS MariaDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16527,
+   "flag": true,
+   "title": "CIS MariaDB 10.6 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS MariaDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28493,
+   "flag": false,
+   "title": "CIS MariaDB 10.6 Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS MariaDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23757,
+   "flag": true,
+   "title": "CIS MariaDB Enterprise 10.x STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26720,
+   "flag": false,
+   "title": "CIS MariaDB Enterprise 10.x STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG Database Server"
+  },
+  {
+   "id": 26248,
+   "flag": true,
+   "title": "CIS MCP Server Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS AI Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17682,
+   "flag": true,
+   "title": "CIS Microsoft 365 Foundations Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft 365 Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20006,
+   "flag": true,
+   "title": "CIS Microsoft 365 Foundations Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft 365 Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22162,
+   "flag": true,
+   "title": "CIS Microsoft 365 Foundations Benchmark",
+   "version": "v6.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft 365 Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24619,
+   "flag": true,
+   "title": "CIS Microsoft 365 Foundations Benchmark",
+   "version": "v6.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft 365 Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24620,
+   "flag": true,
+   "title": "CIS Microsoft 365 Foundations Benchmark",
+   "version": "v7.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft 365 Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 13353,
+   "flag": true,
+   "title": "CIS Microsoft Azure Compute Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15106,
+   "flag": true,
+   "title": "CIS Microsoft Azure Compute Services Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28742,
+   "flag": true,
+   "title": "CIS Microsoft Azure Compute Services Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17792,
+   "flag": true,
+   "title": "CIS Microsoft Azure Database Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18531,
+   "flag": true,
+   "title": "CIS Microsoft Azure Database Services Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28743,
+   "flag": true,
+   "title": "CIS Microsoft Azure Database Services Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16820,
+   "flag": true,
+   "title": "CIS Microsoft Azure Foundations Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19304,
+   "flag": true,
+   "title": "CIS Microsoft Azure Foundations Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21611,
+   "flag": true,
+   "title": "CIS Microsoft Azure Foundations Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24282,
+   "flag": true,
+   "title": "CIS Microsoft Azure Foundations Benchmark",
+   "version": "v6.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26714,
+   "flag": true,
+   "title": "CIS Microsoft Azure Foundations Benchmark",
+   "version": "v7.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19748,
+   "flag": true,
+   "title": "CIS Microsoft Azure Storage Services Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20164,
+   "flag": true,
+   "title": "CIS Microsoft Azure Storage Services Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Azure Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25919,
+   "flag": true,
+   "title": "CIS Microsoft Defender Antivirus Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23699,
+   "flag": true,
+   "title": "CIS Microsoft DotNet Framework 4.0 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 9020,
+   "flag": true,
+   "title": "CIS Microsoft Dynamics 365 Power Platform",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Dynamics 365 Power Platform Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28298,
+   "flag": true,
+   "title": "CIS Microsoft Dynamics 365 Power Platform",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Dynamics 365 Power Platform Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 5883,
+   "flag": true,
+   "title": "CIS Microsoft Edge Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Web Browser Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 9889,
+   "flag": true,
+   "title": "CIS Microsoft Edge Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Web Browser Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 9503,
+   "flag": true,
+   "title": "CIS Microsoft Edge Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft Web Browser Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 11865,
+   "flag": true,
+   "title": "CIS Microsoft Edge Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Web Browser Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18501,
+   "flag": true,
+   "title": "CIS Microsoft Edge Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Web Browser Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24354,
+   "flag": true,
+   "title": "CIS Microsoft Edge Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Web Browser Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28120,
+   "flag": true,
+   "title": "CIS Microsoft Edge Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Web Browser Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23611,
+   "flag": true,
+   "title": "CIS Microsoft Entra ID STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23972,
+   "flag": true,
+   "title": "CIS Microsoft Exchange 2016 Edge Transport Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23977,
+   "flag": true,
+   "title": "CIS Microsoft Exchange 2016 Mailbox Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23645,
+   "flag": true,
+   "title": "CIS Microsoft Exchange 2019 Edge Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23653,
+   "flag": true,
+   "title": "CIS Microsoft Exchange 2019 Mailbox Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 12442,
+   "flag": true,
+   "title": "CIS Microsoft Exchange Server 2019 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Exchange Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28300,
+   "flag": true,
+   "title": "CIS Microsoft Exchange Server 2019 Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Exchange Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 424,
+   "flag": true,
+   "title": "CIS Microsoft IIS 10 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft IIS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 538,
+   "flag": true,
+   "title": "CIS Microsoft IIS 10 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft IIS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 1193,
+   "flag": true,
+   "title": "CIS Microsoft IIS 10 Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS Microsoft IIS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10087,
+   "flag": true,
+   "title": "CIS Microsoft IIS 10 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Microsoft IIS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 13949,
+   "flag": true,
+   "title": "CIS Microsoft IIS 10 Benchmark",
+   "version": "v1.2.1",
+   "status": "Published",
+   "community": "CIS Microsoft IIS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23684,
+   "flag": true,
+   "title": "CIS Microsoft IIS 10.0 Server STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23698,
+   "flag": true,
+   "title": "CIS Microsoft IIS 10.0 Site STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 24642,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Edge Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 26845,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Microsoft Defender Antivirus Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 15349,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Office Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 15808,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Office Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 16470,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 10 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 16852,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 10 Benchmark",
+   "version": "v3.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 21767,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 10 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 27291,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 10 Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 16471,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 11 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 16853,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 11 Benchmark",
+   "version": "v3.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 21719,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 11 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 27282,
+   "flag": true,
+   "title": "CIS Microsoft Intune for Windows 11 Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Intune for Microsoft Windows",
+   "collection": ""
+  },
+  {
+   "id": 23874,
+   "flag": true,
+   "title": "CIS Microsoft Intune MDM Service Desktop & Mobile STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 24074,
+   "flag": true,
+   "title": "CIS Microsoft Office 365 ProPlus STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26066,
+   "flag": true,
+   "title": "CIS Microsoft Office 365 ProPlus STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10652,
+   "flag": true,
+   "title": "CIS Microsoft Office Enterprise Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Office Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12129,
+   "flag": true,
+   "title": "CIS Microsoft Office Enterprise Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft Office Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18612,
+   "flag": true,
+   "title": "CIS Microsoft Office Enterprise Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Microsoft Office Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 14836,
+   "flag": true,
+   "title": "CIS Microsoft Office Enterprise Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Office Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23729,
+   "flag": true,
+   "title": "CIS Microsoft Office System 2016 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 14058,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2019 Benchmark",
+   "version": "v1.4.0",
+   "status": "Published",
+   "community": "CIS Microsoft SQL Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25144,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2019 Benchmark",
+   "version": "v1.5.2",
+   "status": "Final Update",
+   "community": "CIS Microsoft SQL Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27200,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2019 Benchmark",
+   "version": "v1.6.0",
+   "status": "Final Update",
+   "community": "CIS Microsoft SQL Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17322,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2022 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Microsoft SQL Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24175,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2022 Benchmark",
+   "version": "v1.2.1",
+   "status": "Published",
+   "community": "CIS Microsoft SQL Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22613,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2022 Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS Microsoft SQL Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23871,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2022 Database STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26144,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2022 Instance STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 25734,
+   "flag": true,
+   "title": "CIS Microsoft SQL Server 2025 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft SQL Server Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 13921,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 EMS Gateway Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17610,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 EMS Gateway Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12412,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 Enterprise Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16514,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 Enterprise Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21994,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 Enterprise Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27832,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 Enterprise Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 13204,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 Stand-alone Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17129,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 Stand-alone Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22607,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 Stand-alone Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28052,
+   "flag": false,
+   "title": "CIS Microsoft Windows 10 Stand-alone Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23869,
+   "flag": true,
+   "title": "CIS Microsoft Windows 10 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 16515,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Enterprise Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21318,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Enterprise Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25561,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Enterprise Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26296,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Enterprise Benchmark",
+   "version": "v5.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27452,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Enterprise Benchmark",
+   "version": "v5.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28594,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Enterprise Benchmark",
+   "version": "v5.1.1",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17603,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Stand-alone Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22007,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Stand-alone Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26061,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 Stand-alone Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23558,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 25747,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27756,
+   "flag": true,
+   "title": "CIS Microsoft Windows 11 STIG Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 12695,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2016 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17096,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2016 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23898,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2016 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15032,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2016 STIG Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18857,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2016 STIG Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23093,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2016 STIG Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 16912,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17689,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Benchmark",
+   "version": "v3.0.1",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22481,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26847,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15780,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Stand-alone",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17971,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Stand-alone",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22944,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Stand-alone",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28070,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 Stand-alone",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15105,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 STIG Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19588,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 STIG Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22176,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2019 STIG Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 8932,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12626,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16913,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21997,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25733,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Benchmark",
+   "version": "v5.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27461,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Benchmark",
+   "version": "v5.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28611,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Benchmark",
+   "version": "v5.1.1",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22496,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Stand-alone Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26062,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 Stand-alone Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20002,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 STIG Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22357,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 STIG Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28297,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2022 STIG Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 21344,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2025 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25708,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2025 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27453,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2025 Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28551,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2025 Benchmark",
+   "version": "v2.1.1",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24135,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2025 Stand-alone",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27850,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2025 Stand-alone",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Microsoft Windows Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28234,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server 2025 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23795,
+   "flag": true,
+   "title": "CIS Microsoft Windows Server Domain Name System (DNS) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 9224,
+   "flag": true,
+   "title": "CIS MongoDB 6 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15135,
+   "flag": true,
+   "title": "CIS MongoDB 6 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15675,
+   "flag": true,
+   "title": "CIS MongoDB 6 Benchmark",
+   "version": "v1.2.0",
+   "status": "Final Update",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15678,
+   "flag": true,
+   "title": "CIS MongoDB 7 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15858,
+   "flag": true,
+   "title": "CIS MongoDB 7 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19909,
+   "flag": true,
+   "title": "CIS MongoDB 7 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27511,
+   "flag": true,
+   "title": "CIS MongoDB 7 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23415,
+   "flag": true,
+   "title": "CIS MongoDB 8 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27510,
+   "flag": true,
+   "title": "CIS MongoDB 8 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS MongoDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23829,
+   "flag": true,
+   "title": "CIS Motorola Solutions Android 13 COBO STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23831,
+   "flag": true,
+   "title": "CIS Motorola Solutions Android 13 COPE STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 18454,
+   "flag": true,
+   "title": "CIS Mozilla Firefox ESR GPO Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Mozilla Firefox Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23601,
+   "flag": true,
+   "title": "CIS Mozilla Firefox STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26414,
+   "flag": true,
+   "title": "CIS Mozilla Firefox STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23982,
+   "flag": true,
+   "title": "CIS MS SQL Server 2016 Database STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 24064,
+   "flag": true,
+   "title": "CIS MS SQL Server 2016 Instance STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 286,
+   "flag": true,
+   "title": "CIS NGINX Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS NGINX Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 1441,
+   "flag": true,
+   "title": "CIS NGINX Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS NGINX Benchmarks",
+   "collection": "Web Server"
+  },
+  {
+   "id": 13987,
+   "flag": true,
+   "title": "CIS NGINX Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS NGINX Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17381,
+   "flag": true,
+   "title": "CIS NGINX Benchmark",
+   "version": "v2.1.0",
+   "status": "Published",
+   "community": "CIS NGINX Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18528,
+   "flag": true,
+   "title": "CIS NGINX Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS NGINX Benchmarks",
+   "collection": "Web Server"
+  },
+  {
+   "id": 26967,
+   "flag": true,
+   "title": "CIS NGINX Benchmark",
+   "version": "v3.1.0 (DEU/GER)",
+   "status": "Published",
+   "community": "CIS NGINX Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25551,
+   "flag": true,
+   "title": "CIS NGINX Benchmark",
+   "version": "v3.1.0",
+   "status": "Published",
+   "community": "CIS NGINX Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25223,
+   "flag": true,
+   "title": "CIS OceanBase Enterprise Edition V4 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS OceanBase Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23715,
+   "flag": true,
+   "title": "CIS Okta Identity as a Service (IDaaS) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 22392,
+   "flag": true,
+   "title": "CIS OPNsense Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS OPNsense",
+   "collection": ""
+  },
+  {
+   "id": 17784,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Container Engine for Kubernetes(OKE) Benchmark",
+   "version": "v1.5.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17983,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Container Engine for Kubernetes(OKE) Benchmark",
+   "version": "v1.6.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21059,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Container Engine for Kubernetes(OKE) Benchmark",
+   "version": "v1.7.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24115,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Container Engine for Kubernetes(OKE) Benchmark",
+   "version": "v1.8.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27115,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Container Engine for Kubernetes(OKE) Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 9713,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Foundations Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16151,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Foundations Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21337,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Foundations Benchmark",
+   "version": "v3.1.0",
+   "status": "Published",
+   "community": "CIS Oracle Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25804,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Foundations Benchmark",
+   "version": "v3.1.1",
+   "status": "Published",
+   "community": "CIS Oracle Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28583,
+   "flag": true,
+   "title": "CIS Oracle Cloud Infrastructure Foundations Benchmark",
+   "version": "v3.1.2",
+   "status": "Published",
+   "community": "CIS Oracle Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23978,
+   "flag": true,
+   "title": "CIS Oracle Database 12c STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 5799,
+   "flag": true,
+   "title": "CIS Oracle Database 19c Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Database Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 6132,
+   "flag": true,
+   "title": "CIS Oracle Database 19c Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Oracle Database Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 11760,
+   "flag": true,
+   "title": "CIS Oracle Database 19c Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Oracle Database Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23897,
+   "flag": true,
+   "title": "CIS Oracle Database 19c Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Database Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 23888,
+   "flag": true,
+   "title": "CIS Oracle Database 19c STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 26166,
+   "flag": true,
+   "title": "CIS Oracle Database 19c STIG Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 16474,
+   "flag": true,
+   "title": "CIS Oracle Database 23ai Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Database Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 21740,
+   "flag": true,
+   "title": "CIS Oracle Database 23ai Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Oracle Database Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 26139,
+   "flag": true,
+   "title": "CIS Oracle Database 26ai Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Database Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24010,
+   "flag": true,
+   "title": "CIS Oracle Linux 10 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23780,
+   "flag": true,
+   "title": "CIS Oracle Linux 7 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 4392,
+   "flag": true,
+   "title": "CIS Oracle Linux 8 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 4537,
+   "flag": true,
+   "title": "CIS Oracle Linux 8 Benchmark",
+   "version": "v1.0.0.1",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7037,
+   "flag": true,
+   "title": "CIS Oracle Linux 8 Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 9107,
+   "flag": true,
+   "title": "CIS Oracle Linux 8 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 15289,
+   "flag": true,
+   "title": "CIS Oracle Linux 8 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23600,
+   "flag": true,
+   "title": "CIS Oracle Linux 8 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23791,
+   "flag": true,
+   "title": "CIS Oracle Linux 8 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 11477,
+   "flag": true,
+   "title": "CIS Oracle Linux 9 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 18209,
+   "flag": true,
+   "title": "CIS Oracle Linux 9 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 27891,
+   "flag": true,
+   "title": "CIS Oracle Linux 9 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 27024,
+   "flag": false,
+   "title": "CIS Oracle Linux 9 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "Operating System STIG"
+  },
+  {
+   "id": 15112,
+   "flag": true,
+   "title": "CIS Oracle MySQL Community Server 8.0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15504,
+   "flag": true,
+   "title": "CIS Oracle MySQL Community Server 8.0 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20223,
+   "flag": true,
+   "title": "CIS Oracle MySQL Community Server 8.4 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20915,
+   "flag": true,
+   "title": "CIS Oracle MySQL Community Server 8.4 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22688,
+   "flag": true,
+   "title": "CIS Oracle MySQL Community Server 9.7 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 4880,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7114,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.0 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7721,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.0 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12903,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.0 Benchmark",
+   "version": "v1.2.1",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 10139,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.0 Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15503,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.0 Benchmark",
+   "version": "v1.4.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16642,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.4 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20914,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 8.4 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22687,
+   "flag": true,
+   "title": "CIS Oracle MySQL Enterprise Edition 9.7 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle MySQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21131,
+   "flag": true,
+   "title": "CIS Oracle SaaS Cloud Applications Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 4225,
+   "flag": true,
+   "title": "CIS Oracle Solaris 11.4 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Oracle Solaris Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 4777,
+   "flag": true,
+   "title": "CIS Oracle Solaris 11.4 Benchmark",
+   "version": "v1.1.0",
+   "status": "Final Update",
+   "community": "CIS Oracle Solaris Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 8859,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 10 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 9271,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 10 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 17915,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 10 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18106,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 10 Benchmark FINAL RELEASE",
+   "version": "v1.3.0",
+   "status": "Final Update",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 13160,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 11 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 13792,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 11 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18107,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 11 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28651,
+   "flag": true,
+   "title": "CIS Palo Alto Firewall 11 Benchmark",
+   "version": "v1.2.1",
+   "status": "Final Update",
+   "community": "CIS Palo Alto Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23973,
+   "flag": true,
+   "title": "CIS Palo Alto Networks ALG STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23974,
+   "flag": true,
+   "title": "CIS Palo Alto Networks IDPS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23975,
+   "flag": true,
+   "title": "CIS Palo Alto Networks NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23777,
+   "flag": true,
+   "title": "CIS Palo Alto Networks Prisma Cloud Compute STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 10289,
+   "flag": true,
+   "title": "CIS pfSense Firewall Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS pfSense Firewall",
+   "collection": ""
+  },
+  {
+   "id": 11841,
+   "flag": true,
+   "title": "CIS pfSense Firewall Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS pfSense Firewall",
+   "collection": ""
+  },
+  {
+   "id": 28301,
+   "flag": true,
+   "title": "CIS pfSense Firewall Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS pfSense Firewall",
+   "collection": ""
+  },
+  {
+   "id": 17003,
+   "flag": true,
+   "title": "CIS PostgreSQL 13 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 24764,
+   "flag": true,
+   "title": "CIS PostgreSQL 13 Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27350,
+   "flag": true,
+   "title": "CIS PostgreSQL 13 Benchmark",
+   "version": "v1.4.0",
+   "status": "Final Update",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 7294,
+   "flag": true,
+   "title": "CIS PostgreSQL 14 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 11866,
+   "flag": true,
+   "title": "CIS PostgreSQL 14 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 17004,
+   "flag": true,
+   "title": "CIS PostgreSQL 14 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 24765,
+   "flag": true,
+   "title": "CIS PostgreSQL 14 Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 11186,
+   "flag": true,
+   "title": "CIS PostgreSQL 15 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 15126,
+   "flag": true,
+   "title": "CIS PostgreSQL 15 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 22345,
+   "flag": true,
+   "title": "CIS PostgreSQL 15 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 14977,
+   "flag": true,
+   "title": "CIS PostgreSQL 16 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 22346,
+   "flag": true,
+   "title": "CIS PostgreSQL 16 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 19478,
+   "flag": true,
+   "title": "CIS PostgreSQL 17 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26344,
+   "flag": true,
+   "title": "CIS PostgreSQL 17 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": "Database Server"
+  },
+  {
+   "id": 24868,
+   "flag": true,
+   "title": "CIS PostgreSQL 18 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS PostgreSQL Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23941,
+   "flag": true,
+   "title": "CIS Rancher Government Solutions RKE2 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23593,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 10 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 24164,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 10 Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26403,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 10 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG Operating System"
+  },
+  {
+   "id": 4147,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 4359,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 Benchmark",
+   "version": "v1.0.0.1",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7035,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 9090,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 15286,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23597,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 Benchmark",
+   "version": "v4.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 8476,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19886,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 8 STIG Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 11478,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 9 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 18210,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 9 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 27892,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 9 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 22008,
+   "flag": true,
+   "title": "CIS Red Hat Enterprise Linux 9 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Red Hat Enterprise Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23920,
+   "flag": true,
+   "title": "CIS Red Hat OpenShift Container Platform 4.12 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 16094,
+   "flag": true,
+   "title": "CIS Red Hat OpenShift Container Platform Benchmark",
+   "version": "v1.6.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19464,
+   "flag": true,
+   "title": "CIS Red Hat OpenShift Container Platform Benchmark",
+   "version": "v1.7.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 20536,
+   "flag": true,
+   "title": "CIS Red Hat OpenShift Container Platform Benchmark",
+   "version": "v1.8.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24114,
+   "flag": true,
+   "title": "CIS Red Hat OpenShift Container Platform Benchmark",
+   "version": "v1.9.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25362,
+   "flag": true,
+   "title": "CIS Red Hat OpenShift Container Platform Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23266,
+   "flag": true,
+   "title": "CIS Redhat OpenShift Virtual Machine Extension Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Kubernetes Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6442,
+   "flag": true,
+   "title": "CIS RHEL8 on IBM Z Linux Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS IBM Z System Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 24009,
+   "flag": true,
+   "title": "CIS Rocky Linux 10 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Rocky Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 9215,
+   "flag": true,
+   "title": "CIS Rocky Linux 8 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Rocky Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 15288,
+   "flag": true,
+   "title": "CIS Rocky Linux 8 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Rocky Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23602,
+   "flag": true,
+   "title": "CIS Rocky Linux 8 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Rocky Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 11512,
+   "flag": true,
+   "title": "CIS Rocky Linux 9 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Rocky Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 18211,
+   "flag": true,
+   "title": "CIS Rocky Linux 9 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Rocky Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 27893,
+   "flag": true,
+   "title": "CIS Rocky Linux 9 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Rocky Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23614,
+   "flag": true,
+   "title": "CIS Samsung Android 15 BYOAD STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23846,
+   "flag": true,
+   "title": "CIS Samsung Android OS 13 with Knox 3.x COBO STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23848,
+   "flag": true,
+   "title": "CIS Samsung Android OS 13 with Knox 3.x COPE STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 24075,
+   "flag": true,
+   "title": "CIS Samsung Android OS 14 with Knox 3.x STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23984,
+   "flag": true,
+   "title": "CIS Samsung Android OS 15 with Knox 3.x COBO STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23985,
+   "flag": true,
+   "title": "CIS Samsung Android OS 15 with Knox 3.x COPE STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 21093,
+   "flag": true,
+   "title": "CIS SingleStore 8 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS SingleStore Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 14781,
+   "flag": true,
+   "title": "CIS Snowflake Foundations Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Snowflake Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15569,
+   "flag": true,
+   "title": "CIS Snowflake Foundations Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Snowflake Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27435,
+   "flag": true,
+   "title": "CIS Snowflake Foundations Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS Snowflake Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23765,
+   "flag": true,
+   "title": "CIS Solaris 11 SPARC STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23873,
+   "flag": true,
+   "title": "CIS Solaris 11 X86 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 6934,
+   "flag": true,
+   "title": "CIS Sophos Firewall v21 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Sophos Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 24745,
+   "flag": true,
+   "title": "CIS Sophos Firewall v22 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Sophos Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 8658,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 12 Benchmark",
+   "version": "v3.2.0",
+   "status": "Final Update",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": "Operating System"
+  },
+  {
+   "id": 22179,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 12 Benchmark",
+   "version": "v3.2.1",
+   "status": "Final Update",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": ""
+  },
+  {
+   "id": 5353,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 15 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": "Operating System"
+  },
+  {
+   "id": 5718,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 15 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": "Operating System"
+  },
+  {
+   "id": 8754,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 15 Benchmark",
+   "version": "v1.1.1",
+   "status": "Published",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": ""
+  },
+  {
+   "id": 20333,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 15 Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": "Operating System"
+  },
+  {
+   "id": 21095,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 15 Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": "Operating System"
+  },
+  {
+   "id": 28370,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 15 Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26236,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise 16 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS SUSE Linux Enterprise Server",
+   "collection": "Operating System"
+  },
+  {
+   "id": 23779,
+   "flag": true,
+   "title": "CIS SUSE Linux Enterprise Server 15 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 16324,
+   "flag": true,
+   "title": "CIS Talos Linux Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Talos Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18743,
+   "flag": true,
+   "title": "CIS Talos Linux Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Talos Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23766,
+   "flag": true,
+   "title": "CIS Tanium 7.x Application on TanOS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23767,
+   "flag": true,
+   "title": "CIS Tanium 7.x Operating System on TanOS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23986,
+   "flag": true,
+   "title": "CIS Tanium 7.x STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 24709,
+   "flag": true,
+   "title": "CIS Tencent Cloud Enterprise Foundation Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Tencent Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23411,
+   "flag": true,
+   "title": "CIS Tencent Cloud Foundation Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Tencent Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26472,
+   "flag": true,
+   "title": "CIS Tencent Cloud Foundation Benchmark",
+   "version": "v1.0.1",
+   "status": "Published",
+   "community": "CIS Tencent Cloud Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27493,
+   "flag": true,
+   "title": "CIS Tencent TDSQL 10.3.22 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Tencent DB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27895,
+   "flag": true,
+   "title": "CIS TencentOS Linux 4 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS TencentOS Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23936,
+   "flag": true,
+   "title": "CIS Trend Micro TippingPoint IDPS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23937,
+   "flag": true,
+   "title": "CIS Trend Micro TippingPoint NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 5288,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 20.04 LTS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 6800,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 20.04 LTS Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 13004,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 20.04 LTS Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 13775,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 20.04 LTS Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21369,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 20.04 LTS Benchmark",
+   "version": "v3.0.0",
+   "status": "Final Update",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7763,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 20.04 LTS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 14822,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 20.04 LTS STIG Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 10430,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 22.04 LTS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 17074,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 22.04 LTS Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 24330,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 22.04 LTS Benchmark",
+   "version": "v3.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22168,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 22.04 LTS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 18959,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 24.04 LTS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26891,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 24.04 LTS Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 22775,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 24.04 LTS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 27798,
+   "flag": true,
+   "title": "CIS Ubuntu Linux 26.04 LTS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Ubuntu Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 26162,
+   "flag": true,
+   "title": "CIS Versa OS Ubuntu 18.04 LTS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Versa Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26161,
+   "flag": true,
+   "title": "CIS Versa OS Ubuntu 22.04 LTS Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Versa Networks Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 22749,
+   "flag": true,
+   "title": "CIS Visual Studio Code GPO Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Visual Studio Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12724,
+   "flag": true,
+   "title": "CIS VMware ESXi 6.7 Benchmark - Final Update",
+   "version": "v1.4.0",
+   "status": "Final Update",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 6069,
+   "flag": true,
+   "title": "CIS VMware ESXi 7.0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7024,
+   "flag": true,
+   "title": "CIS VMware ESXi 7.0 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 7798,
+   "flag": true,
+   "title": "CIS VMware ESXi 7.0 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 12725,
+   "flag": true,
+   "title": "CIS VMware ESXi 7.0 Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15334,
+   "flag": true,
+   "title": "CIS VMware ESXi 7.0 Benchmark",
+   "version": "v1.4.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21406,
+   "flag": true,
+   "title": "CIS VMware ESXi 7.0 Benchmark",
+   "version": "v1.5.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 25143,
+   "flag": true,
+   "title": "CIS VMware ESXi 7.0 Benchmark",
+   "version": "v1.6.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 14159,
+   "flag": true,
+   "title": "CIS VMware ESXi 8.0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 15784,
+   "flag": true,
+   "title": "CIS VMware ESXi 8.0 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 19200,
+   "flag": true,
+   "title": "CIS VMware ESXi 8.0 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 21888,
+   "flag": true,
+   "title": "CIS VMware ESXi 8.0 Benchmark",
+   "version": "v1.3.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 26357,
+   "flag": true,
+   "title": "CIS VMware ESXi 8.0 Benchmark",
+   "version": "v1.4.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28124,
+   "flag": true,
+   "title": "CIS VMware ESXi 9.0 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS VMware Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23591,
+   "flag": true,
+   "title": "CIS VMware NSX 4.x Distributed Firewall STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23590,
+   "flag": true,
+   "title": "CIS VMware NSX 4.x Manager NDM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23589,
+   "flag": true,
+   "title": "CIS VMware NSX 4.x Tier-0 Gateway Firewall STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23588,
+   "flag": true,
+   "title": "CIS VMware NSX 4.x Tier-0 Gateway Router STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23587,
+   "flag": true,
+   "title": "CIS VMware NSX 4.x Tier-1 Gateway Firewall STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23586,
+   "flag": true,
+   "title": "CIS VMware NSX 4.x Tier-1 Gateway Router STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23685,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 ESXi STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23686,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 VAMI STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23687,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance EAM STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23688,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance Lookup Service STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23689,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance Perfcharts STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23690,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance Photon OS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23691,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance PostgreSQL STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23692,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance RhttpProxy STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23693,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance STS STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23694,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter Appliance UI STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23695,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 vCenter STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23696,
+   "flag": true,
+   "title": "CIS VMware vSphere 7.0 Virtual Machine STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23619,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 ESXi STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23622,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance Envoy STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23618,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance ESX Agent Manager (EAM) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23617,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance Lookup Service STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23626,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance Management Interface (VAMI) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23627,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance Perfcharts STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23628,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance Photon OS 4.0 STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23629,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance PostgreSQL STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23630,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance Secure Token Service (STS) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23631,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter Appliance User Interface (UI) STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23621,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 vCenter STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 23620,
+   "flag": true,
+   "title": "CIS VMware vSphere 8.0 Virtual Machine STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 20820,
+   "flag": true,
+   "title": "CIS Wind River eLxr 12 Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS Wind River eLxr Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23419,
+   "flag": true,
+   "title": "CIS Wind River eLxr 12 Benchmark",
+   "version": "v1.1.0",
+   "status": "Published",
+   "community": "CIS Wind River eLxr Linux Benchmarks",
+   "collection": "Operating System"
+  },
+  {
+   "id": 24607,
+   "flag": true,
+   "title": "CIS Wind River eLxr 12 Benchmark",
+   "version": "v1.2.0",
+   "status": "Published",
+   "community": "CIS Wind River eLxr Linux Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 23979,
+   "flag": true,
+   "title": "CIS Xylok Security Suite 20.x STIG Benchmark",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS DISA STIG Benchmarks",
+   "collection": "STIG"
+  },
+  {
+   "id": 15249,
+   "flag": true,
+   "title": "CIS YugabyteDB 2.x",
+   "version": "v1.0.0",
+   "status": "Published",
+   "community": "CIS YugabyteDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 16138,
+   "flag": true,
+   "title": "CIS YugabyteDB Benchmark",
+   "version": "v2.0.0",
+   "status": "Published",
+   "community": "CIS YugabyteDB Benchmarks",
+   "collection": ""
+  },
+  {
+   "id": 28168,
+   "flag": true,
+   "title": "CIS YugabyteDB Benchmark",
+   "version": "v2.0.1",
+   "status": "Published",
+   "community": "CIS YugabyteDB Benchmarks",
+   "collection": ""
+  }
+ ]
+}

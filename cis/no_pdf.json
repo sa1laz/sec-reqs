@@ -1,0 +1,44 @@
+[
+ {
+  "id": 25142,
+  "title": "CIS Apache Tomcat 10.1 Benchmark",
+  "version": "v1.2.0",
+  "url": "https://workbench.cisecurity.org/benchmarks/25142"
+ },
+ {
+  "id": 25141,
+  "title": "CIS Apache Tomcat 11 Benchmark",
+  "version": "v1.1.0",
+  "url": "https://workbench.cisecurity.org/benchmarks/25141"
+ },
+ {
+  "id": 27606,
+  "title": "CIS Apache Tomcat Application Server 9 STIG Benchmark",
+  "version": "v1.1.0",
+  "url": "https://workbench.cisecurity.org/benchmarks/27606"
+ },
+ {
+  "id": 596,
+  "title": "CIS Cisco Firewall Benchmark",
+  "version": "v4.1.0",
+  "url": "https://workbench.cisecurity.org/benchmarks/596"
+ },
+ {
+  "id": 16734,
+  "title": "CIS Debian Linux 11 Branch Benchmark",
+  "version": "v2.0.0",
+  "url": "https://workbench.cisecurity.org/benchmarks/16734"
+ },
+ {
+  "id": 16763,
+  "title": "CIS Fedora 34 Branch Benchmark",
+  "version": "v2.0.0",
+  "url": "https://workbench.cisecurity.org/benchmarks/16763"
+ },
+ {
+  "id": 12724,
+  "title": "CIS VMware ESXi 6.7 Benchmark - Final Update",
+  "version": "v1.4.0",
+  "url": "https://workbench.cisecurity.org/benchmarks/12724"
+ }
+]

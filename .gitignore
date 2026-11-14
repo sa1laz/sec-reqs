@@ -1,0 +1,16 @@
+# секреты и окружение
+.env
+.venv/
+__pycache__/
+*.pyc
+.claude/
+.mcp.json
+
+# локальные данные: собираются скриптами, в git не попадают
+data/
+
+# CIS: тексты бенчмарков — CC BY-NC-SA 4.0, условия CIS запрещают выкладывать их наружу
+cis/pdf/
+cis/benchmarks/
+cis/cis.db
+cis/qa_report.json

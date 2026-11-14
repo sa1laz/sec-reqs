@@ -1,0 +1,2 @@
+mcp==2.3.0       # MCP Python SDK (MCPServer)
+pymupdf==2.1     # только для разбора PDF CIS (cis/parse_cis_pdf.py)

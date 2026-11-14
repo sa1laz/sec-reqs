@@ -1,0 +1,3116 @@
+[
+ {
+  "benchmark_id": 22222,
+  "title": "CIS AKS Optimized Azure Linux 2 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 6201,
+  "filename": "CIS_AKS_Optimized_Azure_Linux_2_Benchmark_v1.1.0.pdf",
+  "size": "2.87MB",
+  "url": "https://workbench.cisecurity.org/files/6201/download"
+ },
+ {
+  "benchmark_id": 22694,
+  "title": "CIS AKS Optimized Azure Linux 3 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6196,
+  "filename": "CIS_AKS_Optimized_Azure_Linux_3_Benchmark_v1.0.0.pdf",
+  "size": "4.48MB",
+  "url": "https://workbench.cisecurity.org/files/6196/download"
+ },
+ {
+  "benchmark_id": 12696,
+  "title": "CIS AKS Optimized Azure Linux Benchmark",
+  "version": "v1.0.0",
+  "file_id": 4571,
+  "filename": "CIS_AKS_Optimized_Azure_Linux_Benchmark_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4571/download"
+ },
+ {
+  "benchmark_id": 28357,
+  "title": "CIS Alibaba Cloud Foundation Benchmark",
+  "version": "v2.0.1",
+  "file_id": 7877,
+  "filename": "CIS_Alibaba_Cloud_Foundation_Benchmark_v2.0.1.pdf",
+  "size": "1.93MB",
+  "url": "https://workbench.cisecurity.org/files/7877/download"
+ },
+ {
+  "benchmark_id": 23595,
+  "title": "CIS Alibaba Cloud Linux 3 Benchmark",
+  "version": "v2.0.0",
+  "file_id": 6532,
+  "filename": "CIS_Alibaba_Cloud_Linux_3_Benchmark_v2.0.0.pdf",
+  "size": "11.53MB",
+  "url": "https://workbench.cisecurity.org/files/6532/download"
+ },
+ {
+  "benchmark_id": 24008,
+  "title": "CIS AlmaLinux OS 10 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6909,
+  "filename": "CIS_AlmaLinux_OS_10_Benchmark_v1.0.0.pdf",
+  "size": "6.62MB",
+  "url": "https://workbench.cisecurity.org/files/6909/download"
+ },
+ {
+  "benchmark_id": 23598,
+  "title": "CIS AlmaLinux OS 8 Benchmark",
+  "version": "v4.0.0",
+  "file_id": 6582,
+  "filename": "CIS_AlmaLinux_OS_8_Benchmark_v4.0.0.pdf",
+  "size": "6.98MB",
+  "url": "https://workbench.cisecurity.org/files/6582/download"
+ },
+ {
+  "benchmark_id": 27890,
+  "title": "CIS AlmaLinux OS 9 Benchmark",
+  "version": "v3.0.0",
+  "file_id": 7735,
+  "filename": "CIS_AlmaLinux_OS_9_Benchmark_v3.0.0.pdf",
+  "size": "11.05MB",
+  "url": "https://workbench.cisecurity.org/files/7735/download"
+ },
+ {
+  "benchmark_id": 27155,
+  "title": "CIS Amazon Elastic Kubernetes Service (EKS) Auto Mode Benchmark",
+  "version": "v1.1.0",
+  "file_id": 8014,
+  "filename": "CIS_Amazon_Elastic_Kubernetes_Service_(EKS)_Auto_Mode_Benchmark_v1.1.0.pdf",
+  "size": "1.04MB",
+  "url": "https://workbench.cisecurity.org/files/8014/download"
+ },
+ {
+  "benchmark_id": 27154,
+  "title": "CIS Amazon Elastic Kubernetes Service (EKS) Benchmark",
+  "version": "v2.1.0",
+  "file_id": 8018,
+  "filename": "CIS_Amazon_Elastic_Kubernetes_Service_(EKS)_Benchmark_v2.1.0.pdf",
+  "size": "2.13MB",
+  "url": "https://workbench.cisecurity.org/files/8018/download"
+ },
+ {
+  "benchmark_id": 25279,
+  "title": "CIS Amazon Linux 2 Benchmark",
+  "version": "v4.0.0",
+  "file_id": 7308,
+  "filename": "CIS_Amazon_Linux_2_Benchmark_v4.0.0.pdf",
+  "size": "7.34MB",
+  "url": "https://workbench.cisecurity.org/files/7308/download"
+ },
+ {
+  "benchmark_id": 26706,
+  "title": "CIS Amazon Linux 2 STIG Benchmark",
+  "version": "v2.0.1",
+  "file_id": 7416,
+  "filename": "CIS_Amazon_Linux_2_STIG_Benchmark_v2.0.1.pdf",
+  "size": "8.42MB",
+  "url": "https://workbench.cisecurity.org/files/7416/download"
+ },
+ {
+  "benchmark_id": 12705,
+  "title": "CIS Amazon Linux 2023 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 4564,
+  "filename": "CIS_Amazon_Linux_2023_Benchmark_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4564/download"
+ },
+ {
+  "benchmark_id": 26107,
+  "title": "CIS Amazon Linux 2023 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7341,
+  "filename": "CIS_Amazon_Linux_2023_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.97MB",
+  "url": "https://workbench.cisecurity.org/files/7341/download"
+ },
+ {
+  "benchmark_id": 26485,
+  "title": "CIS Amazon Web Services Foundations Benchmark",
+  "version": "v7.1.0",
+  "file_id": 7854,
+  "filename": "CIS_Amazon_Web_Services_Foundations_Benchmark_v7.1.0.pdf",
+  "size": "2.97MB",
+  "url": "https://workbench.cisecurity.org/files/7854/download"
+ },
+ {
+  "benchmark_id": 28498,
+  "title": "CIS Apache Cassandra 4.0 Benchmark",
+  "version": "v1.3.1",
+  "file_id": 8055,
+  "filename": "CIS_Apache_Cassandra_4.0_Benchmark_v1.3.1_PDF.pdf",
+  "size": "1.11MB",
+  "url": "https://workbench.cisecurity.org/files/8055/download"
+ },
+ {
+  "benchmark_id": 28549,
+  "title": "CIS Apache Cassandra 4.1 Benchmark",
+  "version": "v1.2.1",
+  "file_id": 8059,
+  "filename": "CIS_Apache_Cassandra_4.1_Benchmark_v1.2.1_PDF.pdf",
+  "size": "1.12MB",
+  "url": "https://workbench.cisecurity.org/files/8059/download"
+ },
+ {
+  "benchmark_id": 28550,
+  "title": "CIS Apache Cassandra 5.0 Benchmark",
+  "version": "v1.1.1",
+  "file_id": 8063,
+  "filename": "CIS_Apache_Cassandra_5.0_Benchmark_v1.1.1_PDF.pdf",
+  "size": "1.12MB",
+  "url": "https://workbench.cisecurity.org/files/8063/download"
+ },
+ {
+  "benchmark_id": 24215,
+  "title": "CIS Apache HTTP Server 2.4 Benchmark",
+  "version": "v2.4.0",
+  "file_id": 7768,
+  "filename": "CIS_Apache_HTTP_Server_2.4_Benchmark_v2.4.0 PDF.pdf",
+  "size": "2.44MB",
+  "url": "https://workbench.cisecurity.org/files/7768/download"
+ },
+ {
+  "benchmark_id": 23880,
+  "title": "CIS Apache Server 2.4 UNIX Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6586,
+  "filename": "CIS_Apache_Server_2.4_UNIX_Server_STIG_Benchmark_v1.0.0.pdf",
+  "size": "860.73kB",
+  "url": "https://workbench.cisecurity.org/files/6586/download"
+ },
+ {
+  "benchmark_id": 24072,
+  "title": "CIS Apache Server 2.4 Windows Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6785,
+  "filename": "CIS Apache Server 2.4 Windows STIG Benchmark V1.0.0 PDF.pdf",
+  "size": "1.14MB",
+  "url": "https://workbench.cisecurity.org/files/6785/download"
+ },
+ {
+  "benchmark_id": 11105,
+  "title": "CIS Apache Tomcat 9 Benchmark",
+  "version": "v1.2.1",
+  "file_id": 7247,
+  "filename": "CIS Apache Tomcat 9 Benchmark v1.2.1 PDF.pdf",
+  "size": "1.62MB",
+  "url": "https://workbench.cisecurity.org/files/7247/download"
+ },
+ {
+  "benchmark_id": 21983,
+  "title": "CIS Apple iOS 18 and iPadOS 18 Intune Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6942,
+  "filename": "CIS_Apple_iOS_18_and_iPadOS_18_Intune_Benchmark_v1.0.0.pdf",
+  "size": "1.88MB",
+  "url": "https://workbench.cisecurity.org/files/6942/download"
+ },
+ {
+  "benchmark_id": 26091,
+  "title": "CIS Apple iOS 26 and iPadOS 26 Intune Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7335,
+  "filename": "CIS_Apple_iOS_26_and_iPadOS_26_Intune_Benchmark_v1.0.0.pdf",
+  "size": "1.87MB",
+  "url": "https://workbench.cisecurity.org/files/7335/download"
+ },
+ {
+  "benchmark_id": 23037,
+  "title": "CIS Apple iOS 26 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7027,
+  "filename": "CIS_Apple_iOS_26_Benchmark_v1.0.0.pdf",
+  "size": "2.01MB",
+  "url": "https://workbench.cisecurity.org/files/7027/download"
+ },
+ {
+  "benchmark_id": 24636,
+  "title": "CIS Apple iOS 27 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7998,
+  "filename": "CIS_Apple_iOS_27_Benchmark_v1.0.0.pdf",
+  "size": "1.26MB",
+  "url": "https://workbench.cisecurity.org/files/7998/download"
+ },
+ {
+  "benchmark_id": 24033,
+  "title": "CIS Apple iOS/iPadOS 18 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6831,
+  "filename": "CIS_Apple_iOS_iPadOS_18_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.11MB",
+  "url": "https://workbench.cisecurity.org/files/6831/download"
+ },
+ {
+  "benchmark_id": 23038,
+  "title": "CIS Apple iPadOS 26 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7029,
+  "filename": "CIS_Apple_iPadOS_26_Benchmark_v1.0.0.pdf",
+  "size": "2.05MB",
+  "url": "https://workbench.cisecurity.org/files/7029/download"
+ },
+ {
+  "benchmark_id": 28638,
+  "title": "CIS Apple iPadOS 27 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 8000,
+  "filename": "CIS_Apple_iPadOS_27_Benchmark_v1.0.0.pdf",
+  "size": "1.24MB",
+  "url": "https://workbench.cisecurity.org/files/8000/download"
+ },
+ {
+  "benchmark_id": 18633,
+  "title": "CIS Apple macOS 12.0 Monterey Benchmark",
+  "version": "v4.0.0",
+  "file_id": 5743,
+  "filename": "CIS_Apple_macOS_12.0_Monterey_Benchmark_v4.0.0.pdf",
+  "size": "2.72MB",
+  "url": "https://workbench.cisecurity.org/files/5743/download"
+ },
+ {
+  "benchmark_id": 23041,
+  "title": "CIS Apple macOS 13.0 Ventura Benchmark",
+  "version": "v4.0.0",
+  "file_id": 7025,
+  "filename": "CIS_Apple_macOS_13.0_Ventura_Benchmark_v4.0.0.pdf",
+  "size": "2.89MB",
+  "url": "https://workbench.cisecurity.org/files/7025/download"
+ },
+ {
+  "benchmark_id": 24070,
+  "title": "CIS Apple macOS 14 (Sonoma) STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6781,
+  "filename": "CIS Apple macOS 14 (Sonoma) STIG V1.0.0 PDF.pdf",
+  "size": "1.88MB",
+  "url": "https://workbench.cisecurity.org/files/6781/download"
+ },
+ {
+  "benchmark_id": 27263,
+  "title": "CIS Apple macOS 14.0 Sonoma Benchmark",
+  "version": "v4.0.0",
+  "file_id": 7994,
+  "filename": "CIS_Apple_macOS_14.0_Sonoma_Benchmark_v4.0.0.pdf",
+  "size": "1.91MB",
+  "url": "https://workbench.cisecurity.org/files/7994/download"
+ },
+ {
+  "benchmark_id": 22248,
+  "title": "CIS Apple MacOS 14.0 Sonoma Intune Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6012,
+  "filename": "CIS_Apple_MacOS_14.0_Sonoma_Intune_Benchmark_v1.0.0.pdf",
+  "size": "2.10MB",
+  "url": "https://workbench.cisecurity.org/files/6012/download"
+ },
+ {
+  "benchmark_id": 26537,
+  "title": "CIS Apple macOS 15 (Sequoia) STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7682,
+  "filename": "CIS_Apple_macOS_15_(Sequoia)_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.63MB",
+  "url": "https://workbench.cisecurity.org/files/7682/download"
+ },
+ {
+  "benchmark_id": 27262,
+  "title": "CIS Apple macOS 15.0 Sequoia Benchmark",
+  "version": "v3.0.0",
+  "file_id": 7990,
+  "filename": "CIS_Apple_macOS_15.0_Sequoia_Benchmark_v3.0.0.pdf",
+  "size": "1.99MB",
+  "url": "https://workbench.cisecurity.org/files/7990/download"
+ },
+ {
+  "benchmark_id": 22624,
+  "title": "CIS Apple MacOS 15.0 Sequoia Intune Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7427,
+  "filename": "CIS_Apple_MacOS_15.0_Sequoia_Intune_Benchmark_v1.1.0.pdf",
+  "size": "2.09MB",
+  "url": "https://workbench.cisecurity.org/files/7427/download"
+ },
+ {
+  "benchmark_id": 27261,
+  "title": "CIS Apple macOS 26 Tahoe Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7986,
+  "filename": "CIS_Apple_macOS_26_Tahoe_Benchmark_v2.0.0.pdf",
+  "size": "1.98MB",
+  "url": "https://workbench.cisecurity.org/files/7986/download"
+ },
+ {
+  "benchmark_id": 26289,
+  "title": "CIS Apple MacOS 26 Tahoe Intune Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7424,
+  "filename": "CIS_Apple_MacOS_26_Tahoe_Intune_Benchmark_v1.0.0.pdf",
+  "size": "2.19MB",
+  "url": "https://workbench.cisecurity.org/files/7424/download"
+ },
+ {
+  "benchmark_id": 26538,
+  "title": "CIS Apple macOS 26 Tahoe STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7590,
+  "filename": "CIS_Apple_macOS_26_Tahoe_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.64MB",
+  "url": "https://workbench.cisecurity.org/files/7590/download"
+ },
+ {
+  "benchmark_id": 27289,
+  "title": "CIS Apple macOS 27 Golden Gate Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7982,
+  "filename": "CIS_Apple_macOS_27_Golden_Gate_Benchmark_v1.0.0.pdf",
+  "size": "1.96MB",
+  "url": "https://workbench.cisecurity.org/files/7982/download"
+ },
+ {
+  "benchmark_id": 25683,
+  "title": "CIS Arista EOS benchmark",
+  "version": "v1.0.0",
+  "file_id": 7667,
+  "filename": "CIS_Arista_EOS_benchmark_v1.0.0.pdf",
+  "size": "692.66kB",
+  "url": "https://workbench.cisecurity.org/files/7667/download"
+ },
+ {
+  "benchmark_id": 23857,
+  "title": "CIS Arista MLS EOS 4.X L2S STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6540,
+  "filename": "CIS_Arista_MLS_EOS_4.X_L2S_STIG_Benchmark_v1.0.0.pdf",
+  "size": "509.62kB",
+  "url": "https://workbench.cisecurity.org/files/6540/download"
+ },
+ {
+  "benchmark_id": 23867,
+  "title": "CIS Arista MLS EOS 4.X NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6556,
+  "filename": "CIS_Arista_MLS_EOS_4.X_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "595.32kB",
+  "url": "https://workbench.cisecurity.org/files/6556/download"
+ },
+ {
+  "benchmark_id": 23859,
+  "title": "CIS Arista MLS EOS 4.X Router STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6544,
+  "filename": "CIS_Arista_MLS_EOS_4.X_Router_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.10MB",
+  "url": "https://workbench.cisecurity.org/files/6544/download"
+ },
+ {
+  "benchmark_id": 21961,
+  "title": "CIS AWS Compute Services Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7566,
+  "filename": "CIS AWS Compute Services Benchmark v2.0.0 - PDF.pdf",
+  "size": "2.43MB",
+  "url": "https://workbench.cisecurity.org/files/7566/download"
+ },
+ {
+  "benchmark_id": 15596,
+  "title": "CIS AWS Database Services Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7126,
+  "filename": "CIS AWS Database Services Benchmark v2.0.0 - PDF.pdf",
+  "size": "2.14MB",
+  "url": "https://workbench.cisecurity.org/files/7126/download"
+ },
+ {
+  "benchmark_id": 15047,
+  "title": "CIS AWS End User Compute Services Benchmark",
+  "version": "v1.2.0",
+  "file_id": 6109,
+  "filename": "CIS_AWS_End_User_Compute_Services_Benchmark_v1.2.0.pdf",
+  "size": "1.55MB",
+  "url": "https://workbench.cisecurity.org/files/6109/download"
+ },
+ {
+  "benchmark_id": 12973,
+  "title": "CIS AWS Storage Services Benchmark",
+  "version": "v1.0.0",
+  "file_id": 5457,
+  "filename": "CIS_AWS_Storage_Services_Benchmark_v1.0.0.pdf",
+  "size": "1.21MB",
+  "url": "https://workbench.cisecurity.org/files/5457/download"
+ },
+ {
+  "benchmark_id": 28129,
+  "title": "CIS Azure Container Linux Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7870,
+  "filename": "CIS_Azure_Container_Linux_Benchmark_v1.0.0.pdf",
+  "size": "4.05MB",
+  "url": "https://workbench.cisecurity.org/files/7870/download"
+ },
+ {
+  "benchmark_id": 27153,
+  "title": "CIS Azure Kubernetes Service (AKS) Benchmark",
+  "version": "v2.1.0",
+  "file_id": 7836,
+  "filename": "CIS_Azure_Kubernetes_Service_(AKS)_Benchmark_v2.1.0 PDF.pdf",
+  "size": "2.07MB",
+  "url": "https://workbench.cisecurity.org/files/7836/download"
+ },
+ {
+  "benchmark_id": 27785,
+  "title": "CIS Azure Kubernetes Service Automatic (AKS Automatic) Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7840,
+  "filename": "CIS_Azure_Kubernetes_Service_Automatic_(AKS_Automatic)_Benchmark_v1.0.0 PDF.pdf",
+  "size": "1.66MB",
+  "url": "https://workbench.cisecurity.org/files/7840/download"
+ },
+ {
+  "benchmark_id": 28619,
+  "title": "CIS Azure Linux 4 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 8119,
+  "filename": "CIS_Azure_Linux_4_Benchmark_v1.0.0.pdf",
+  "size": "10.99MB",
+  "url": "https://workbench.cisecurity.org/files/8119/download"
+ },
+ {
+  "benchmark_id": 23976,
+  "title": "CIS BIND 9.x STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6801,
+  "filename": "CIS_BIND_9.x_STIG_Benchmark_v1.0.0.pdf",
+  "size": "953.03kB",
+  "url": "https://workbench.cisecurity.org/files/6801/download"
+ },
+ {
+  "benchmark_id": 6709,
+  "title": "CIS Bottlerocket Benchmark",
+  "version": "v1.0.0",
+  "file_id": 4043,
+  "filename": "CIS BottleRocket Benchmark V1.0.0 PDF.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4043/download"
+ },
+ {
+  "benchmark_id": 28672,
+  "title": "CIS Check Point Firewall Benchmark",
+  "version": "v1.1.1",
+  "file_id": 8108,
+  "filename": "CIS_Check_Point_Firewall_Benchmark_v1.1.1.pdf",
+  "size": "914.37kB",
+  "url": "https://workbench.cisecurity.org/files/8108/download"
+ },
+ {
+  "benchmark_id": 23753,
+  "title": "CIS Cisco ACI Layer 2 Switch STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6366,
+  "filename": "CIS_Cisco_ACI_Layer_2_Switch_STIG_Benchmark_v1.0.0.pdf",
+  "size": "481.27kB",
+  "url": "https://workbench.cisecurity.org/files/6366/download"
+ },
+ {
+  "benchmark_id": 23756,
+  "title": "CIS Cisco ACI NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6374,
+  "filename": "CIS_Cisco_ACI_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "622.28kB",
+  "url": "https://workbench.cisecurity.org/files/6374/download"
+ },
+ {
+  "benchmark_id": 23776,
+  "title": "CIS Cisco ACI Router STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6383,
+  "filename": "CIS_Cisco_ACI_Router_STIG_Benchmark_v1.0.0.pdf",
+  "size": "774.81kB",
+  "url": "https://workbench.cisecurity.org/files/6383/download"
+ },
+ {
+  "benchmark_id": 7194,
+  "title": "CIS Cisco ASA 9.x Firewall Benchmark",
+  "version": "v1.1.0",
+  "file_id": 5290,
+  "filename": "CIS_Cisco_ASA_9.x_Firewall_Benchmark_v1.1.0.pdf",
+  "size": "1.45MB",
+  "url": "https://workbench.cisecurity.org/files/5290/download"
+ },
+ {
+  "benchmark_id": 817,
+  "title": "CIS Cisco Firepower Threat Defense Benchmark",
+  "version": "v1.0.0",
+  "file_id": 5008,
+  "filename": "CIS_Cisco_Firepower_Threat_Defense_Benchmark_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/5008/download"
+ },
+ {
+  "benchmark_id": 9270,
+  "title": "CIS Cisco IOS 16 Benchmark",
+  "version": "v2.0.0",
+  "file_id": 4398,
+  "filename": "CIS_Cisco_IOS_16_Benchmark_v2.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4398/download"
+ },
+ {
+  "benchmark_id": 12741,
+  "title": "CIS Cisco IOS 17.x Benchmark",
+  "version": "v2.0.0",
+  "file_id": 4402,
+  "filename": "CIS_Cisco_IOS_17.x_Benchmark_v2.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4402/download"
+ },
+ {
+  "benchmark_id": 26598,
+  "title": "CIS Cisco IOS Router NDM STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7450,
+  "filename": "CIS_Cisco_IOS_Router_NDM_STIG_Benchmark_v1.1.0.pdf",
+  "size": "711.69kB",
+  "url": "https://workbench.cisecurity.org/files/7450/download"
+ },
+ {
+  "benchmark_id": 26599,
+  "title": "CIS Cisco IOS Router RTR STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7390,
+  "filename": "CIS_Cisco_IOS_Router_RTR_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.22MB",
+  "url": "https://workbench.cisecurity.org/files/7390/download"
+ },
+ {
+  "benchmark_id": 23798,
+  "title": "CIS Cisco IOS Switch L2S STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6422,
+  "filename": "CIS_Cisco_IOS_Switch_L2S_STIG_Benchmark_v1.0.0.pdf",
+  "size": "454.18kB",
+  "url": "https://workbench.cisecurity.org/files/6422/download"
+ },
+ {
+  "benchmark_id": 26600,
+  "title": "CIS Cisco IOS Switch NDM STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7394,
+  "filename": "CIS_Cisco_IOS_Switch_NDM_STIG_Benchmark_v1.1.0.pdf",
+  "size": "724.06kB",
+  "url": "https://workbench.cisecurity.org/files/7394/download"
+ },
+ {
+  "benchmark_id": 26601,
+  "title": "CIS Cisco IOS Switch RTR STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7443,
+  "filename": "CIS_Cisco_IOS_Switch_RTR_STIG_Benchmark_v1.1.0.pdf",
+  "size": "844.51kB",
+  "url": "https://workbench.cisecurity.org/files/7443/download"
+ },
+ {
+  "benchmark_id": 17304,
+  "title": "CIS Cisco IOS XE 16.x Benchmark",
+  "version": "v2.2.0",
+  "file_id": 6077,
+  "filename": "CIS_Cisco_IOS_XE_16.x_Benchmark_v2.2.0.pdf",
+  "size": "2.33MB",
+  "url": "https://workbench.cisecurity.org/files/6077/download"
+ },
+ {
+  "benchmark_id": 28631,
+  "title": "CIS Cisco IOS XE 17.x Benchmark",
+  "version": "v2.2.2",
+  "file_id": 8097,
+  "filename": "CIS_Cisco_IOS_XE_17.x_Benchmark_v2.2.2.pdf",
+  "size": "1.10MB",
+  "url": "https://workbench.cisecurity.org/files/8097/download"
+ },
+ {
+  "benchmark_id": 23366,
+  "title": "CIS Cisco IOS XE Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7848,
+  "filename": "CIS_Cisco_IOS_XE_Benchmark_v1.0.0.pdf",
+  "size": "1.14MB",
+  "url": "https://workbench.cisecurity.org/files/7848/download"
+ },
+ {
+  "benchmark_id": 26182,
+  "title": "CIS Cisco IOS XE Router NDM STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7284,
+  "filename": "CIS_Cisco_IOS_XR_Router_NDM_STIG_Benchmark_v1.1.0.pdf",
+  "size": "538.52kB",
+  "url": "https://workbench.cisecurity.org/files/7284/download"
+ },
+ {
+  "benchmark_id": 26261,
+  "title": "CIS Cisco IOS XE Router RTR STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7377,
+  "filename": "CIS_Cisco_IOS_XE_Router_RTR_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.26MB",
+  "url": "https://workbench.cisecurity.org/files/7377/download"
+ },
+ {
+  "benchmark_id": 23612,
+  "title": "CIS Cisco IOS XE Switch L2S STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6228,
+  "filename": "CIS_Cisco_IOS_XE_Switch_L2S_STIG_Benchmark_v1.0.0.pdf",
+  "size": "532.22kB",
+  "url": "https://workbench.cisecurity.org/files/6228/download"
+ },
+ {
+  "benchmark_id": 26179,
+  "title": "CIS Cisco IOS XE Switch NDM STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7287,
+  "filename": "CIS_Cisco_IOS_XE_Switch_NDM_STIG_Benchmark_v1.1.0.pdf",
+  "size": "709.00kB",
+  "url": "https://workbench.cisecurity.org/files/7287/download"
+ },
+ {
+  "benchmark_id": 26260,
+  "title": "CIS Cisco IOS XE Switch RTR STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7373,
+  "filename": "CIS_Cisco_IOS_XE_Switch_RTR_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.09MB",
+  "url": "https://workbench.cisecurity.org/files/7373/download"
+ },
+ {
+  "benchmark_id": 10473,
+  "title": "CIS Cisco IOS XR 7.x",
+  "version": "v1.0.0",
+  "file_id": 4856,
+  "filename": "CIS_Cisco_IOS_XR_7.x_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4856/download"
+ },
+ {
+  "benchmark_id": 22160,
+  "title": "CIS Cisco IOS XR 7.x Benchmark",
+  "version": "v1.0.1",
+  "file_id": 5946,
+  "filename": "CIS_Cisco_IOS_XR_7.x_v1.0.1.pdf",
+  "size": "1.07MB",
+  "url": "https://workbench.cisecurity.org/files/5946/download"
+ },
+ {
+  "benchmark_id": 23560,
+  "title": "CIS Cisco IOS XR Router NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6733,
+  "filename": "CIS_Cisco_IOS_XR_Router_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "493.89kB",
+  "url": "https://workbench.cisecurity.org/files/6733/download"
+ },
+ {
+  "benchmark_id": 23599,
+  "title": "CIS Cisco IOS XR Router RTR STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6741,
+  "filename": "CIS_Cisco_IOS_XR_Router_RTR_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.17MB",
+  "url": "https://workbench.cisecurity.org/files/6741/download"
+ },
+ {
+  "benchmark_id": 23772,
+  "title": "CIS Cisco NX OS Switch L2S STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6399,
+  "filename": "CIS_Cisco_NX_OS_Switch_L2S_STIG_Benchmark_v1.0.0.pdf",
+  "size": "526.54kB",
+  "url": "https://workbench.cisecurity.org/files/6399/download"
+ },
+ {
+  "benchmark_id": 26427,
+  "title": "CIS Cisco NX OS Switch NDM STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7597,
+  "filename": "CIS_Cisco_NX_OS_Switch_NDM_STIG_Benchmark_v1.1.0.pdf",
+  "size": "707.20kB",
+  "url": "https://workbench.cisecurity.org/files/7597/download"
+ },
+ {
+  "benchmark_id": 26426,
+  "title": "CIS Cisco NX OS Switch RTR STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7561,
+  "filename": "CIS_Cisco_NX_OS_Switch_RTR_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.07MB",
+  "url": "https://workbench.cisecurity.org/files/7561/download"
+ },
+ {
+  "benchmark_id": 28649,
+  "title": "CIS Cisco NX-OS Benchmark",
+  "version": "v1.2.1",
+  "file_id": 8106,
+  "filename": "CIS_Cisco_NX-OS_Benchmark_v1.2.1.pdf",
+  "size": "1.16MB",
+  "url": "https://workbench.cisecurity.org/files/8106/download"
+ },
+ {
+  "benchmark_id": 27039,
+  "title": "CIS Cloud Linux AlmaLinux OS 9 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7569,
+  "filename": "CIS_Cloud_Linux_AlmaLinux_OS_9_STIG_Benchmark_v1.0.0.pdf",
+  "size": "5.58MB",
+  "url": "https://workbench.cisecurity.org/files/7569/download"
+ },
+ {
+  "benchmark_id": 27144,
+  "title": "CIS CockroachDB v25.x Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7904,
+  "filename": "CIS_CockroachDB_v25.x_Benchmark_v1.0.1.pdf",
+  "size": "1.53MB",
+  "url": "https://workbench.cisecurity.org/files/7904/download"
+ },
+ {
+  "benchmark_id": 17045,
+  "title": "CIS Debian Linux 11 Benchmark",
+  "version": "v2.0.0",
+  "file_id": 5255,
+  "filename": "CIS_Debian_Linux_11_Benchmark_v2.0.0.pdf",
+  "size": "10.22MB",
+  "url": "https://workbench.cisecurity.org/files/5255/download"
+ },
+ {
+  "benchmark_id": 14821,
+  "title": "CIS Debian Linux 11 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 4714,
+  "filename": "CIS_Debian_Linux_11_STIG_Benchmark_v1.0.0_FINAL_UPDATE.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4714/download"
+ },
+ {
+  "benchmark_id": 26893,
+  "title": "CIS Debian Linux 12 Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7496,
+  "filename": "CIS_Debian_Linux_12_Benchmark_v2.0.0.pdf",
+  "size": "6.91MB",
+  "url": "https://workbench.cisecurity.org/files/7496/download"
+ },
+ {
+  "benchmark_id": 27797,
+  "title": "CIS Debian Linux 13 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7731,
+  "filename": "CIS_Debian_Linux_13_Benchmark_v1.1.0.pdf",
+  "size": "7.25MB",
+  "url": "https://workbench.cisecurity.org/files/7731/download"
+ },
+ {
+  "benchmark_id": 28359,
+  "title": "CIS DigitalOcean Foundations Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7881,
+  "filename": "CIS_DigitalOcean_Foundations_Benchmark_v1.0.1.pdf",
+  "size": "600.34kB",
+  "url": "https://workbench.cisecurity.org/files/7881/download"
+ },
+ {
+  "benchmark_id": 28360,
+  "title": "CIS DigitalOcean Services Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7921,
+  "filename": "CIS_DigitalOcean_Services_Benchmark_v1.0.1.pdf",
+  "size": "1.05MB",
+  "url": "https://workbench.cisecurity.org/files/7921/download"
+ },
+ {
+  "benchmark_id": 23389,
+  "title": "CIS Docker Benchmark",
+  "version": "v1.9.0",
+  "file_id": 7826,
+  "filename": "CIS_Docker_Benchmark_v1.9.0 PDF.pdf",
+  "size": "2.56MB",
+  "url": "https://workbench.cisecurity.org/files/7826/download"
+ },
+ {
+  "benchmark_id": 24065,
+  "title": "CIS Dragos Platform 2.x STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6835,
+  "filename": "CIS_Dragos_Platform_2.x_STIG_Benchmark_v1.0.0.pdf",
+  "size": "606.25kB",
+  "url": "https://workbench.cisecurity.org/files/6835/download"
+ },
+ {
+  "benchmark_id": 27875,
+  "title": "CIS Everpure FlashArray Purity 6.9.x Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7908,
+  "filename": "CIS_Everpure_FlashArray_Purity_6.9.x_Benchmark_v1.0.1.pdf",
+  "size": "1.21MB",
+  "url": "https://workbench.cisecurity.org/files/7908/download"
+ },
+ {
+  "benchmark_id": 27838,
+  "title": "CIS Everpure FlashBlade Purity 4.5.x Benchmark",
+  "version": "v1.0.0",
+  "file_id": 8039,
+  "filename": "CIS_Everpure_FlashBlade_Purity_4.5.x_Benchmark_v1.0.0.pdf",
+  "size": "1.08MB",
+  "url": "https://workbench.cisecurity.org/files/8039/download"
+ },
+ {
+  "benchmark_id": 22916,
+  "title": "CIS ExtremeNetworks-SLX-OS-20.X.X Benchmark",
+  "version": "v1.0.1",
+  "file_id": 6152,
+  "filename": "CIS_ExtremeNetworks_SLX-OS-20.X.X_Benchmark_v1.0.1.pdf",
+  "size": "713.64kB",
+  "url": "https://workbench.cisecurity.org/files/6152/download"
+ },
+ {
+  "benchmark_id": 23762,
+  "title": "CIS Forescout Network Access Control STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6488,
+  "filename": "CIS_Forescout_Network_Access_Control_STIG_Benchmark_v1.0.0.pdf",
+  "size": "552.62kB",
+  "url": "https://workbench.cisecurity.org/files/6488/download"
+ },
+ {
+  "benchmark_id": 23763,
+  "title": "CIS Forescout Network Device Management STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6490,
+  "filename": "CIS_Forescout_Network_Device_Management_STIG_Benchmark_v1.0.0.pdf",
+  "size": "674.56kB",
+  "url": "https://workbench.cisecurity.org/files/6490/download"
+ },
+ {
+  "benchmark_id": 24314,
+  "title": "CIS Fortigate 7.0.x Benchmark",
+  "version": "v1.4.0",
+  "file_id": 7129,
+  "filename": "CIS_Fortigate_7.0.x_Benchmark_v1.4.0.pdf",
+  "size": "1.33MB",
+  "url": "https://workbench.cisecurity.org/files/7129/download"
+ },
+ {
+  "benchmark_id": 24708,
+  "title": "CIS FortiGate 7.4.x Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7161,
+  "filename": "CIS_FortiGate_7.4.x_Benchmark_v1.0.1.pdf",
+  "size": "1.35MB",
+  "url": "https://workbench.cisecurity.org/files/7161/download"
+ },
+ {
+  "benchmark_id": 10730,
+  "title": "CIS Fortigate Benchmark",
+  "version": "v1.1.0",
+  "file_id": 4414,
+  "filename": "CIS_Fortigate_Benchmark_v1.1.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4414/download"
+ },
+ {
+  "benchmark_id": 22578,
+  "title": "CIS FortiSwitch Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7844,
+  "filename": "CIS_FortiSwitch_Benchmark_v1.0.0.pdf",
+  "size": "875.34kB",
+  "url": "https://workbench.cisecurity.org/files/7844/download"
+ },
+ {
+  "benchmark_id": 19044,
+  "title": "CIS FreeBSD 14 Benchmark",
+  "version": "v1.0.1",
+  "file_id": 5665,
+  "filename": "CIS_FreeBSD_14_Benchmark_v1.0.1.pdf",
+  "size": "4.50MB",
+  "url": "https://workbench.cisecurity.org/files/5665/download"
+ },
+ {
+  "benchmark_id": 23918,
+  "title": "CIS GitHub Benchmark",
+  "version": "v1.2.0",
+  "file_id": 7231,
+  "filename": "CIS_GitHub_Benchmark_v1.2.0_PDF.pdf",
+  "size": "2.28MB",
+  "url": "https://workbench.cisecurity.org/files/7231/download"
+ },
+ {
+  "benchmark_id": 17538,
+  "title": "CIS GitLab Benchmark",
+  "version": "v1.0.1",
+  "file_id": 5310,
+  "filename": "CIS_GitLab_Benchmark_v1.0.1.pdf",
+  "size": "1.96MB",
+  "url": "https://workbench.cisecurity.org/files/5310/download"
+ },
+ {
+  "benchmark_id": 23652,
+  "title": "CIS Google Android 13 COBO STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6293,
+  "filename": "CIS_Google_Android_13_COBO_STIG_Benchmark_v1.0.0.pdf",
+  "size": "613.04kB",
+  "url": "https://workbench.cisecurity.org/files/6293/download"
+ },
+ {
+  "benchmark_id": 23682,
+  "title": "CIS Google Android 13 COPE STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6297,
+  "filename": "CIS_Google_Android_13_COPE_STIG_Benchmark_v1.0.0.pdf",
+  "size": "650.95kB",
+  "url": "https://workbench.cisecurity.org/files/6297/download"
+ },
+ {
+  "benchmark_id": 23825,
+  "title": "CIS Google Android 14 COBO STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6446,
+  "filename": "CIS_Google_Android_14_COBO_STIG_Benchmark_v1.0.0.pdf",
+  "size": "591.74kB",
+  "url": "https://workbench.cisecurity.org/files/6446/download"
+ },
+ {
+  "benchmark_id": 23826,
+  "title": "CIS Google Android 14 COPE STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6451,
+  "filename": "CIS_Google_Android_14_COPE_STIG_Benchmark_v1.0.0.pdf",
+  "size": "639.64kB",
+  "url": "https://workbench.cisecurity.org/files/6451/download"
+ },
+ {
+  "benchmark_id": 23615,
+  "title": "CIS Google Android 15 COBO STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6572,
+  "filename": "CIS_Google_Android_15_COBO_STIG_Benchmark_v1.0.0.pdf",
+  "size": "651.25kB",
+  "url": "https://workbench.cisecurity.org/files/6572/download"
+ },
+ {
+  "benchmark_id": 23616,
+  "title": "CIS Google Android 15 COPE STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6647,
+  "filename": "CIS_Google_Android_15_COPE_STIG_Benchmark_v1.0.0.pdf",
+  "size": "676.43kB",
+  "url": "https://workbench.cisecurity.org/files/6647/download"
+ },
+ {
+  "benchmark_id": 23192,
+  "title": "CIS Google Android Benchmark",
+  "version": "v1.6.0",
+  "file_id": 6940,
+  "filename": "CIS_Google_Android_Benchmark_v1.6.0.pdf",
+  "size": "925.14kB",
+  "url": "https://workbench.cisecurity.org/files/6940/download"
+ },
+ {
+  "benchmark_id": 27849,
+  "title": "CIS Google Chrome Enterprise Core Browser Benchmark",
+  "version": "v1.1.1",
+  "file_id": 8072,
+  "filename": "CIS_Google_Chrome_Enterprise_Core_Browser_Benchmark_v1.1.1.pdf",
+  "size": "1.42MB",
+  "url": "https://workbench.cisecurity.org/files/8072/download"
+ },
+ {
+  "benchmark_id": 28667,
+  "title": "CIS Google Chrome Group Policy Benchmark",
+  "version": "v1.1.1",
+  "file_id": 8067,
+  "filename": "CIS_Google_Chrome_Group_Policy_Benchmark_v1.1.1.pdf",
+  "size": "1.63MB",
+  "url": "https://workbench.cisecurity.org/files/8067/download"
+ },
+ {
+  "benchmark_id": 27843,
+  "title": "CIS Google ChromeOS Benchmark",
+  "version": "v1.2.1",
+  "file_id": 8080,
+  "filename": "CIS_Google_ChromeOS_Benchmark_v1.2.1.pdf",
+  "size": "2.17MB",
+  "url": "https://workbench.cisecurity.org/files/8080/download"
+ },
+ {
+  "benchmark_id": 28581,
+  "title": "CIS Google Cloud Platform Foundation Benchmark",
+  "version": "v5.0.1",
+  "file_id": 7960,
+  "filename": "CIS_Google_Cloud_Platform_Foundation_Benchmark_v5.0.1.pdf",
+  "size": "2.86MB",
+  "url": "https://workbench.cisecurity.org/files/7960/download"
+ },
+ {
+  "benchmark_id": 12218,
+  "title": "CIS Google Container-Optimized OS Benchmark",
+  "version": "v1.2.0",
+  "file_id": 5386,
+  "filename": "CIS_Google_Container-Optimized_OS_Benchmark_v1.2.0.pdf",
+  "size": "1.80MB",
+  "url": "https://workbench.cisecurity.org/files/5386/download"
+ },
+ {
+  "benchmark_id": 24958,
+  "title": "CIS Google Kubernetes Engine (GKE) Autopilot Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7587,
+  "filename": "CIS_Google_Kubernetes_Engine_(GKE)_Autopilot_Benchmark_v2.0.0_PDF.pdf",
+  "size": "1.58MB",
+  "url": "https://workbench.cisecurity.org/files/7587/download"
+ },
+ {
+  "benchmark_id": 24956,
+  "title": "CIS Google Kubernetes Engine (GKE) Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7583,
+  "filename": "CIS_Google_Kubernetes_Engine_(GKE)_Benchmark_v2.0.0_PDF.pdf",
+  "size": "2.14MB",
+  "url": "https://workbench.cisecurity.org/files/7583/download"
+ },
+ {
+  "benchmark_id": 27846,
+  "title": "CIS Google Workspace Foundations Benchmark",
+  "version": "v1.4.1",
+  "file_id": 8076,
+  "filename": "CIS_Google_Workspace_Foundations_Benchmark_v1.4.1.pdf",
+  "size": "1.44MB",
+  "url": "https://workbench.cisecurity.org/files/8076/download"
+ },
+ {
+  "benchmark_id": 23854,
+  "title": "CIS Honeywell Android 13 COBO STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6512,
+  "filename": "CIS_Honeywell_Android_13_COBO_STIG_Benchmark_v1.0.0.pdf",
+  "size": "614.56kB",
+  "url": "https://workbench.cisecurity.org/files/6512/download"
+ },
+ {
+  "benchmark_id": 23855,
+  "title": "CIS Honeywell Android 13 COPE STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6536,
+  "filename": "CIS_Honeywell_Android_13_COPE_STIG_Benchmark_v1.0.0.pdf",
+  "size": "609.08kB",
+  "url": "https://workbench.cisecurity.org/files/6536/download"
+ },
+ {
+  "benchmark_id": 24202,
+  "title": "CIS HPE Aruba Networking CX Switch Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7166,
+  "filename": "CIS_HPE_Aruba_Networking_CX_Switch_Benchmark_v1.0.1.pdf",
+  "size": "1.90MB",
+  "url": "https://workbench.cisecurity.org/files/7166/download"
+ },
+ {
+  "benchmark_id": 22751,
+  "title": "CIS IBM AIX 7 Benchmark",
+  "version": "v1.2.0",
+  "file_id": 7345,
+  "filename": "CIS_IBM_AIX_7_Benchmark_v1.2.0.pdf",
+  "size": "4.88MB",
+  "url": "https://workbench.cisecurity.org/files/7345/download"
+ },
+ {
+  "benchmark_id": 10225,
+  "title": "CIS IBM CICS Transaction Server 6.1 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7113,
+  "filename": "CIS_IBM_CICS_Transaction_Server_6.1_Benchmark_v1.1.0.pdf",
+  "size": "796.39kB",
+  "url": "https://workbench.cisecurity.org/files/7113/download"
+ },
+ {
+  "benchmark_id": 11688,
+  "title": "CIS IBM Cloud Foundations Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7070,
+  "filename": "CIS_IBM_Cloud_Foundations_Benchmark_v2.0.0.pdf",
+  "size": "2.09MB",
+  "url": "https://workbench.cisecurity.org/files/7070/download"
+ },
+ {
+  "benchmark_id": 15333,
+  "title": "CIS IBM Db2 11 Benchmark",
+  "version": "v1.2.0",
+  "file_id": 6930,
+  "filename": "CIS_IBM_Db2_11_Benchmark_v1.2.0.pdf",
+  "size": "2.98MB",
+  "url": "https://workbench.cisecurity.org/files/6930/download"
+ },
+ {
+  "benchmark_id": 23492,
+  "title": "CIS IBM Db2 12.1 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7328,
+  "filename": "CIS_IBM_Db2_12.1_Benchmark_v1.0.0.pdf",
+  "size": "2.89MB",
+  "url": "https://workbench.cisecurity.org/files/7328/download"
+ },
+ {
+  "benchmark_id": 9679,
+  "title": "CIS IBM Db2 13 for z/OS Benchmark",
+  "version": "v1.0.0",
+  "file_id": 3963,
+  "filename": "CIS_IBM_Db2_13_for_z_OS_Benchmark_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/3963/download"
+ },
+ {
+  "benchmark_id": 20553,
+  "title": "CIS IBM i V7R4M0 Benchmark",
+  "version": "v2.1.0",
+  "file_id": 6270,
+  "filename": "CIS_IBM_i_V7R4M0_Benchmark_v2.1.0.pdf",
+  "size": "1.82MB",
+  "url": "https://workbench.cisecurity.org/files/6270/download"
+ },
+ {
+  "benchmark_id": 20552,
+  "title": "CIS IBM i V7R5M0 Benchmark",
+  "version": "v2.1.0",
+  "file_id": 6269,
+  "filename": "CIS_IBM_i_V7R5M0_Benchmark_v2.1.0.pdf",
+  "size": "1.82MB",
+  "url": "https://workbench.cisecurity.org/files/6269/download"
+ },
+ {
+  "benchmark_id": 7724,
+  "title": "CIS IBM WebSphere Liberty Benchmark",
+  "version": "v1.0.0",
+  "file_id": 3884,
+  "filename": "CIS_IBM_WebSphere_Liberty_Benchmark_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/3884/download"
+ },
+ {
+  "benchmark_id": 23823,
+  "title": "CIS IBM WebSphere Liberty Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6442,
+  "filename": "CIS_IBM_WebSphere_Liberty_Server_STIG_Benchmark_v1.0.0.pdf",
+  "size": "628.58kB",
+  "url": "https://workbench.cisecurity.org/files/6442/download"
+ },
+ {
+  "benchmark_id": 23934,
+  "title": "CIS IBM z/OS ACF2 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6664,
+  "filename": "CIS_IBM_z:OS_ACF2_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.26MB",
+  "url": "https://workbench.cisecurity.org/files/6664/download"
+ },
+ {
+  "benchmark_id": 23935,
+  "title": "CIS IBM z/OS RACF STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6688,
+  "filename": "CIS_IBM_z:OS_RACF_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.24MB",
+  "url": "https://workbench.cisecurity.org/files/6688/download"
+ },
+ {
+  "benchmark_id": 23951,
+  "title": "CIS IBM z/OS TSS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6693,
+  "filename": "CIS_IBM_z:OS_TSS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.28MB",
+  "url": "https://workbench.cisecurity.org/files/6693/download"
+ },
+ {
+  "benchmark_id": 9643,
+  "title": "CIS IBM z/OS V2R5 with RACF Benchmark",
+  "version": "v1.0.0",
+  "file_id": 3914,
+  "filename": "CIS_IBM_z_OS_V2R5_with_RACF_Benchmark_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/3914/download"
+ },
+ {
+  "benchmark_id": 10083,
+  "title": "CIS IBM z/OS VR5 2with RACF Benchmark",
+  "version": "v1.1.0",
+  "file_id": 4852,
+  "filename": "CIS_IBM_z_OS_V2R5_with_RACF_Benchmark_v1.1.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4852/download"
+ },
+ {
+  "benchmark_id": 13641,
+  "title": "CIS IBM z/OS with RACF Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6961,
+  "filename": "CIS_IBM_z_OS_with_RACF_Benchmark_v1.0.0.pdf",
+  "size": "7.00MB",
+  "url": "https://workbench.cisecurity.org/files/6961/download"
+ },
+ {
+  "benchmark_id": 23524,
+  "title": "CIS IBM zSecure Suite STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6207,
+  "filename": "CIS_IBM_zSecure_Suite_STIG_Benchmark_v1.0.0.pdf",
+  "size": "416.75kB",
+  "url": "https://workbench.cisecurity.org/files/6207/download"
+ },
+ {
+  "benchmark_id": 23703,
+  "title": "CIS Infoblox 8.x DNS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6680,
+  "filename": "CIS_Infoblox_8.x_DNS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "970.55kB",
+  "url": "https://workbench.cisecurity.org/files/6680/download"
+ },
+ {
+  "benchmark_id": 23771,
+  "title": "CIS JBoss Enterprise Application Platform 6.3 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6726,
+  "filename": "CIS_JBoss_Enterprise_Application_Platform_6.3_STIG_Benchmark_v1.0.0.pdf",
+  "size": "902.89kB",
+  "url": "https://workbench.cisecurity.org/files/6726/download"
+ },
+ {
+  "benchmark_id": 23723,
+  "title": "CIS Juniper EX Series Switches Layer 2 Switch STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6359,
+  "filename": "CIS_Juniper_EX_Series_Switches_Layer_2_Switch_STIG_Benchmark_v1.0.0.pdf",
+  "size": "629.42kB",
+  "url": "https://workbench.cisecurity.org/files/6359/download"
+ },
+ {
+  "benchmark_id": 23721,
+  "title": "CIS Juniper EX Series Switches Network Device Management STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6351,
+  "filename": "CIS_Juniper_EX_Series_Switches_Network_Device_Management_STIG_Benchmark_v1.0.0.pdf",
+  "size": "0.96MB",
+  "url": "https://workbench.cisecurity.org/files/6351/download"
+ },
+ {
+  "benchmark_id": 23722,
+  "title": "CIS Juniper EX Series Switches Router STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6656,
+  "filename": "CIS_Juniper_EX_Series_Switches_Router_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.75MB",
+  "url": "https://workbench.cisecurity.org/files/6656/download"
+ },
+ {
+  "benchmark_id": 1444,
+  "title": "CIS Juniper OS Benchmark",
+  "version": "v2.1.0",
+  "file_id": 3069,
+  "filename": "CIS_Juniper_OS_Benchmark_v2.1.0 PDF.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/3069/download"
+ },
+ {
+  "benchmark_id": 23802,
+  "title": "CIS Juniper Router NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6450,
+  "filename": "CIS_Juniper_Router_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "700.13kB",
+  "url": "https://workbench.cisecurity.org/files/6450/download"
+ },
+ {
+  "benchmark_id": 23830,
+  "title": "CIS Juniper Router RTR STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6520,
+  "filename": "CIS_Juniper_Router_RTR_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.34MB",
+  "url": "https://workbench.cisecurity.org/files/6520/download"
+ },
+ {
+  "benchmark_id": 23849,
+  "title": "CIS Juniper SRX Services Gateway ALG STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6484,
+  "filename": "CIS_Juniper_SRX_Services_Gateway_ALG_STIG_Benchmark_v1.0.0.pdf",
+  "size": "489.29kB",
+  "url": "https://workbench.cisecurity.org/files/6484/download"
+ },
+ {
+  "benchmark_id": 23852,
+  "title": "CIS Juniper SRX Services Gateway VPN STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6508,
+  "filename": "CIS_Juniper_SRX_Services_Gateway_VPN_STIG_Benchmark_v1.0.0.pdf",
+  "size": "507.39kB",
+  "url": "https://workbench.cisecurity.org/files/6508/download"
+ },
+ {
+  "benchmark_id": 23850,
+  "title": "CIS Juniper SRX SG IDPS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6492,
+  "filename": "CIS_Juniper_SRX_SG_IDPS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "502.95kB",
+  "url": "https://workbench.cisecurity.org/files/6492/download"
+ },
+ {
+  "benchmark_id": 23851,
+  "title": "CIS Juniper SRX SG NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6500,
+  "filename": "CIS_Juniper_SRX_SG_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "799.78kB",
+  "url": "https://workbench.cisecurity.org/files/6500/download"
+ },
+ {
+  "benchmark_id": 26886,
+  "title": "CIS Kubernetes Benchmark",
+  "version": "v2.1.0",
+  "file_id": 7832,
+  "filename": "CIS_Kubernetes_Benchmark_v2.1.0 PDF.pdf",
+  "size": "2.84MB",
+  "url": "https://workbench.cisecurity.org/files/7832/download"
+ },
+ {
+  "benchmark_id": 26525,
+  "title": "CIS Kubernetes STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7500,
+  "filename": "CIS Kubernetes STIG Benchmark v1.1.0 PDF.pdf",
+  "size": "1.43MB",
+  "url": "https://workbench.cisecurity.org/files/7500/download"
+ },
+ {
+  "benchmark_id": 20741,
+  "title": "CIS Linux Mint 22 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6619,
+  "filename": "CIS_Linux_Mint_22_Benchmark_v1.0.0.pdf",
+  "size": "8.01MB",
+  "url": "https://workbench.cisecurity.org/files/6619/download"
+ },
+ {
+  "benchmark_id": 28492,
+  "title": "CIS MariaDB 10.11 Benchmark",
+  "version": "v1.0.1",
+  "file_id": 8050,
+  "filename": "CIS_MariaDB_10.11_Benchmark_v1.0.1.pdf",
+  "size": "1.58MB",
+  "url": "https://workbench.cisecurity.org/files/8050/download"
+ },
+ {
+  "benchmark_id": 28493,
+  "title": "CIS MariaDB 10.6 Benchmark",
+  "version": "v1.1.1",
+  "file_id": 8054,
+  "filename": "CIS_MariaDB_10.6_Benchmark_v1.1.1.pdf",
+  "size": "1.57MB",
+  "url": "https://workbench.cisecurity.org/files/8054/download"
+ },
+ {
+  "benchmark_id": 26720,
+  "title": "CIS MariaDB Enterprise 10.x STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7543,
+  "filename": "CIS_MariaDB_Enterprise_10.x_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.36MB",
+  "url": "https://workbench.cisecurity.org/files/7543/download"
+ },
+ {
+  "benchmark_id": 26248,
+  "title": "CIS MCP Server Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7788,
+  "filename": "CIS_MCP_Server_Benchmark_v1.0.0.pdf",
+  "size": "1.87MB",
+  "url": "https://workbench.cisecurity.org/files/7788/download"
+ },
+ {
+  "benchmark_id": 24620,
+  "title": "CIS Microsoft 365 Foundations Benchmark",
+  "version": "v7.0.0",
+  "file_id": 7460,
+  "filename": "CIS_Microsoft_365_Foundations_Benchmark_v7.0.0.pdf",
+  "size": "3.83MB",
+  "url": "https://workbench.cisecurity.org/files/7460/download"
+ },
+ {
+  "benchmark_id": 28742,
+  "title": "CIS Microsoft Azure Compute Services Benchmark",
+  "version": "v2.0.1",
+  "file_id": 8128,
+  "filename": "CIS_Microsoft_Azure_Compute_Services_Benchmark_v2.0.1.pdf",
+  "size": "3.07MB",
+  "url": "https://workbench.cisecurity.org/files/8128/download"
+ },
+ {
+  "benchmark_id": 28743,
+  "title": "CIS Microsoft Azure Database Services Benchmark",
+  "version": "v2.0.1",
+  "file_id": 8084,
+  "filename": "CIS_Microsoft_Azure_Database_Services_Benchmark_v2.0.1.pdf",
+  "size": "1.63MB",
+  "url": "https://workbench.cisecurity.org/files/8084/download"
+ },
+ {
+  "benchmark_id": 26714,
+  "title": "CIS Microsoft Azure Foundations Benchmark",
+  "version": "v7.0.0",
+  "file_id": 7922,
+  "filename": "CIS_Microsoft_Azure_Foundations_Benchmark_v7.0.0.pdf",
+  "size": "4.45MB",
+  "url": "https://workbench.cisecurity.org/files/7922/download"
+ },
+ {
+  "benchmark_id": 20164,
+  "title": "CIS Microsoft Azure Storage Services Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7594,
+  "filename": "CIS_Microsoft_Azure_Storage_Services_Benchmark_v2.0.0.pdf",
+  "size": "2.19MB",
+  "url": "https://workbench.cisecurity.org/files/7594/download"
+ },
+ {
+  "benchmark_id": 25919,
+  "title": "CIS Microsoft Defender Antivirus Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7215,
+  "filename": "CIS_Microsoft_Defender_Antivirus_Benchmark_v1.0.0.pdf",
+  "size": "1.25MB",
+  "url": "https://workbench.cisecurity.org/files/7215/download"
+ },
+ {
+  "benchmark_id": 23699,
+  "title": "CIS Microsoft DotNet Framework 4.0 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6674,
+  "filename": "CIS_Microsoft_DotNet_Framework_4.0_STIG_Benchmark_v1.0.0.pdf",
+  "size": "458.55kB",
+  "url": "https://workbench.cisecurity.org/files/6674/download"
+ },
+ {
+  "benchmark_id": 28298,
+  "title": "CIS Microsoft Dynamics 365 Power Platform",
+  "version": "v1.0.1",
+  "file_id": 7862,
+  "filename": "CIS_Microsoft_Dynamics_365_Power_Platform_v1.0.1.pdf",
+  "size": "655.98kB",
+  "url": "https://workbench.cisecurity.org/files/7862/download"
+ },
+ {
+  "benchmark_id": 28120,
+  "title": "CIS Microsoft Edge Benchmark",
+  "version": "v5.0.0",
+  "file_id": 7778,
+  "filename": "CIS_Microsoft_Edge_Benchmark_v5.0.0.pdf",
+  "size": "3.03MB",
+  "url": "https://workbench.cisecurity.org/files/7778/download"
+ },
+ {
+  "benchmark_id": 23611,
+  "title": "CIS Microsoft Entra ID STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6224,
+  "filename": "CIS_Microsoft_Entra_ID_STIG_Benchmark_v1.0.0.pdf",
+  "size": "445.23kB",
+  "url": "https://workbench.cisecurity.org/files/6224/download"
+ },
+ {
+  "benchmark_id": 23972,
+  "title": "CIS Microsoft Exchange 2016 Edge Transport Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6713,
+  "filename": "CIS_Microsoft_Exchange_2016_Edge_Transport_Server_STIG_Benchmark_v1.0.0.pdf",
+  "size": "729.44kB",
+  "url": "https://workbench.cisecurity.org/files/6713/download"
+ },
+ {
+  "benchmark_id": 23977,
+  "title": "CIS Microsoft Exchange 2016 Mailbox Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6717,
+  "filename": "CIS_Microsoft_Exchange_2016_Mailbox_Server_STIG_Benchmark_v1.0.0.pdf",
+  "size": "709.74kB",
+  "url": "https://workbench.cisecurity.org/files/6717/download"
+ },
+ {
+  "benchmark_id": 23645,
+  "title": "CIS Microsoft Exchange 2019 Edge Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6250,
+  "filename": "CIS_Microsoft_Exchange_2019_Edge_Server_STIG_Benchmark_v1.0.0.pdf",
+  "size": "840.57kB",
+  "url": "https://workbench.cisecurity.org/files/6250/download"
+ },
+ {
+  "benchmark_id": 23653,
+  "title": "CIS Microsoft Exchange 2019 Mailbox Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6254,
+  "filename": "CIS_Microsoft_Exchange_2019_Mailbox_Server_STIG_Benchmark_v1.0.0.pdf",
+  "size": "841.53kB",
+  "url": "https://workbench.cisecurity.org/files/6254/download"
+ },
+ {
+  "benchmark_id": 28300,
+  "title": "CIS Microsoft Exchange Server 2019 Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7866,
+  "filename": "CIS_Microsoft_Exchange_Server_2019_Benchmark_v1.0.1.pdf",
+  "size": "1.13MB",
+  "url": "https://workbench.cisecurity.org/files/7866/download"
+ },
+ {
+  "benchmark_id": 13949,
+  "title": "CIS Microsoft IIS 10 Benchmark",
+  "version": "v1.2.1",
+  "file_id": 4622,
+  "filename": "CIS_Microsoft_IIS_10_Benchmark_v1.2.1.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4622/download"
+ },
+ {
+  "benchmark_id": 23684,
+  "title": "CIS Microsoft IIS 10.0 Server STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6277,
+  "filename": "CIS_Microsoft_IIS_10.0_Server_STIG_Benchmark_v1.0.0.pdf",
+  "size": "605.60kB",
+  "url": "https://workbench.cisecurity.org/files/6277/download"
+ },
+ {
+  "benchmark_id": 23698,
+  "title": "CIS Microsoft IIS 10.0 Site STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6281,
+  "filename": "CIS_Microsoft_IIS_10.0_Site_STIG_Benchmark_v1.0.0.pdf",
+  "size": "629.41kB",
+  "url": "https://workbench.cisecurity.org/files/6281/download"
+ },
+ {
+  "benchmark_id": 24642,
+  "title": "CIS Microsoft Intune for Edge Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7165,
+  "filename": "CIS_Microsoft_Intune_for_Edge_Benchmark_v1.0.0.pdf",
+  "size": "1.97MB",
+  "url": "https://workbench.cisecurity.org/files/7165/download"
+ },
+ {
+  "benchmark_id": 26845,
+  "title": "CIS Microsoft Intune for Microsoft Defender Antivirus Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7472,
+  "filename": "CIS_Microsoft_Intune_for_Microsoft_Defender_Antivirus_Benchmark_v1.0.0.pdf",
+  "size": "1.31MB",
+  "url": "https://workbench.cisecurity.org/files/7472/download"
+ },
+ {
+  "benchmark_id": 15808,
+  "title": "CIS Microsoft Intune for Office Benchmark",
+  "version": "v1.1.0",
+  "file_id": 5709,
+  "filename": "CIS_Microsoft_Intune_for_Office_Benchmark_v1.1.0.pdf",
+  "size": "2.86MB",
+  "url": "https://workbench.cisecurity.org/files/5709/download"
+ },
+ {
+  "benchmark_id": 27291,
+  "title": "CIS Microsoft Intune for Windows 10 Benchmark",
+  "version": "v5.0.0",
+  "file_id": 7523,
+  "filename": "CIS_Microsoft_Intune_for_Windows_10_Benchmark_v5.0.0.pdf",
+  "size": "6.34MB",
+  "url": "https://workbench.cisecurity.org/files/7523/download"
+ },
+ {
+  "benchmark_id": 27282,
+  "title": "CIS Microsoft Intune for Windows 11 Benchmark",
+  "version": "v5.0.0",
+  "file_id": 7550,
+  "filename": "CIS_Microsoft_Intune_for_Windows_11_Benchmark_v5.0.0.pdf",
+  "size": "7.11MB",
+  "url": "https://workbench.cisecurity.org/files/7550/download"
+ },
+ {
+  "benchmark_id": 23874,
+  "title": "CIS Microsoft Intune MDM Service Desktop & Mobile STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6568,
+  "filename": "CIS_Microsoft_Intune_MDM_Service_Desktop_&_Mobile_STIG_Benchmark_v1.0.0.pdf",
+  "size": "321.60kB",
+  "url": "https://workbench.cisecurity.org/files/6568/download"
+ },
+ {
+  "benchmark_id": 26066,
+  "title": "CIS Microsoft Office 365 ProPlus STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7405,
+  "filename": "CIS_Microsoft_Office_365_ProPlus_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.46MB",
+  "url": "https://workbench.cisecurity.org/files/7405/download"
+ },
+ {
+  "benchmark_id": 14836,
+  "title": "CIS Microsoft Office Enterprise Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7818,
+  "filename": "CIS_Microsoft_Office_Enterprise_Benchmark_v2.0.0.pdf",
+  "size": "3.83MB",
+  "url": "https://workbench.cisecurity.org/files/7818/download"
+ },
+ {
+  "benchmark_id": 23729,
+  "title": "CIS Microsoft Office System 2016 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6640,
+  "filename": "CIS_Microsoft_Office_System_2016_STIG_Benchmark_v1.0.0.pdf",
+  "size": "431.53kB",
+  "url": "https://workbench.cisecurity.org/files/6640/download"
+ },
+ {
+  "benchmark_id": 27200,
+  "title": "CIS Microsoft SQL Server 2019 Benchmark",
+  "version": "v1.6.0",
+  "file_id": 7605,
+  "filename": "CIS_Microsoft_SQL_Server_2019_Benchmark_v1.6.0_FINAL_UPDATE.pdf",
+  "size": "1.63MB",
+  "url": "https://workbench.cisecurity.org/files/7605/download"
+ },
+ {
+  "benchmark_id": 22613,
+  "title": "CIS Microsoft SQL Server 2022 Benchmark",
+  "version": "v1.3.0",
+  "file_id": 7503,
+  "filename": "CIS_Microsoft_SQL_Server_2022_Benchmark_v1.3.0.pdf",
+  "size": "1.13MB",
+  "url": "https://workbench.cisecurity.org/files/7503/download"
+ },
+ {
+  "benchmark_id": 23871,
+  "title": "CIS Microsoft SQL Server 2022 Database STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6627,
+  "filename": "CIS_Microsoft_SQL_Server_2022_Database_STIG_Benchmark_v1.0.0.pdf",
+  "size": "561.93kB",
+  "url": "https://workbench.cisecurity.org/files/6627/download"
+ },
+ {
+  "benchmark_id": 26144,
+  "title": "CIS Microsoft SQL Server 2022 Instance STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7456,
+  "filename": "CIS_Microsoft_SQL_Server_2022_Instance_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.12MB",
+  "url": "https://workbench.cisecurity.org/files/7456/download"
+ },
+ {
+  "benchmark_id": 25734,
+  "title": "CIS Microsoft SQL Server 2025 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7312,
+  "filename": "CIS_Microsoft_SQL_Server_2025_Benchmark_v1.0.0.pdf",
+  "size": "1.10MB",
+  "url": "https://workbench.cisecurity.org/files/7312/download"
+ },
+ {
+  "benchmark_id": 17610,
+  "title": "CIS Microsoft Windows 10 EMS Gateway Benchmark",
+  "version": "v3.0.0",
+  "file_id": 5341,
+  "filename": "CIS_Microsoft_Windows_10_EMS_Gateway_Benchmark_v3.0.0.pdf",
+  "size": "7.17MB",
+  "url": "https://workbench.cisecurity.org/files/5341/download"
+ },
+ {
+  "benchmark_id": 27832,
+  "title": "CIS Microsoft Windows 10 Enterprise Benchmark",
+  "version": "v5.0.0",
+  "file_id": 7680,
+  "filename": "CIS_Microsoft_Windows_10_Enterprise_Benchmark_v5.0.0.pdf",
+  "size": "8.34MB",
+  "url": "https://workbench.cisecurity.org/files/7680/download"
+ },
+ {
+  "benchmark_id": 28052,
+  "title": "CIS Microsoft Windows 10 Stand-alone Benchmark",
+  "version": "v5.0.0",
+  "file_id": 7803,
+  "filename": "CIS_Microsoft_Windows_10_Stand-alone_Benchmark_v5.0.0.pdf",
+  "size": "7.19MB",
+  "url": "https://workbench.cisecurity.org/files/7803/download"
+ },
+ {
+  "benchmark_id": 23869,
+  "title": "CIS Microsoft Windows 10 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6562,
+  "filename": "CIS_Microsoft_Windows_10_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.13MB",
+  "url": "https://workbench.cisecurity.org/files/6562/download"
+ },
+ {
+  "benchmark_id": 28594,
+  "title": "CIS Microsoft Windows 11 Enterprise Benchmark",
+  "version": "v5.1.1",
+  "file_id": 8019,
+  "filename": "CIS_Microsoft_Windows_11_Enterprise_Benchmark_v5.1.1.pdf",
+  "size": "10.24MB",
+  "url": "https://workbench.cisecurity.org/files/8019/download"
+ },
+ {
+  "benchmark_id": 26061,
+  "title": "CIS Microsoft Windows 11 Stand-alone Benchmark",
+  "version": "v5.0.0",
+  "file_id": 7240,
+  "filename": "CIS_Microsoft_Windows_11_Stand-alone_Benchmark_v5.0.0.pdf",
+  "size": "6.87MB",
+  "url": "https://workbench.cisecurity.org/files/7240/download"
+ },
+ {
+  "benchmark_id": 27756,
+  "title": "CIS Microsoft Windows 11 STIG Benchmark",
+  "version": "v1.2.0",
+  "file_id": 7718,
+  "filename": "CIS_Microsoft_Windows_11_STIG_Benchmark_v1.2.0.pdf",
+  "size": "2.18MB",
+  "url": "https://workbench.cisecurity.org/files/7718/download"
+ },
+ {
+  "benchmark_id": 23898,
+  "title": "CIS Microsoft Windows Server 2016 Benchmark",
+  "version": "v4.0.0",
+  "file_id": 6886,
+  "filename": "CIS_Microsoft_Windows_Server_2016_Benchmark_v4.0.0.pdf",
+  "size": "6.02MB",
+  "url": "https://workbench.cisecurity.org/files/6886/download"
+ },
+ {
+  "benchmark_id": 23093,
+  "title": "CIS Microsoft Windows Server 2016 STIG Benchmark",
+  "version": "v4.0.0",
+  "file_id": 6386,
+  "filename": "CIS_Microsoft_Windows_Server_2016_STIG_Benchmark_v4.0.0.pdf",
+  "size": "2.85MB",
+  "url": "https://workbench.cisecurity.org/files/6386/download"
+ },
+ {
+  "benchmark_id": 26847,
+  "title": "CIS Microsoft Windows Server 2019 Benchmark",
+  "version": "v5.0.0",
+  "file_id": 7435,
+  "filename": "CIS_Microsoft_Windows_Server_2019_Benchmark_v5.0.0.pdf",
+  "size": "5.74MB",
+  "url": "https://workbench.cisecurity.org/files/7435/download"
+ },
+ {
+  "benchmark_id": 28070,
+  "title": "CIS Microsoft Windows Server 2019 Stand-alone",
+  "version": "v4.0.0",
+  "file_id": 7808,
+  "filename": "CIS_Microsoft_Windows_Server_2019_Stand-alone_v4.0.0.pdf",
+  "size": "5.76MB",
+  "url": "https://workbench.cisecurity.org/files/7808/download"
+ },
+ {
+  "benchmark_id": 22176,
+  "title": "CIS Microsoft Windows Server 2019 STIG Benchmark",
+  "version": "v4.0.0",
+  "file_id": 6183,
+  "filename": "CIS_Microsoft_Windows_Server_2019_STIG_Benchmark_v4.0.0 .pdf",
+  "size": "2.84MB",
+  "url": "https://workbench.cisecurity.org/files/6183/download"
+ },
+ {
+  "benchmark_id": 28611,
+  "title": "CIS Microsoft Windows Server 2022 Benchmark",
+  "version": "v5.1.1",
+  "file_id": 8024,
+  "filename": "CIS_Microsoft_Windows_Server_2022_Benchmark_v5.1.1.pdf",
+  "size": "7.88MB",
+  "url": "https://workbench.cisecurity.org/files/8024/download"
+ },
+ {
+  "benchmark_id": 26062,
+  "title": "CIS Microsoft Windows Server 2022 Stand-alone Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7275,
+  "filename": "CIS_Microsoft_Windows_Server_2022_Stand-alone_Benchmark_v2.0.0.pdf",
+  "size": "4.86MB",
+  "url": "https://workbench.cisecurity.org/files/7275/download"
+ },
+ {
+  "benchmark_id": 28297,
+  "title": "CIS Microsoft Windows Server 2022 STIG Benchmark",
+  "version": "v4.0.0",
+  "file_id": 7939,
+  "filename": "CIS_Microsoft_Windows_Server_2022_STIG_Benchmark_v4.0.0.pdf",
+  "size": "2.88MB",
+  "url": "https://workbench.cisecurity.org/files/7939/download"
+ },
+ {
+  "benchmark_id": 28551,
+  "title": "CIS Microsoft Windows Server 2025 Benchmark",
+  "version": "v2.1.1",
+  "file_id": 8029,
+  "filename": "CIS_Microsoft_Windows_Server_2025_Benchmark_v2.1.1.pdf",
+  "size": "8.24MB",
+  "url": "https://workbench.cisecurity.org/files/8029/download"
+ },
+ {
+  "benchmark_id": 27850,
+  "title": "CIS Microsoft Windows Server 2025 Stand-alone",
+  "version": "v2.0.0",
+  "file_id": 7709,
+  "filename": "CIS_Microsoft_Windows_Server_2025_Stand-alone_v2.0.0.pdf",
+  "size": "5.89MB",
+  "url": "https://workbench.cisecurity.org/files/7709/download"
+ },
+ {
+  "benchmark_id": 28234,
+  "title": "CIS Microsoft Windows Server 2025 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7948,
+  "filename": "CIS_Microsoft_Windows_Server_2025_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.92MB",
+  "url": "https://workbench.cisecurity.org/files/7948/download"
+ },
+ {
+  "benchmark_id": 23795,
+  "title": "CIS Microsoft Windows Server Domain Name System (DNS) STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6426,
+  "filename": "CIS_Microsoft_Windows_Server_Domain_Name_System_(DNS)_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.00MB",
+  "url": "https://workbench.cisecurity.org/files/6426/download"
+ },
+ {
+  "benchmark_id": 15675,
+  "title": "CIS MongoDB 6 Benchmark",
+  "version": "v1.2.0",
+  "file_id": 5622,
+  "filename": "CIS MongoDB 6 Benchmark - Final Release v1.2.0 PDF.pdf",
+  "size": "721.68kB",
+  "url": "https://workbench.cisecurity.org/files/5622/download"
+ },
+ {
+  "benchmark_id": 27511,
+  "title": "CIS MongoDB 7 Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7764,
+  "filename": "CIS MongoDB 7 Benchmark v2.0.0 PDF.pdf",
+  "size": "1.27MB",
+  "url": "https://workbench.cisecurity.org/files/7764/download"
+ },
+ {
+  "benchmark_id": 27510,
+  "title": "CIS MongoDB 8 Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7760,
+  "filename": "CIS_MongoDB_8_Benchmark_v2.0.0 PDF.pdf",
+  "size": "1.93MB",
+  "url": "https://workbench.cisecurity.org/files/7760/download"
+ },
+ {
+  "benchmark_id": 23829,
+  "title": "CIS Motorola Solutions Android 13 COBO STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6458,
+  "filename": "CIS_Motorola_Solutions_Android_13_COBO_STIG_Benchmark_v1.0.0.pdf",
+  "size": "584.01kB",
+  "url": "https://workbench.cisecurity.org/files/6458/download"
+ },
+ {
+  "benchmark_id": 23831,
+  "title": "CIS Motorola Solutions Android 13 COPE STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6462,
+  "filename": "CIS_Motorola_Solutions_Android_13_COPE_STIG_Benchmark_v1.0.0.pdf",
+  "size": "623.98kB",
+  "url": "https://workbench.cisecurity.org/files/6462/download"
+ },
+ {
+  "benchmark_id": 18454,
+  "title": "CIS Mozilla Firefox ESR GPO Benchmark",
+  "version": "v1.0.0",
+  "file_id": 5480,
+  "filename": "CIS_Mozilla_Firefox_ESR_GPO_Benchmark_v1.0.0.pdf",
+  "size": "973.65kB",
+  "url": "https://workbench.cisecurity.org/files/5480/download"
+ },
+ {
+  "benchmark_id": 26414,
+  "title": "CIS Mozilla Firefox STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7401,
+  "filename": "CIS_Mozilla_Firefox_STIG_Benchmark_v1.1.0.pdf",
+  "size": "643.74kB",
+  "url": "https://workbench.cisecurity.org/files/7401/download"
+ },
+ {
+  "benchmark_id": 23982,
+  "title": "CIS MS SQL Server 2016 Database STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6810,
+  "filename": "CIS_MS_SQL_Server_2016_Database_STIG_Benchmark_v1.0.0.pdf",
+  "size": "622.47kB",
+  "url": "https://workbench.cisecurity.org/files/6810/download"
+ },
+ {
+  "benchmark_id": 24064,
+  "title": "CIS MS SQL Server 2016 Instance STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6815,
+  "filename": "CIS_MS_SQL_Server_2016_Instance_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.36MB",
+  "url": "https://workbench.cisecurity.org/files/6815/download"
+ },
+ {
+  "benchmark_id": 26967,
+  "title": "CIS NGINX Benchmark",
+  "version": "v3.1.0 (DEU/GER)",
+  "file_id": 7895,
+  "filename": "CIS_NGINX_Benchmark_v3.1.0_(DEU_GER).pdf",
+  "size": "1.27MB",
+  "url": "https://workbench.cisecurity.org/files/7895/download"
+ },
+ {
+  "benchmark_id": 25223,
+  "title": "CIS OceanBase Enterprise Edition V4 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7485,
+  "filename": "CIS_OceanBase_Enterprise_Edition_V4_Benchmark_v1.0.0.pdf",
+  "size": "1.17MB",
+  "url": "https://workbench.cisecurity.org/files/7485/download"
+ },
+ {
+  "benchmark_id": 23715,
+  "title": "CIS Okta Identity as a Service (IDaaS) STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6337,
+  "filename": "CIS_Okta_Identity_as_a_Service_(IDaaS)_STIG_Benchmark_v1.0.0.pdf",
+  "size": "508.40kB",
+  "url": "https://workbench.cisecurity.org/files/6337/download"
+ },
+ {
+  "benchmark_id": 22392,
+  "title": "CIS OPNsense Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7304,
+  "filename": "CIS_OPNsense_Benchmark_v1.0.0.pdf",
+  "size": "790.46kB",
+  "url": "https://workbench.cisecurity.org/files/7304/download"
+ },
+ {
+  "benchmark_id": 27115,
+  "title": "CIS Oracle Cloud Infrastructure Container Engine for Kubernetes(OKE) Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7601,
+  "filename": "CIS_Oracle_Cloud_Infrastructure_Container_Engine_for_Kubernetes(OKE)_Benchmark_v2.0.0_PDF.pdf",
+  "size": "2.07MB",
+  "url": "https://workbench.cisecurity.org/files/7601/download"
+ },
+ {
+  "benchmark_id": 28583,
+  "title": "CIS Oracle Cloud Infrastructure Foundations Benchmark",
+  "version": "v3.1.2",
+  "file_id": 8043,
+  "filename": "CIS_Oracle_Cloud_Infrastructure_Foundations_Benchmark_v3.1.2.pdf",
+  "size": "1.70MB",
+  "url": "https://workbench.cisecurity.org/files/8043/download"
+ },
+ {
+  "benchmark_id": 23978,
+  "title": "CIS Oracle Database 12c STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6721,
+  "filename": "CIS_Oracle_Database_12c_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.61MB",
+  "url": "https://workbench.cisecurity.org/files/6721/download"
+ },
+ {
+  "benchmark_id": 23897,
+  "title": "CIS Oracle Database 19c Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7094,
+  "filename": "CIS_Oracle_Database_19c_Benchmark_v2.0.0.pdf",
+  "size": "1.78MB",
+  "url": "https://workbench.cisecurity.org/files/7094/download"
+ },
+ {
+  "benchmark_id": 26166,
+  "title": "CIS Oracle Database 19c STIG Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7317,
+  "filename": "CIS_Oracle_Database_19c_STIG_Benchmark_v1.1.0.pdf",
+  "size": "1.39MB",
+  "url": "https://workbench.cisecurity.org/files/7317/download"
+ },
+ {
+  "benchmark_id": 21740,
+  "title": "CIS Oracle Database 23ai Benchmark",
+  "version": "v1.1.0",
+  "file_id": 6600,
+  "filename": "CIS_Oracle_Database_23ai_Benchmark_v1.1.0.pdf",
+  "size": "1.82MB",
+  "url": "https://workbench.cisecurity.org/files/6600/download"
+ },
+ {
+  "benchmark_id": 26139,
+  "title": "CIS Oracle Database 26ai Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7324,
+  "filename": "CIS_Oracle_Database_26ai_Benchmark_v1.0.0.pdf",
+  "size": "1.73MB",
+  "url": "https://workbench.cisecurity.org/files/7324/download"
+ },
+ {
+  "benchmark_id": 24010,
+  "title": "CIS Oracle Linux 10 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6904,
+  "filename": "CIS_Oracle_Linux_10_Benchmark_v1.0.0.pdf",
+  "size": "11.15MB",
+  "url": "https://workbench.cisecurity.org/files/6904/download"
+ },
+ {
+  "benchmark_id": 23780,
+  "title": "CIS Oracle Linux 7 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6408,
+  "filename": "CIS_Oracle_Linux_7_STIG_Benchmark_v1.0.0.pdf",
+  "size": "3.38MB",
+  "url": "https://workbench.cisecurity.org/files/6408/download"
+ },
+ {
+  "benchmark_id": 23600,
+  "title": "CIS Oracle Linux 8 Benchmark",
+  "version": "v4.0.0",
+  "file_id": 6604,
+  "filename": "CIS_Oracle_Linux_8_Benchmark_v4.0.0.pdf",
+  "size": "11.75MB",
+  "url": "https://workbench.cisecurity.org/files/6604/download"
+ },
+ {
+  "benchmark_id": 23791,
+  "title": "CIS Oracle Linux 8 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6439,
+  "filename": "CIS_Oracle_Linux_8_STIG_Benchmark_v1.0.0.pdf",
+  "size": "3.74MB",
+  "url": "https://workbench.cisecurity.org/files/6439/download"
+ },
+ {
+  "benchmark_id": 27891,
+  "title": "CIS Oracle Linux 9 Benchmark",
+  "version": "v3.0.0",
+  "file_id": 7739,
+  "filename": "CIS_Oracle_Linux_9_Benchmark_v3.0.0.pdf",
+  "size": "11.05MB",
+  "url": "https://workbench.cisecurity.org/files/7739/download"
+ },
+ {
+  "benchmark_id": 27024,
+  "title": "CIS Oracle Linux 9 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7524,
+  "filename": "CIS_Oracle_Linux_9_STIG_Benchmark_v1.0.0.pdf",
+  "size": "5.98MB",
+  "url": "https://workbench.cisecurity.org/files/7524/download"
+ },
+ {
+  "benchmark_id": 15504,
+  "title": "CIS Oracle MySQL Community Server 8.0 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 5775,
+  "filename": "CIS_Oracle_MySQL_Community_Server_8.0_Benchmark_v1.1.0.pdf",
+  "size": "1.27MB",
+  "url": "https://workbench.cisecurity.org/files/5775/download"
+ },
+ {
+  "benchmark_id": 20915,
+  "title": "CIS Oracle MySQL Community Server 8.4 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7098,
+  "filename": "CIS_Oracle_MySQL_Community_Server_8.4_Benchmark_v1.1.0.pdf",
+  "size": "1.42MB",
+  "url": "https://workbench.cisecurity.org/files/7098/download"
+ },
+ {
+  "benchmark_id": 22688,
+  "title": "CIS Oracle MySQL Community Server 9.7 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7573,
+  "filename": "CIS_Oracle_MySQL_Community_Server_9.7_Benchmark_v1.0.0.pdf",
+  "size": "1.74MB",
+  "url": "https://workbench.cisecurity.org/files/7573/download"
+ },
+ {
+  "benchmark_id": 15503,
+  "title": "CIS Oracle MySQL Enterprise Edition 8.0 Benchmark",
+  "version": "v1.4.0",
+  "file_id": 5771,
+  "filename": "CIS_Oracle_MySQL_Enterprise_Edition_8.0_Benchmark_v1.4.0.pdf",
+  "size": "1.36MB",
+  "url": "https://workbench.cisecurity.org/files/5771/download"
+ },
+ {
+  "benchmark_id": 20914,
+  "title": "CIS Oracle MySQL Enterprise Edition 8.4 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7102,
+  "filename": "CIS_Oracle_MySQL_Enterprise_Edition_8.4_Benchmark_v1.1.0.pdf",
+  "size": "1.53MB",
+  "url": "https://workbench.cisecurity.org/files/7102/download"
+ },
+ {
+  "benchmark_id": 22687,
+  "title": "CIS Oracle MySQL Enterprise Edition 9.7 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7577,
+  "filename": "CIS_Oracle_MySQL_Enterprise_Edition_9.7_Benchmark_v1.0.0.pdf",
+  "size": "1.93MB",
+  "url": "https://workbench.cisecurity.org/files/7577/download"
+ },
+ {
+  "benchmark_id": 21131,
+  "title": "CIS Oracle SaaS Cloud Applications Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7062,
+  "filename": "CIS_Oracle_SaaS_Cloud_Applications_Benchmark_v1.0.0.pdf",
+  "size": "1.10MB",
+  "url": "https://workbench.cisecurity.org/files/7062/download"
+ },
+ {
+  "benchmark_id": 4777,
+  "title": "CIS Oracle Solaris 11.4 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 5055,
+  "filename": "CIS_Oracle_Solaris_11.4_Benchmark_v1.1.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/5055/download"
+ },
+ {
+  "benchmark_id": 17915,
+  "title": "CIS Palo Alto Firewall 10 Benchmark",
+  "version": "v1.2.0",
+  "file_id": 5390,
+  "filename": "CIS_Palo_Alto_Firewall_10_Benchmark_v1.2.0.pdf",
+  "size": "1.58MB",
+  "url": "https://workbench.cisecurity.org/files/5390/download"
+ },
+ {
+  "benchmark_id": 18106,
+  "title": "CIS Palo Alto Firewall 10 Benchmark FINAL RELEASE",
+  "version": "v1.3.0",
+  "file_id": 6643,
+  "filename": "CIS_Palo_Alto_Firewall_10_Benchmark_v1.3.0.pdf",
+  "size": "1.70MB",
+  "url": "https://workbench.cisecurity.org/files/6643/download"
+ },
+ {
+  "benchmark_id": 28651,
+  "title": "CIS Palo Alto Firewall 11 Benchmark",
+  "version": "v1.2.1",
+  "file_id": 8115,
+  "filename": "CIS_Palo_Alto_Firewall_11_Benchmark_v1.2.1.pdf",
+  "size": "1.56MB",
+  "url": "https://workbench.cisecurity.org/files/8115/download"
+ },
+ {
+  "benchmark_id": 23973,
+  "title": "CIS Palo Alto Networks ALG STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6761,
+  "filename": "CIS_Palo_Alto_Networks_ALG_STIG_Benchmark_v1.0.0.pdf",
+  "size": "910.69kB",
+  "url": "https://workbench.cisecurity.org/files/6761/download"
+ },
+ {
+  "benchmark_id": 23974,
+  "title": "CIS Palo Alto Networks IDPS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6765,
+  "filename": "CIS_Palo_Alto_Networks_IDPS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "648.42kB",
+  "url": "https://workbench.cisecurity.org/files/6765/download"
+ },
+ {
+  "benchmark_id": 23975,
+  "title": "CIS Palo Alto Networks NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6769,
+  "filename": "CIS_Palo_Alto_Networks_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "664.13kB",
+  "url": "https://workbench.cisecurity.org/files/6769/download"
+ },
+ {
+  "benchmark_id": 23777,
+  "title": "CIS Palo Alto Networks Prisma Cloud Compute STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6398,
+  "filename": "CIS_Palo_Alto_Networks_Prisma_Cloud_Compute_STIG_Benchmark_v1.0.0.pdf",
+  "size": "715.66kB",
+  "url": "https://workbench.cisecurity.org/files/6398/download"
+ },
+ {
+  "benchmark_id": 28301,
+  "title": "CIS pfSense Firewall Benchmark",
+  "version": "v1.1.1",
+  "file_id": 7899,
+  "filename": "CIS_pfSense_Firewall_Benchmark_v1.1.1.pdf",
+  "size": "913.05kB",
+  "url": "https://workbench.cisecurity.org/files/7899/download"
+ },
+ {
+  "benchmark_id": 27350,
+  "title": "CIS PostgreSQL 13 Benchmark",
+  "version": "v1.4.0",
+  "file_id": 7901,
+  "filename": "CIS_PostgreSQL_13_Benchmark_v1.4.0.pdf",
+  "size": "1.62MB",
+  "url": "https://workbench.cisecurity.org/files/7901/download"
+ },
+ {
+  "benchmark_id": 24765,
+  "title": "CIS PostgreSQL 14 Benchmark",
+  "version": "v1.3.0",
+  "file_id": 7155,
+  "filename": "CIS_PostgreSQL_14_Benchmark_v1.3.0.pdf",
+  "size": "1.45MB",
+  "url": "https://workbench.cisecurity.org/files/7155/download"
+ },
+ {
+  "benchmark_id": 22345,
+  "title": "CIS PostgreSQL 15 Benchmark",
+  "version": "v1.2.0",
+  "file_id": 6096,
+  "filename": "CIS_PostgreSQL_15_Benchmark_v1.2.0.pdf",
+  "size": "1.50MB",
+  "url": "https://workbench.cisecurity.org/files/6096/download"
+ },
+ {
+  "benchmark_id": 22346,
+  "title": "CIS PostgreSQL 16 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 6092,
+  "filename": "CIS_PostgreSQL_16_Benchmark_v1.1.0.pdf",
+  "size": "1.50MB",
+  "url": "https://workbench.cisecurity.org/files/6092/download"
+ },
+ {
+  "benchmark_id": 26344,
+  "title": "CIS PostgreSQL 17 Benchmark",
+  "version": "v1.1.0",
+  "file_id": 7665,
+  "filename": "CIS_PostgreSQL_17_Benchmark_v1.1.0.pdf",
+  "size": "1.75MB",
+  "url": "https://workbench.cisecurity.org/files/7665/download"
+ },
+ {
+  "benchmark_id": 24868,
+  "title": "CIS PostgreSQL 18 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7320,
+  "filename": "CIS_PostgreSQL_18_Benchmark_v1.0.0.pdf",
+  "size": "1.44MB",
+  "url": "https://workbench.cisecurity.org/files/7320/download"
+ },
+ {
+  "benchmark_id": 23941,
+  "title": "CIS Rancher Government Solutions RKE2 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6684,
+  "filename": "CIS_Rancher_Government_Solutions_RKE2_STIG_Benchmark_v1.0.0.pdf",
+  "size": "619.80kB",
+  "url": "https://workbench.cisecurity.org/files/6684/download"
+ },
+ {
+  "benchmark_id": 24164,
+  "title": "CIS Red Hat Enterprise Linux 10 Benchmark",
+  "version": "v1.0.1",
+  "file_id": 6913,
+  "filename": "CIS_Red_Hat_Enterprise_Linux_10_Benchmark_v1.0.1.pdf",
+  "size": "6.64MB",
+  "url": "https://workbench.cisecurity.org/files/6913/download"
+ },
+ {
+  "benchmark_id": 26403,
+  "title": "CIS Red Hat Enterprise Linux 10 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7420,
+  "filename": "CIS_Red_Hat_Enterprise_Linux_10_STIG_Benchmark_v1.0.0.pdf",
+  "size": "5.92MB",
+  "url": "https://workbench.cisecurity.org/files/7420/download"
+ },
+ {
+  "benchmark_id": 23597,
+  "title": "CIS Red Hat Enterprise Linux 8 Benchmark",
+  "version": "v4.0.0",
+  "file_id": 6549,
+  "filename": "CIS_Red_Hat_Enterprise_Linux_8_Benchmark_v4.0.0.pdf",
+  "size": "7.26MB",
+  "url": "https://workbench.cisecurity.org/files/6549/download"
+ },
+ {
+  "benchmark_id": 19886,
+  "title": "CIS Red Hat Enterprise Linux 8 STIG Benchmark",
+  "version": "v2.0.0",
+  "file_id": 5676,
+  "filename": "CIS_Red_Hat_Enterprise_Linux_8_STIG_Benchmark_v2.0.0.pdf",
+  "size": "17.65MB",
+  "url": "https://workbench.cisecurity.org/files/5676/download"
+ },
+ {
+  "benchmark_id": 27892,
+  "title": "CIS Red Hat Enterprise Linux 9 Benchmark",
+  "version": "v3.0.0",
+  "file_id": 7743,
+  "filename": "CIS_Red_Hat_Enterprise_Linux_9_Benchmark_v3.0.0.pdf",
+  "size": "11.05MB",
+  "url": "https://workbench.cisecurity.org/files/7743/download"
+ },
+ {
+  "benchmark_id": 22008,
+  "title": "CIS Red Hat Enterprise Linux 9 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 5926,
+  "filename": "CIS_Red_Hat_Enterprise_Linux_9_STIG_Benchmark_v1.0.0.pdf",
+  "size": "6.05MB",
+  "url": "https://workbench.cisecurity.org/files/5926/download"
+ },
+ {
+  "benchmark_id": 23920,
+  "title": "CIS Red Hat OpenShift Container Platform 4.12 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6857,
+  "filename": "CIS_Red_Hat_OpenShift_Container_Platform_4.12_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.47MB",
+  "url": "https://workbench.cisecurity.org/files/6857/download"
+ },
+ {
+  "benchmark_id": 25362,
+  "title": "CIS Red Hat OpenShift Container Platform Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7659,
+  "filename": "CIS Red Hat OpenShift Container Platform Benchmark V2.0.0 PDF.pdf",
+  "size": "3.14MB",
+  "url": "https://workbench.cisecurity.org/files/7659/download"
+ },
+ {
+  "benchmark_id": 23266,
+  "title": "CIS Redhat OpenShift Virtual Machine Extension Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7016,
+  "filename": "CIS_Redhat_OpenShift_Virtual_Machine_Extension_Benchmark_V1.0.0_PDF.pdf",
+  "size": "1.26MB",
+  "url": "https://workbench.cisecurity.org/files/7016/download"
+ },
+ {
+  "benchmark_id": 6442,
+  "title": "CIS RHEL8 on IBM Z Linux Benchmark",
+  "version": "v1.0.0",
+  "file_id": 3925,
+  "filename": "CIS_RHEL8_on_IBM_Z_Linux_Benchmark_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/3925/download"
+ },
+ {
+  "benchmark_id": 24009,
+  "title": "CIS Rocky Linux 10 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6917,
+  "filename": "CIS_Rocky_Linux_10_Benchmark_v1.0.0.pdf",
+  "size": "5.67MB",
+  "url": "https://workbench.cisecurity.org/files/6917/download"
+ },
+ {
+  "benchmark_id": 23602,
+  "title": "CIS Rocky Linux 8 Benchmark",
+  "version": "v3.0.0",
+  "file_id": 6606,
+  "filename": "CIS_Rocky_Linux_8_Benchmark_v3.0.0.pdf",
+  "size": "6.96MB",
+  "url": "https://workbench.cisecurity.org/files/6606/download"
+ },
+ {
+  "benchmark_id": 27893,
+  "title": "CIS Rocky Linux 9 Benchmark",
+  "version": "v3.0.0",
+  "file_id": 7747,
+  "filename": "CIS_Rocky_Linux_9_Benchmark_v3.0.0.pdf",
+  "size": "11.05MB",
+  "url": "https://workbench.cisecurity.org/files/7747/download"
+ },
+ {
+  "benchmark_id": 23614,
+  "title": "CIS Samsung Android 15 BYOAD STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6555,
+  "filename": "CIS_Samsung_Android_15_BYOAD_STIG_Benchmark_v1.0.0.pdf",
+  "size": "394.28kB",
+  "url": "https://workbench.cisecurity.org/files/6555/download"
+ },
+ {
+  "benchmark_id": 23846,
+  "title": "CIS Samsung Android OS 13 with Knox 3.x COBO STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6476,
+  "filename": "CIS_Samsung_Android_OS_13_with_Knox_3.x_COBO_STIG_Benchmark_v1.0.0.pdf",
+  "size": "531.13kB",
+  "url": "https://workbench.cisecurity.org/files/6476/download"
+ },
+ {
+  "benchmark_id": 23848,
+  "title": "CIS Samsung Android OS 13 with Knox 3.x COPE STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6480,
+  "filename": "CIS_Samsung_Android_OS_13_with_Knox_3.x_COPE_STIG_Benchmark_v1.0.0.pdf",
+  "size": "529.82kB",
+  "url": "https://workbench.cisecurity.org/files/6480/download"
+ },
+ {
+  "benchmark_id": 24075,
+  "title": "CIS Samsung Android OS 14 with Knox 3.x STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6795,
+  "filename": "CIS Samsung Android OS 14 Knox 3.x STIG PDF.pdf",
+  "size": "1.02MB",
+  "url": "https://workbench.cisecurity.org/files/6795/download"
+ },
+ {
+  "benchmark_id": 23984,
+  "title": "CIS Samsung Android OS 15 with Knox 3.x COBO STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6819,
+  "filename": "CIS_Samsung_Android_OS_15_with_Knox_3.x_COBO_STIG_Benchmark_v1.0.0.pdf",
+  "size": "632.04kB",
+  "url": "https://workbench.cisecurity.org/files/6819/download"
+ },
+ {
+  "benchmark_id": 23985,
+  "title": "CIS Samsung Android OS 15 with Knox 3.x COPE STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6823,
+  "filename": "CIS_Samsung_Android_OS_15_with_Knox_3.x_COPE_STIG_Benchmark_v1.0.0.pdf",
+  "size": "649.05kB",
+  "url": "https://workbench.cisecurity.org/files/6823/download"
+ },
+ {
+  "benchmark_id": 21093,
+  "title": "CIS SingleStore 8 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 5961,
+  "filename": "CIS_SingleStore_8_Benchmark_v1.0.0.pdf",
+  "size": "0.97MB",
+  "url": "https://workbench.cisecurity.org/files/5961/download"
+ },
+ {
+  "benchmark_id": 27435,
+  "title": "CIS Snowflake Foundations Benchmark",
+  "version": "v2.0.1",
+  "file_id": 7965,
+  "filename": "CIS_Snowflake_Foundations_Benchmark_v2.0.1.pdf",
+  "size": "1.01MB",
+  "url": "https://workbench.cisecurity.org/files/7965/download"
+ },
+ {
+  "benchmark_id": 23765,
+  "title": "CIS Solaris 11 SPARC STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6466,
+  "filename": "CIS_Solaris_11_SPARC_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.89MB",
+  "url": "https://workbench.cisecurity.org/files/6466/download"
+ },
+ {
+  "benchmark_id": 23873,
+  "title": "CIS Solaris 11 X86 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6590,
+  "filename": "CIS_Solaris_11_X86_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.81MB",
+  "url": "https://workbench.cisecurity.org/files/6590/download"
+ },
+ {
+  "benchmark_id": 6934,
+  "title": "CIS Sophos Firewall v21 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6623,
+  "filename": "CIS_Sophos_Firewall_v21_Benchmark_v1.0.0.pdf",
+  "size": "1.13MB",
+  "url": "https://workbench.cisecurity.org/files/6623/download"
+ },
+ {
+  "benchmark_id": 24745,
+  "title": "CIS Sophos Firewall v22 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7268,
+  "filename": "CIS_Sophos_Firewall_v22_Benchmark_v1.0.0.pdf",
+  "size": "1.17MB",
+  "url": "https://workbench.cisecurity.org/files/7268/download"
+ },
+ {
+  "benchmark_id": 22179,
+  "title": "CIS SUSE Linux Enterprise 12 Benchmark",
+  "version": "v3.2.1",
+  "file_id": 5974,
+  "filename": "CIS_SUSE_Linux_Enterprise_12_Benchmark_v3.2.1.pdf",
+  "size": "3.43MB",
+  "url": "https://workbench.cisecurity.org/files/5974/download"
+ },
+ {
+  "benchmark_id": 28370,
+  "title": "CIS SUSE Linux Enterprise 15 Benchmark",
+  "version": "v3.0.0",
+  "file_id": 7959,
+  "filename": "CIS_SUSE_Linux_Enterprise_15_Benchmark_v3.0.0.pdf",
+  "size": "6.98MB",
+  "url": "https://workbench.cisecurity.org/files/7959/download"
+ },
+ {
+  "benchmark_id": 26236,
+  "title": "CIS SUSE Linux Enterprise 16 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7264,
+  "filename": "CIS_SUSE_Linux_Enterprise_16_Benchmark_v1.0.0.pdf",
+  "size": "6.75MB",
+  "url": "https://workbench.cisecurity.org/files/7264/download"
+ },
+ {
+  "benchmark_id": 23779,
+  "title": "CIS SUSE Linux Enterprise Server 15 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6404,
+  "filename": "CIS_SUSE_Linux_Enterprise_Server_15_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.30MB",
+  "url": "https://workbench.cisecurity.org/files/6404/download"
+ },
+ {
+  "benchmark_id": 18743,
+  "title": "CIS Talos Linux Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7799,
+  "filename": "CIS_Talos_Linux_Benchmark_v2.0.0.pdf",
+  "size": "746.03kB",
+  "url": "https://workbench.cisecurity.org/files/7799/download"
+ },
+ {
+  "benchmark_id": 23766,
+  "title": "CIS Tanium 7.x Application on TanOS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6472,
+  "filename": "CIS_Tanium_7.x_Application_on_TanOS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.04MB",
+  "url": "https://workbench.cisecurity.org/files/6472/download"
+ },
+ {
+  "benchmark_id": 23767,
+  "title": "CIS Tanium 7.x Operating System on TanOS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6474,
+  "filename": "CIS_Tanium_7.x_Operating_System_on_TanOS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "601.33kB",
+  "url": "https://workbench.cisecurity.org/files/6474/download"
+ },
+ {
+  "benchmark_id": 23986,
+  "title": "CIS Tanium 7.x STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6827,
+  "filename": "CIS_Tanium_7.x_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.34MB",
+  "url": "https://workbench.cisecurity.org/files/6827/download"
+ },
+ {
+  "benchmark_id": 24709,
+  "title": "CIS Tencent Cloud Enterprise Foundation Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7252,
+  "filename": "CIS_Tencent_Cloud_Enterprise_Foundation_Benchmark_v1.0.0.pdf",
+  "size": "1.36MB",
+  "url": "https://workbench.cisecurity.org/files/7252/download"
+ },
+ {
+  "benchmark_id": 26472,
+  "title": "CIS Tencent Cloud Foundation Benchmark",
+  "version": "v1.0.1",
+  "file_id": 7628,
+  "filename": "CIS_Tencent_Cloud_Foundation_Benchmark_v1.0.1.pdf",
+  "size": "2.01MB",
+  "url": "https://workbench.cisecurity.org/files/7628/download"
+ },
+ {
+  "benchmark_id": 27493,
+  "title": "CIS Tencent TDSQL 10.3.22 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7858,
+  "filename": "CIS_Tencent_TDSQL_10.3.22_Benchmark_v1.0.0.pdf",
+  "size": "1.95MB",
+  "url": "https://workbench.cisecurity.org/files/7858/download"
+ },
+ {
+  "benchmark_id": 27895,
+  "title": "CIS TencentOS Linux 4 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7969,
+  "filename": "CIS_TencentOS_Linux_4_Benchmark_v1.0.0.pdf",
+  "size": "3.91MB",
+  "url": "https://workbench.cisecurity.org/files/7969/download"
+ },
+ {
+  "benchmark_id": 23936,
+  "title": "CIS Trend Micro TippingPoint IDPS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6668,
+  "filename": "CIS_Trend_Micro_TippingPoint_IDPS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "648.98kB",
+  "url": "https://workbench.cisecurity.org/files/6668/download"
+ },
+ {
+  "benchmark_id": 23937,
+  "title": "CIS Trend Micro TippingPoint NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6672,
+  "filename": "CIS_Trend_Micro_TippingPoint_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "587.34kB",
+  "url": "https://workbench.cisecurity.org/files/6672/download"
+ },
+ {
+  "benchmark_id": 21369,
+  "title": "CIS Ubuntu Linux 20.04 LTS Benchmark",
+  "version": "v3.0.0",
+  "file_id": 5868,
+  "filename": "CIS_Ubuntu_Linux_20.04_LTS_Benchmark_v3.0.0.pdf",
+  "size": "6.42MB",
+  "url": "https://workbench.cisecurity.org/files/5868/download"
+ },
+ {
+  "benchmark_id": 14822,
+  "title": "CIS Ubuntu Linux 20.04 LTS STIG Benchmark",
+  "version": "v2.0.0",
+  "file_id": 4710,
+  "filename": "CIS_Ubuntu_Linux_20.04_LTS_STIG_Benchmark_v2.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/4710/download"
+ },
+ {
+  "benchmark_id": 24330,
+  "title": "CIS Ubuntu Linux 22.04 LTS Benchmark",
+  "version": "v3.0.0",
+  "file_id": 7012,
+  "filename": "CIS_Ubuntu_Linux_22.04_LTS_Benchmark_v3.0.0.pdf",
+  "size": "6.19MB",
+  "url": "https://workbench.cisecurity.org/files/7012/download"
+ },
+ {
+  "benchmark_id": 22168,
+  "title": "CIS Ubuntu Linux 22.04 LTS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 5957,
+  "filename": "CIS_Ubuntu_Linux_22.04_LTS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "2.86MB",
+  "url": "https://workbench.cisecurity.org/files/5957/download"
+ },
+ {
+  "benchmark_id": 26891,
+  "title": "CIS Ubuntu Linux 24.04 LTS Benchmark",
+  "version": "v2.0.0",
+  "file_id": 7482,
+  "filename": "CIS_Ubuntu_Linux_24.04_LTS_Benchmark_v2.0.0.pdf",
+  "size": "6.82MB",
+  "url": "https://workbench.cisecurity.org/files/7482/download"
+ },
+ {
+  "benchmark_id": 22775,
+  "title": "CIS Ubuntu Linux 24.04 LTS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6026,
+  "filename": "CIS_Ubuntu_Linux_24.04_LTS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "3.20MB",
+  "url": "https://workbench.cisecurity.org/files/6026/download"
+ },
+ {
+  "benchmark_id": 27798,
+  "title": "CIS Ubuntu Linux 26.04 LTS Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7727,
+  "filename": "CIS_Ubuntu_Linux_26.04_LTS_Benchmark_v1.0.0.pdf",
+  "size": "7.09MB",
+  "url": "https://workbench.cisecurity.org/files/7727/download"
+ },
+ {
+  "benchmark_id": 26162,
+  "title": "CIS Versa OS Ubuntu 18.04 LTS Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7973,
+  "filename": "CIS_Versa_OS_Ubuntu_18.04_LTS_Benchmark_v1.0.0.pdf",
+  "size": "2.96MB",
+  "url": "https://workbench.cisecurity.org/files/7973/download"
+ },
+ {
+  "benchmark_id": 26161,
+  "title": "CIS Versa OS Ubuntu 22.04 LTS Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7977,
+  "filename": "CIS_Versa_OS_Ubuntu_22.04_LTS_Benchmark_v1.0.0.pdf",
+  "size": "3.51MB",
+  "url": "https://workbench.cisecurity.org/files/7977/download"
+ },
+ {
+  "benchmark_id": 22749,
+  "title": "CIS Visual Studio Code GPO Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6470,
+  "filename": "CIS_Visual_Studio_Code_GPO_Benchmark_v1.0.0.pdf",
+  "size": "436.07kB",
+  "url": "https://workbench.cisecurity.org/files/6470/download"
+ },
+ {
+  "benchmark_id": 25143,
+  "title": "CIS VMware ESXi 7.0 Benchmark",
+  "version": "v1.6.0",
+  "file_id": 7751,
+  "filename": "CIS VMWare ESXi 7 Benchmark V1.6.0 PDF.pdf",
+  "size": "2.38MB",
+  "url": "https://workbench.cisecurity.org/files/7751/download"
+ },
+ {
+  "benchmark_id": 26357,
+  "title": "CIS VMware ESXi 8.0 Benchmark",
+  "version": "v1.4.0",
+  "file_id": 7758,
+  "filename": "CIS_VMware_ESXi_8.0_Benchmark_v1.4.0_PDF.pdf",
+  "size": "2.84MB",
+  "url": "https://workbench.cisecurity.org/files/7758/download"
+ },
+ {
+  "benchmark_id": 28124,
+  "title": "CIS VMware ESXi 9.0 Benchmark",
+  "version": "v1.0.0",
+  "file_id": 7822,
+  "filename": "CIS_VMware_ESXi_9.0_Benchmark_v1.0.0.pdf",
+  "size": "1.92MB",
+  "url": "https://workbench.cisecurity.org/files/7822/download"
+ },
+ {
+  "benchmark_id": 23591,
+  "title": "CIS VMware NSX 4.x Distributed Firewall STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6531,
+  "filename": "CIS_VMware_NSX_4.x_Distributed_Firewall_STIG_Benchmark_v1.0.0.pdf",
+  "size": "355.04kB",
+  "url": "https://workbench.cisecurity.org/files/6531/download"
+ },
+ {
+  "benchmark_id": 23590,
+  "title": "CIS VMware NSX 4.x Manager NDM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6524,
+  "filename": "CIS_VMware_NSX_4.x_Manager_NDM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "478.23kB",
+  "url": "https://workbench.cisecurity.org/files/6524/download"
+ },
+ {
+  "benchmark_id": 23589,
+  "title": "CIS VMware NSX 4.x Tier-0 Gateway Firewall STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6418,
+  "filename": "CIS_VMware_NSX_4.x_Tier-0_Gateway_Firewall_STIG_Benchmark_v1.0.0.pdf",
+  "size": "324.43kB",
+  "url": "https://workbench.cisecurity.org/files/6418/download"
+ },
+ {
+  "benchmark_id": 23588,
+  "title": "CIS VMware NSX 4.x Tier-0 Gateway Router STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6312,
+  "filename": "CIS_VMware_NSX_4.x_Tier-0_Gateway_Router_STIG_Benchmark_v1.0.0.pdf",
+  "size": "394.20kB",
+  "url": "https://workbench.cisecurity.org/files/6312/download"
+ },
+ {
+  "benchmark_id": 23587,
+  "title": "CIS VMware NSX 4.x Tier-1 Gateway Firewall STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6287,
+  "filename": "CIS_VMware_NSX_4.x_Tier-1_Gateway_Firewall_STIG_Benchmark_v1.0.0.pdf",
+  "size": "348.02kB",
+  "url": "https://workbench.cisecurity.org/files/6287/download"
+ },
+ {
+  "benchmark_id": 23586,
+  "title": "CIS VMware NSX 4.x Tier-1 Gateway Router STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6245,
+  "filename": "CIS_VMware_NSX_4.x_Tier-1_Gateway_Router_STIG_Benchmark_v1.0.0.pdf",
+  "size": "316.28kB",
+  "url": "https://workbench.cisecurity.org/files/6245/download"
+ },
+ {
+  "benchmark_id": 23685,
+  "title": "CIS VMware vSphere 7.0 ESXi STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6272,
+  "filename": "CIS_VMware_vSphere_7.0_ESXi_STIG_Benchmark_v1.0.0.pdf",
+  "size": "944.84kB",
+  "url": "https://workbench.cisecurity.org/files/6272/download"
+ },
+ {
+  "benchmark_id": 23686,
+  "title": "CIS VMware vSphere 7.0 VAMI STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6285,
+  "filename": "CIS_VMware_vSphere_7.0_VAMI_STIG_Benchmark_v1.0.0.pdf",
+  "size": "588.54kB",
+  "url": "https://workbench.cisecurity.org/files/6285/download"
+ },
+ {
+  "benchmark_id": 23687,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance EAM STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6301,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_EAM_STIG_Benchmark_v1.0.0.pdf",
+  "size": "599.83kB",
+  "url": "https://workbench.cisecurity.org/files/6301/download"
+ },
+ {
+  "benchmark_id": 23688,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance Lookup Service STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6305,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_Lookup_Service_STIG_Benchmark_v1.0.0.pdf",
+  "size": "607.24kB",
+  "url": "https://workbench.cisecurity.org/files/6305/download"
+ },
+ {
+  "benchmark_id": 23689,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance Perfcharts STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6313,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_Perfcharts_STIG_Benchmark_v1.0.0.pdf",
+  "size": "639.32kB",
+  "url": "https://workbench.cisecurity.org/files/6313/download"
+ },
+ {
+  "benchmark_id": 23690,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance Photon OS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6317,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_Photon_OS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "1.09MB",
+  "url": "https://workbench.cisecurity.org/files/6317/download"
+ },
+ {
+  "benchmark_id": 23691,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance PostgreSQL STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6321,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_PostgreSQL_STIG_Benchmark_v1.0.0.pdf",
+  "size": "531.07kB",
+  "url": "https://workbench.cisecurity.org/files/6321/download"
+ },
+ {
+  "benchmark_id": 23692,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance RhttpProxy STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6328,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_RhttpProxy_STIG_Benchmark_v1.0.0.pdf",
+  "size": "424.61kB",
+  "url": "https://workbench.cisecurity.org/files/6328/download"
+ },
+ {
+  "benchmark_id": 23693,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance STS STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6329,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_STS_STIG_Benchmark_v1.0.0.pdf",
+  "size": "619.56kB",
+  "url": "https://workbench.cisecurity.org/files/6329/download"
+ },
+ {
+  "benchmark_id": 23694,
+  "title": "CIS VMware vSphere 7.0 vCenter Appliance UI STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6336,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_Appliance_UI_STIG_Benchmark_v1.0.0.pdf",
+  "size": "635.17kB",
+  "url": "https://workbench.cisecurity.org/files/6336/download"
+ },
+ {
+  "benchmark_id": 23695,
+  "title": "CIS VMware vSphere 7.0 vCenter STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6350,
+  "filename": "CIS_VMware_vSphere_7.0_vCenter_STIG_Benchmark_v1.0.0.pdf",
+  "size": "808.49kB",
+  "url": "https://workbench.cisecurity.org/files/6350/download"
+ },
+ {
+  "benchmark_id": 23696,
+  "title": "CIS VMware vSphere 7.0 Virtual Machine STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6361,
+  "filename": "CIS_VMware_vSphere_7.0_Virtual_Machine_STIG_Benchmark_v1.0.0.pdf",
+  "size": "503.96kB",
+  "url": "https://workbench.cisecurity.org/files/6361/download"
+ },
+ {
+  "benchmark_id": 23619,
+  "title": "CIS VMware vSphere 8.0 ESXi STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6697,
+  "filename": "CIS_VMware_vSphere_8.0_ESXi_STIG_Benchmark_v1.0.0.pdf",
+  "size": "0.97MB",
+  "url": "https://workbench.cisecurity.org/files/6697/download"
+ },
+ {
+  "benchmark_id": 23622,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance Envoy STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6747,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_Envoy_STIG_Benchmark_v1.0.0.pdf",
+  "size": "339.46kB",
+  "url": "https://workbench.cisecurity.org/files/6747/download"
+ },
+ {
+  "benchmark_id": 23618,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance ESX Agent Manager (EAM) STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6560,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_ESX_Agent_Manager_(EAM)_STIG_Benchmark_v1.0.0.pdf",
+  "size": "559.54kB",
+  "url": "https://workbench.cisecurity.org/files/6560/download"
+ },
+ {
+  "benchmark_id": 23617,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance Lookup Service STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6651,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_Lookup_Service_STIG_Benchmark_v1.0.0.pdf",
+  "size": "562.19kB",
+  "url": "https://workbench.cisecurity.org/files/6651/download"
+ },
+ {
+  "benchmark_id": 23626,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance Management Interface (VAMI) STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6752,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_Management_Interface_(VAMI)_STIG_Benchmark_v1.0.0.pdf",
+  "size": "539.89kB",
+  "url": "https://workbench.cisecurity.org/files/6752/download"
+ },
+ {
+  "benchmark_id": 23627,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance Perfcharts STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6756,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_Perfcharts_STIG_Benchmark_v1.0.0.pdf",
+  "size": "560.84kB",
+  "url": "https://workbench.cisecurity.org/files/6756/download"
+ },
+ {
+  "benchmark_id": 23628,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance Photon OS 4.0 STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6841,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_Photon_OS_4.0_STIG_Benchmark_v1.0.0.pdf",
+  "size": "0.99MB",
+  "url": "https://workbench.cisecurity.org/files/6841/download"
+ },
+ {
+  "benchmark_id": 23629,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance PostgreSQL STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6848,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_PostgreSQL_STIG_Benchmark_v1.0.0.pdf",
+  "size": "463.64kB",
+  "url": "https://workbench.cisecurity.org/files/6848/download"
+ },
+ {
+  "benchmark_id": 23630,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance Secure Token Service (STS) STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6849,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_Secure_Token_Service_(STS)_STIG_Benchmark_v1.0.0.pdf",
+  "size": "553.19kB",
+  "url": "https://workbench.cisecurity.org/files/6849/download"
+ },
+ {
+  "benchmark_id": 23631,
+  "title": "CIS VMware vSphere 8.0 vCenter Appliance User Interface (UI) STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6853,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_Appliance_User_Interface_(UI)_STIG_Benchmark_v1.0.0.pdf",
+  "size": "553.86kB",
+  "url": "https://workbench.cisecurity.org/files/6853/download"
+ },
+ {
+  "benchmark_id": 23621,
+  "title": "CIS VMware vSphere 8.0 vCenter STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6705,
+  "filename": "CIS_VMware_vSphere_8.0_vCenter_STIG_Benchmark_v1.0.0.pdf",
+  "size": "813.16kB",
+  "url": "https://workbench.cisecurity.org/files/6705/download"
+ },
+ {
+  "benchmark_id": 23620,
+  "title": "CIS VMware vSphere 8.0 Virtual Machine STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6701,
+  "filename": "CIS_VMware_vSphere_8.0_Virtual_Machine_STIG_Benchmark_v1.0.0.pdf",
+  "size": "486.50kB",
+  "url": "https://workbench.cisecurity.org/files/6701/download"
+ },
+ {
+  "benchmark_id": 24607,
+  "title": "CIS Wind River eLxr 12 Benchmark",
+  "version": "v1.2.0",
+  "file_id": 7146,
+  "filename": "CIS_Wind_River_eLxr_12_Benchmark_v1.2.0.pdf",
+  "size": "10.50MB",
+  "url": "https://workbench.cisecurity.org/files/7146/download"
+ },
+ {
+  "benchmark_id": 23979,
+  "title": "CIS Xylok Security Suite 20.x STIG Benchmark",
+  "version": "v1.0.0",
+  "file_id": 6729,
+  "filename": "CIS_Xylok_Security_Suite_20.x_STIG_Benchmark_v1.0.0.pdf",
+  "size": "627.46kB",
+  "url": "https://workbench.cisecurity.org/files/6729/download"
+ },
+ {
+  "benchmark_id": 15249,
+  "title": "CIS YugabyteDB 2.x",
+  "version": "v1.0.0",
+  "file_id": 5076,
+  "filename": "CIS_YugabyteDB_2.x_v1.0.0.pdf",
+  "size": null,
+  "url": "https://workbench.cisecurity.org/files/5076/download"
+ },
+ {
+  "benchmark_id": 28168,
+  "title": "CIS YugabyteDB Benchmark",
+  "version": "v2.0.1",
+  "file_id": 7912,
+  "filename": "CIS_YugabyteDB_Benchmark_v2.0.1.pdf",
+  "size": "1.35MB",
+  "url": "https://workbench.cisecurity.org/files/7912/download"
+ }
+]
