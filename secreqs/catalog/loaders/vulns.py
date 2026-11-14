@@ -13,13 +13,20 @@ import os
 from secreqs.catalog.model import RAW, Writer, fetch
 
 KEV = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+# официальное зеркало CISA на GitHub: cisa.gov отвечает 403 части облачных адресов
+KEV_MIRROR = "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json"
 EPSS = "https://epss.empiricalsecurity.com/epss_scores-current.csv.gz"
 SELF_NS = {"cisa-kev": "cve"}
 
 
 def load() -> int:
     raw = os.path.join(RAW, "vulns")
-    kev = json.load(open(fetch(KEV, os.path.join(raw, "kev.json"), max_age_days=1), encoding="utf-8"))
+    dest = os.path.join(raw, "kev.json")
+    try:
+        path = fetch(KEV, dest, max_age_days=1)
+    except Exception:
+        path = fetch(KEV_MIRROR, dest, max_age_days=1)
+    kev = json.load(open(path, encoding="utf-8"))
     w = Writer("vulns")
     w.framework("cisa-kev", "CISA Known Exploited Vulnerabilities Catalog", "vulnerabilities", "CISA",
                 "Public domain", "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
