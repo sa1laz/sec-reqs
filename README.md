@@ -3,11 +3,12 @@
 Расширяемый MCP-сервер с базами знаний по требованиям и практикам безопасности: агент ищет
 по ним, сверяет конфигурации с бенчмарками и находит пробелы.
 
-Источники подключаются модулями. Сейчас их два:
+Источники подключаются модулями. Сейчас их три:
 
 | Источник | Префикс | Что внутри | Где данные |
 |---|---|---|---|
 | CIS Benchmarks | `cis_` | ~350 бенчмарков, ~42 тыс. рекомендаций: аудит, исправление, профили, CIS Controls | локально, `cis/cis.db` (собирается из PDF) |
+| Каталог открытых стандартов | `req_` | DISA STIG/SRG (+CCI), CISA SCuBA (GWS, M365), NIST 800-53 rev5 (+базовые наборы), CSF 2.0, SSDF, 800-171 r3, AI RMF, ComplianceAsCode, Prowler (проверки + сопоставления с ISO 27001, PCI DSS, SOC 2, NIS2, C5, HIPAA, GDPR…), Kubernetes PSS, Kyverno, OWASP ASVS 5.0/MASVS/LLM Top 10, MITRE ATT&CK/ATLAS/D3FEND, CWE, CAPEC, CISA KEV, EPSS — ~55 тыс. элементов и ~200 тыс. связей между стандартами | локально, `data/catalog.db`, собирается из первоисточников |
 | HF `Vyber07/cyber-security` | `hf_` | CVE из NVD, MITRE ATT&CK, разборы атак/защиты, IR-playbook'и, hardening, комплаенс, документация AWS | на Hugging Face; локально только поисковый индекс `data/hf_cyber.db` |
 
 Данные в репозиторий не входят: тексты CIS лицензированы CC BY-NC-SA 4.0 и по условиям CIS не
@@ -32,6 +33,18 @@ CIS (`secreqs/sources/cis.py`):
 | `cis_get_recommendation` | рекомендация целиком по `uid` или бенчмарк + номер |
 | `cis_list_recommendations` | рекомендации по порядку; `include=["audit"]` — для сверки конфигурации |
 | `cis_find_by_control` | покрытие CIS Control v8/v7 с фильтром по IG |
+
+Каталог стандартов (`secreqs/sources/catalog.py`, загрузчики в `secreqs/catalog/loaders/`):
+
+| Инструмент | Что делает |
+|---|---|
+| `req_frameworks` | стандарты в каталоге: версия/дата среза, лицензия, объём; пространства имён идентификаторов |
+| `req_documents` | документы стандарта (отдельные STIG, продукты SCuBA…) с поиском по названию |
+| `req_search` | полнотекстовый поиск по всем стандартам или внутри одного, фильтры severity/kind |
+| `req_get` | элемент целиком: описание, проверка, исправление, ссылки, связи |
+| `req_list` | чек-лист документа; `include=["check","fix"]` — для сверки конфигурации |
+| `req_related` | crosswalk: STIG ↔ CCI ↔ NIST 800-53 ↔ SCuBA ↔ ComplianceAsCode ↔ Prowler ↔ CIS (в т.ч. от рекомендации CIS по её uid), по ATT&CK/CWE/ISO/PCI… |
+| `req_cve` | сводка по CVE: CISA KEV, EPSS, CWE с мерами, живые данные NVD |
 
 Hugging Face (`secreqs/sources/hf_cyber/`):
 
@@ -62,6 +75,18 @@ PDF скачиваются вручную из [CIS WorkBench](https://workbench
 ```
 
 Подробности о формате и качестве разбора — [cis/README.md](cis/README.md).
+
+### Каталог открытых стандартов
+
+```bash
+.venv/bin/python -m secreqs.catalog.build              # все загрузчики (~10 мин, ~1,2 ГБ исходников в data/raw)
+.venv/bin/python -m secreqs.catalog.build stig scuba   # только эти, затем пересборка базы
+.venv/bin/python -m secreqs.catalog.build --db-only    # пересобрать базу из готовых JSONL
+```
+
+Каждый загрузчик берёт свежую версию первоисточника (квартальная библиотека STIG, последние релизы на GitHub,
+OSCAL NIST, STIX ATT&CK, ежедневные KEV/EPSS) и пишет `data/catalog/<имя>.jsonl` в общем формате
+(`secreqs/catalog/__init__.py`). Новый стандарт — новый модуль в `secreqs/catalog/loaders/` и строка в `LOADERS`.
 
 ### Индекс датасета HF
 

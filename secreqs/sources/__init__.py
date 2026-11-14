@@ -5,5 +5,6 @@
 """
 REGISTRY = [
     "secreqs.sources.cis:CisSource",
+    "secreqs.sources.catalog:CatalogSource",
     "secreqs.sources.hf_cyber:HfCyberSource",
 ]

@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 \
     SECREQS_DATA=/data CIS_DB=/data/cis.db \
     SECREQS_TRANSPORT=http SECREQS_HOST=0.0.0.0 SECREQS_PORT=8000
 
-RUN pip install --no-cache-dir mcp==2.3.0 && useradd -u 10001 -m app && mkdir /data && chown app /data
+RUN pip install --no-cache-dir mcp==2.3.0 pyyaml==6.0.3 && useradd -u 10001 -m app && mkdir /data && chown app /data
 
 WORKDIR /app
 COPY secreqs/ secreqs/

@@ -25,7 +25,14 @@ CALLS = [
     ("hf_read_file", {"path": "blue-team/blue-team__hardening-guides.json", "length": 300}),
     ("hf_grep_file", {"path": "vulnerability-intelligence/mitre-attack-techniques.json", "regex": "T1558", "max_hits": 2}),
     ("hf_get_record", {"id": 1, "max_chars": 500}),
-    ("cis_get_benchmark", {"benchmark": "kubernetes"}),  # ожидаем ошибку неоднозначности
+    ("req_frameworks", {}),
+    ("req_documents", {"framework": "stig", "query": "kubernetes"}),
+    ("req_search", {"query": "PermitRootLogin", "limit": 3}),
+    ("req_list", {"framework": "scuba", "document": "gws-gmail", "include": ["fix"], "limit": 2}),
+    ("req_related", {"ns": "nist-800-53", "id": "AC-2", "per_framework": 1}),
+    ("req_related", {"uid": "cis:26485:2.5", "per_framework": 2}),
+    ("req_cve", {"cve": "CVE-2021-44228", "nvd": False}),
+    ("cis_get_benchmark", {"benchmark": "kubernetes"}),
 ]
 
 
@@ -42,7 +49,7 @@ async def main():
             text = "".join(getattr(c, "text", "") for c in res.content)
             print(f"\n== {name} {json.dumps(args, ensure_ascii=False)} → {'ERROR' if res.is_error else 'ok'}")
             print(text[:900])
-            fails += res.is_error and name != "cis_get_benchmark"
+            fails += res.is_error
         print(f"\nнеожиданных ошибок: {fails}")
         return fails
 

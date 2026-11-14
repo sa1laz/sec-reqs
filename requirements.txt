@@ -1,2 +1,3 @@
 mcp==2.3.0       # MCP Python SDK (MCPServer)
+pyyaml==6.0.3      # каталог: ComplianceAsCode, Kyverno, MASVS, ATLAS
 pymupdf==2.1     # только для разбора PDF CIS (cis/parse_cis_pdf.py)
