@@ -293,7 +293,8 @@ def _cis_bench(con, product):
 
 
 STOP = {"ensure", "the", "and", "for", "are", "that", "set", "configured", "with", "all", "enabled", "disabled",
-        "not", "is", "use", "used", "using", "has", "have", "must", "should", "only", "from", "into", "this", "any"}
+        "not", "is", "use", "used", "using", "has", "have", "must", "should", "only", "from", "into", "this", "any",
+        "disable", "enable", "allow", "allowed", "configure", "properly", "appropriate", "appropriately"}
 
 
 def _words(s):
@@ -301,7 +302,12 @@ def _words(s):
 
 
 def _same_topic(a, b) -> bool:
-    return bool(_words(a) & _words(b))
+    """Есть ли общая тема: общее слово или одно слово содержит другое (root ⊂ permitrootlogin, ssh ⊂ sshd)."""
+    wa, wb = _words(a), _words(b)
+    if wa & wb:
+        return True
+    return any((len(x) >= 4 and x in y) or (len(y) >= 4 and y in x) or (len(x) >= 3 and len(y) >= 3 and x[:5] == y[:5] and min(len(x), len(y)) >= 5)
+               for x in wa for y in wb)
 
 
 _LATEST: dict[str, tuple] = {}
@@ -345,7 +351,7 @@ def _cis_from_ref(target, src_title=None):
     return out
 
 
-def _cis_targets(uid):
+def _cis_targets(uid, broad=False):
     """CIS-рекомендация из нашей базы → цели для поиска связей (ссылки CaC/Prowler по продукту и CIS Controls)."""
     con = _cis_con()
     if not con:
@@ -365,7 +371,8 @@ def _cis_targets(uid):
         # у Prowler ссылки на несколько версий бенчмарка: берём самую новую, нумерация между версиями меняется
         latest = max((vkey(t) for t in found), default=None)
         targets += [("cis-benchmark", t) for t in found if vkey(t) == latest]
-    targets += controls  # сначала прямые ссылки по номеру, потом общие CIS Controls
+    if broad:
+        targets += controls  # общие CIS Controls дают сотни соседей — только по запросу
     return {"uid": uid, "title": f'{r["rec_id"]} {r["title"]}', "benchmark": r["btitle"], "_cis_title": r["title"]}, targets
 
 
@@ -379,7 +386,8 @@ def req_related(uid: str | None = None, ns: str | None = None, id: str | None = 
     """Связи требования с другими стандартами (crosswalk).
 
     По элементу (uid): куда он ссылается и какие элементы других стандартов связаны с ним. Работает и для
-    рекомендаций CIS из cis_* (uid вида cis:27155:4.3.1) — через ссылки ComplianceAsCode/Prowler и CIS Controls.
+    рекомендаций CIS из cis_* (uid вида cis:27155:4.3.1) — через ссылки ComplianceAsCode/Prowler на этот номер
+    (с broad=True — ещё и через CIS Controls v8).
     По умолчанию раскрываются только конкретные связи (STIG-ID, CIS, проверки Prowler, правила ComplianceAsCode,
     ATT&CK, CWE…); broad=True раскрывает и общие меры (NIST 800-53, CCI, SRG, ISO, PCI…) — это даёт сотни
     «соседей» по общей мере. По идентификатору (ns + id, например ns="nist-800-53", id="AC-2"; ns="attack",
@@ -391,7 +399,7 @@ def req_related(uid: str | None = None, ns: str | None = None, id: str | None = 
     targets: list[tuple[str, str]] = []
     out: dict = {}
     if uid and uid.startswith("cis:"):
-        out["item"], targets = _cis_targets(uid)
+        out["item"], targets = _cis_targets(uid, broad)
     elif uid:
         r = con.execute("SELECT * FROM items WHERE uid=?", (uid,)).fetchone()
         if not r:
@@ -459,6 +467,38 @@ def req_related(uid: str | None = None, ns: str | None = None, id: str | None = 
     return out
 
 
+_NVD_CACHE: dict[str, tuple[float, dict | None]] = {}
+
+
+def _nvd(cve_id):
+    """Запрос к NVD API 2.0 без ключа (лимит 5 запросов/30 с): кеш на 6 ч, повтор при 403/429/таймауте."""
+    import time
+    import urllib.error
+    import urllib.request
+    hit = _NVD_CACHE.get(cve_id)
+    if hit and time.time() - hit[0] < 6 * 3600:
+        return hit[1]
+    last = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(f"https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={cve_id}",
+                                         headers={"User-Agent": "Mozilla/5.0 (sec-reqs)"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                v = (json.load(r).get("vulnerabilities") or [{}])[0].get("cve")
+            _NVD_CACHE[cve_id] = (time.time(), v)
+            if len(_NVD_CACHE) > 2000:
+                _NVD_CACHE.pop(next(iter(_NVD_CACHE)))
+            return v
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code not in (403, 429, 503):
+                break
+        except (urllib.error.URLError, TimeoutError) as e:
+            last = e
+        time.sleep(6 * (attempt + 1))
+    raise RuntimeError(f"{type(last).__name__}{' ' + str(last.code) if hasattr(last, 'code') else ''}")
+
+
 def req_cve(cve: str, nvd: bool = True) -> dict:
     """Сводка по CVE: есть ли в CISA KEV (эксплуатируется в атаках, срок и требуемое действие, шифровальщики),
     EPSS (вероятность эксплуатации за 30 дней и перцентиль), слабости CWE с мерами, и — если nvd=True —
@@ -480,15 +520,13 @@ def req_cve(cve: str, nvd: bool = True) -> dict:
         cwes |= {r["target"] for r in con.execute("SELECT target FROM maps WHERE uid=? AND ns='cwe'", (kev["uid"],))}
     if nvd:
         try:
-            req = urllib.request.Request(f"https://services.nvd.nist.gov/rest/json/cves/2.0?cveId={c}",
-                                         headers={"User-Agent": "Mozilla/5.0 (sec-reqs)"})
-            with urllib.request.urlopen(req, timeout=30) as r:
-                v = (json.load(r).get("vulnerabilities") or [{}])[0].get("cve")
+            v = _nvd(c)
             if v:
                 metrics = v.get("metrics", {})
                 cvss = []
                 for k in ("cvssMetricV40", "cvssMetricV31", "cvssMetricV30", "cvssMetricV2"):
-                    for x in metrics.get(k, [])[:1]:
+                    ms = metrics.get(k, [])
+                    for x in sorted(ms, key=lambda m: m.get("type") != "Primary")[:1]:
                         d = x.get("cvssData", {})
                         cvss.append({"version": d.get("version"), "score": d.get("baseScore"),
                                      "severity": d.get("baseSeverity") or x.get("baseSeverity"),
@@ -502,7 +540,7 @@ def req_cve(cve: str, nvd: bool = True) -> dict:
             else:
                 out["nvd"] = None
         except Exception as e:
-            out["nvd"] = {"error": f"NVD недоступен: {type(e).__name__}"}
+            out["nvd"] = {"error": f"NVD недоступен ({e}); без API-ключа NVD ограничивает частоту запросов — повтори позже"}
     out["cwe"] = []
     for w in sorted(cwes):
         r = con.execute("SELECT * FROM items WHERE framework='cwe' AND item_id=?", (w,)).fetchone()
