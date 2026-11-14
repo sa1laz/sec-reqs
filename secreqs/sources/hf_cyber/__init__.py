@@ -94,7 +94,13 @@ def _search_rows(con, query, category=None, path=None, limit=10):
         if path:
             sql += " AND d.path LIKE ?"
             args.append(f"%{path}%")
-        rows = con.execute(sql + " ORDER BY bm25(docs_fts, 5.0, 1.0) LIMIT ?", args + [limit]).fetchall()
+        # в датасете много одинаковых записей в разных файлах — берём с запасом и убираем повторы заголовков
+        seen, rows = set(), []
+        for r in con.execute(sql + " ORDER BY bm25(docs_fts, 5.0, 1.0) LIMIT ?", args + [limit * 3]):
+            if r["title"] not in seen:
+                seen.add(r["title"])
+                rows.append(r)
+        rows = rows[:limit]
         if rows or qq == fts_query_or(query):
             return qq, rows
     return q, rows
