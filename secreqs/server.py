@@ -90,8 +90,52 @@ def build() -> MCPServer:
     return mcp
 
 
+def http_app(mcp: MCPServer):
+    """Streamable HTTP (без сессий: инструменты не хранят состояние, рестарт пода не рвёт клиентов).
+    /healthz — без авторизации. Если задан SECREQS_TOKEN, /mcp требует Authorization: Bearer <token>."""
+    import hmac
+
+    from mcp.server.transport_security import TransportSecuritySettings
+    from starlette.responses import JSONResponse, PlainTextResponse
+
+    @mcp.custom_route("/healthz", methods=["GET"])
+    async def healthz(request):
+        return PlainTextResponse("ok")
+
+    app = mcp.streamable_http_app(
+        stateless_http=True, json_response=True, host="0.0.0.0",
+        # за gateway Host — имя сервиса; от DNS rebinding защищают NetworkPolicy и токен
+        transport_security=TransportSecuritySettings(enable_dns_rebinding_protection=False))
+    token = os.environ.get("SECREQS_TOKEN", "")
+    if not token:
+        return app
+
+    async def guarded(scope, receive, send):
+        if scope["type"] == "http" and scope["path"] != "/healthz":
+            auth = dict(scope["headers"]).get(b"authorization", b"").decode()
+            if not hmac.compare_digest(auth, f"Bearer {token}"):
+                return await JSONResponse({"error": "unauthorized"}, status_code=401)(scope, receive, send)
+        return await app(scope, receive, send)
+
+    return guarded
+
+
 def main() -> None:
-    build().run("stdio")
+    import argparse
+
+    ap = argparse.ArgumentParser(description="sec-reqs MCP server")
+    ap.add_argument("--http", action="store_true", default=os.environ.get("SECREQS_TRANSPORT") == "http",
+                    help="streamable HTTP вместо stdio (или SECREQS_TRANSPORT=http)")
+    ap.add_argument("--host", default=os.environ.get("SECREQS_HOST", "127.0.0.1"))
+    ap.add_argument("--port", type=int, default=int(os.environ.get("SECREQS_PORT", "8000")))
+    a = ap.parse_args()
+    mcp = build()
+    if not a.http:
+        mcp.run("stdio")
+        return
+    import uvicorn
+
+    uvicorn.run(http_app(mcp), host=a.host, port=a.port, log_level="info", access_log=False)
 
 
 if __name__ == "__main__":

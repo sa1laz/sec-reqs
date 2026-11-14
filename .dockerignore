@@ -1,0 +1,4 @@
+*
+!secreqs/
+!run_mcp.py
+**/__pycache__

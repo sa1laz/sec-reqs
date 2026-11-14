@@ -164,8 +164,9 @@ def main(argv=None):
             next_id = (con.execute("SELECT max(id) FROM docs").fetchone()[0] or 0) + 1
             errors += 1
             print(f"  ! {f['path']}: {e!r}"[:400], flush=True)
-    con.execute("INSERT INTO docs_fts(docs_fts) VALUES('optimize')")
-    con.commit()
+    if todo:  # на 2,5 ГБ индекса optimize идёт минуты — только если что-то добавили
+        con.execute("INSERT INTO docs_fts(docs_fts) VALUES('optimize')")
+        con.commit()
     nd, nf = con.execute("SELECT (SELECT count(*) FROM docs), (SELECT count(*) FROM files)").fetchone()
     con.close()
     print(f"{DB}: {nf} файлов, {nd} записей, {os.path.getsize(DB) / 1e6:.0f} МБ, ошибок: {errors}, "
